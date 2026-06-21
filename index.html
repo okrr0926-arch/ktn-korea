@@ -1733,6 +1733,11 @@ const SCROLL_H=1500;
               message: body,
               _captcha: 'false'
             })
+          }),
+          fetch('https://ktnkorea.okr0926.workers.dev/notion', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ log, timestamp: now })
           })
         ]);
       } catch(e) {}
