@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NGN68D5Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0NGN68D5Y5');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>반도체·PCB 라인 설비 담당자가 매년 11월에 꼭 점검해야 할 것 한 가지 | KTN KOREA</title>
+  <meta name="description" content="겨울 시작과 함께 반도체·PCB 라인 정전기 불량이 급증하는 이유는 단 하나입니다. 비금속 롤러 소재의 표면저항. 11월 점검 체크리스트와 교체 판단 기준 수치를 공개합니다.">
+  <meta name="keywords" content="반도체 라인 점검, 정전기 불량, 겨울 계절성 ESD, PCB 라인 정전기, 표면저항 점검, 롤러 소재 교체, 대전방지 롤러, ESD 겨울 대책">
+  <link rel="canonical" href="https://ktnkorea.com/insights/esd-semiconductor-november-checklist">
+
+  <!-- OG Tags -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="반도체·PCB 라인 설비 담당자가 매년 11월에 꼭 점검해야 할 것 한 가지">
+  <meta property="og:description" content="겨울 시작과 함께 정전기 불량이 급증하는 이유는 단 하나입니다. 비금속 롤러 소재의 표면저항. 11월 점검 체크리스트를 공개합니다.">
+  <meta property="og:url" content="https://ktnkorea.com/insights/esd-semiconductor-november-checklist">
+  <meta property="og:image" content="https://ktnkorea.com/images/esd-roller-lineup.jpg">
+  <meta property="og:site_name" content="KTN KOREA">
+  <meta property="article:published_time" content="2026-07-03">
+  <meta property="article:author" content="박정훈">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "반도체·PCB 라인 설비 담당자가 매년 11월에 꼭 점검해야 할 것 한 가지",
+        "description": "겨울 시작과 함께 반도체·PCB 라인 정전기 불량이 급증하는 이유와 11월 점검 체크리스트",
+        "url": "https://ktnkorea.com/insights/esd-semiconductor-november-checklist",
+        "datePublished": "2026-07-03",
+        "dateModified": "2026-07-03",
+        "author": {
+          "@type": "Person",
+          "name": "박정훈",
+          "jobTitle": "KTN KOREA 대표",
+          "worksFor": {"@type": "Organization", "name": "KTN KOREA"}
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "KTN 케이티엔",
+          "url": "https://ktnkorea.com"
+        },
+        "image": "https://ktnkorea.com/images/esd-roller-lineup.jpg"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "홈", "item": "https://ktnkorea.com/"},
+          {"@type": "ListItem", "position": 2, "name": "인사이트", "item": "https://ktnkorea.com/insights/"},
+          {"@type": "ListItem", "position": 3, "name": "반도체·PCB 라인 11월 점검 체크리스트", "item": "https://ktnkorea.com/insights/esd-semiconductor-november-checklist"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "왜 반도체·PCB 라인에서 겨울에 정전기 불량이 늘어나나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "겨울철 상대습도가 30% 이하로 낮아지면 공기 중 수분이 줄어 전하가 자연 방전되지 않습니다. 이때 비금속 롤러 소재의 표면저항이 10¹²Ω 이상이면 접지가 완벽해도 전하가 소재 표면에 계속 축적되어 정전기 불량이 급증합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "11월에 어떤 것을 점검해야 하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "비금속 롤러(컨베이어·이송·가이드 롤러)의 표면저항을 측정해야 합니다. 측정값이 10¹⁰Ω을 초과하면 겨울 시즌 전에 CNT UPE 또는 카본블랙 UPE 소재로 교체를 검토해야 합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "표면저항 측정은 어떻게 하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "표면저항계(Surface Resistance Meter)를 사용해 롤러 표면 두 지점 간 저항을 측정합니다. IEC 61340-5-1 기준으로 ESD 보호 소재는 표면저항 10⁶~10⁹Ω 범위여야 합니다. 장비가 없다면 소재 공급업체에 성적서를 요청하는 것이 우선입니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "CNT UPE와 일반 UPE의 차이가 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "일반 UPE(초고분자량 폴리에틸렌)의 표면저항은 10¹²Ω 이상으로 사실상 절연체입니다. CNT(탄소나노튜브) UPE는 CNT를 균일 분산해 표면저항을 10⁶~10⁹Ω 범위로 낮춘 대전방지 소재입니다. 외관상 동일해 보이지만 정전기 특성은 완전히 다릅니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "교체 납기는 얼마나 걸리나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "KTN KOREA 기준 CNT UPE 롤러 가공 납기는 7일 이내입니다. MOQ 1개부터 대응 가능하며, 도면이 없어도 현품 역설계로 제작합니다. 11월 초 주문 기준 시즌 시작 전 설치 완료가 가능합니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="icon" href="/images/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#0D0D0D;--bg2:#111111;--bg3:#161616;
+      --y:#EAB308;--w:#FFFFFF;
+      --g1:#A0A0A0;--g2:#666;--g3:#2a2a2a;
+      --fb:'Barlow Condensed',sans-serif;
+      --fn:'Noto Sans KR',sans-serif;
+      --fd:'IBM Plex Mono',monospace;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{background:var(--bg);color:var(--w);font-family:var(--fn);font-size:16px;line-height:1.7;}
+    a{color:inherit;text-decoration:none;}
+
+    /* NAV */
+    .nav{position:sticky;top:0;z-index:100;background:rgba(13,13,13,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--g3);padding:0 2rem;height:60px;display:flex;align-items:center;justify-content:space-between;}
+    .nav-logo{font-family:var(--fb);font-size:1.3rem;font-weight:900;letter-spacing:.06em;color:var(--w);}
+    .nav-logo span{color:var(--y);}
+    .nav-right{display:flex;align-items:center;gap:1rem;}
+    .nav-back{font-size:.82rem;color:var(--g1);border:1px solid var(--g3);padding:.3rem .8rem;border-radius:4px;transition:color .2s;}
+    .nav-back:hover{color:var(--w);}
+    .nav-cta{background:var(--y);color:#000;font-weight:700;font-size:.82rem;padding:.35rem .9rem;border-radius:4px;}
+
+    /* HERO */
+    .art-hero{padding:3.5rem 2rem 2.5rem;max-width:800px;margin:0 auto;}
+    .breadcrumb{font-size:.75rem;color:var(--g2);margin-bottom:1.2rem;}
+    .breadcrumb a{color:var(--g2);}
+    .breadcrumb a:hover{color:var(--g1);}
+    .art-tags{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.2rem;}
+    .art-tag{font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.25rem .7rem;border-radius:3px;background:#1a1200;color:var(--y);border:1px solid #3a2e00;}
+    .art-tag.season{background:#001a0d;color:#4ade80;border-color:#003a1a;}
+    h1{font-family:var(--fb);font-size:clamp(1.8rem,4vw,2.6rem);font-weight:900;line-height:1.2;margin-bottom:1.4rem;}
+    h1 em{color:var(--y);font-style:normal;}
+    .art-meta{display:flex;align-items:center;gap:1.2rem;font-size:.78rem;color:var(--g2);margin-bottom:1.8rem;flex-wrap:wrap;}
+    .art-meta-sep{color:var(--g3);}
+    .art-summary{background:var(--bg3);border:1px solid var(--g3);border-left:4px solid var(--y);padding:1.2rem 1.5rem;font-size:.92rem;color:var(--g1);line-height:1.75;}
+    .art-summary strong{color:var(--w);}
+
+    /* BODY */
+    .art-body{max-width:800px;margin:0 auto;padding:2rem 2rem 4rem;}
+
+    /* AUTHOR */
+    .author-card{display:flex;align-items:center;gap:1.2rem;background:var(--bg3);border:1px solid var(--g3);padding:1.2rem 1.5rem;border-radius:6px;margin-bottom:2.5rem;}
+    .author-avatar{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--y),#b45309);display:flex;align-items:center;justify-content:center;font-family:var(--fb);font-weight:900;font-size:1.1rem;color:#000;flex-shrink:0;}
+    .author-info{flex:1;}
+    .author-name{font-weight:700;font-size:.92rem;margin-bottom:.15rem;}
+    .author-title{font-size:.78rem;color:var(--g2);}
+    .author-badges{display:flex;gap:.5rem;margin-top:.5rem;flex-wrap:wrap;}
+    .badge{font-size:.68rem;padding:.18rem .55rem;border-radius:3px;font-weight:700;letter-spacing:.04em;}
+    .badge-y{background:#1a1200;color:var(--y);border:1px solid #3a2e00;}
+    .badge-g{background:#0f1f0f;color:#4ade80;border:1px solid #1a4a1a;}
+
+    /* SPEC GRID */
+    .spec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--g3);border:1px solid var(--g3);border-radius:6px;overflow:hidden;margin:2rem 0;}
+    .spec-item{background:var(--bg2);padding:1.2rem 1rem;text-align:center;}
+    .spec-num{font-family:var(--fd);font-size:1.5rem;font-weight:600;color:var(--y);display:block;margin-bottom:.3rem;}
+    .spec-lbl{font-size:.72rem;color:var(--g1);}
+
+    /* SEASON BOX */
+    .season-box{background:#001a0d;border:1px solid #003a1a;border-left:4px solid #4ade80;padding:1.4rem 1.6rem;margin:1.5rem 0;border-radius:0 4px 4px 0;}
+    .season-box .season-label{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#4ade80;margin-bottom:.6rem;}
+    .season-box p{font-size:.9rem;color:#d1fae5;line-height:1.7;}
+    .season-box strong{color:#4ade80;}
+
+    /* CHECKLIST */
+    .checklist{list-style:none;margin:1.2rem 0;display:flex;flex-direction:column;gap:.7rem;}
+    .checklist li{display:flex;align-items:flex-start;gap:.8rem;background:var(--bg3);border:1px solid var(--g3);padding:1rem 1.2rem;border-radius:4px;font-size:.9rem;}
+    .checklist li .ck-num{font-family:var(--fd);font-size:.75rem;font-weight:600;color:var(--y);background:#1a1200;border:1px solid #3a2e00;padding:.2rem .5rem;border-radius:3px;flex-shrink:0;margin-top:.05rem;}
+    .checklist li .ck-text{color:var(--g1);line-height:1.65;}
+    .checklist li .ck-text strong{color:var(--w);}
+
+    /* SECTION HEADINGS */
+    h2{font-family:var(--fb);font-size:1.5rem;font-weight:900;margin:2.5rem 0 1rem;border-left:3px solid var(--y);padding-left:.8rem;}
+    h3{font-family:var(--fb);font-size:1.1rem;font-weight:700;margin:1.5rem 0 .7rem;color:var(--g1);}
+    p{font-size:.93rem;color:var(--g1);line-height:1.8;margin-bottom:1rem;}
+    p strong{color:var(--w);}
+
+    /* COMPARE TABLE */
+    .compare-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.85rem;}
+    .compare-table th{background:var(--bg3);color:var(--g1);font-weight:700;padding:.8rem 1rem;border:1px solid var(--g3);text-align:left;font-family:var(--fb);letter-spacing:.04em;}
+    .compare-table th.col-ktn{color:var(--y);}
+    .compare-table td{padding:.75rem 1rem;border:1px solid var(--g3);color:var(--g1);vertical-align:top;}
+    .compare-table tr:nth-child(even) td{background:var(--bg2);}
+    .compare-table td.val-bad{color:#f87171;}
+    .compare-table td.val-good{color:#4ade80;}
+    .compare-table td.val-key{color:var(--y);font-family:var(--fd);font-size:.82rem;}
+
+    /* RESISTANCE TABLE */
+    .resist-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.85rem;}
+    .resist-table th{background:var(--bg3);color:var(--g1);font-weight:700;padding:.7rem 1rem;border:1px solid var(--g3);font-family:var(--fb);}
+    .resist-table td{padding:.7rem 1rem;border:1px solid var(--g3);color:var(--g1);}
+    .resist-table tr:nth-child(even) td{background:var(--bg2);}
+    .resist-table .esd-ok{color:#4ade80;font-family:var(--fd);font-size:.82rem;}
+    .resist-table .esd-ng{color:#f87171;font-family:var(--fd);font-size:.82rem;}
+    .resist-table .esd-warn{color:#fb923c;font-family:var(--fd);font-size:.82rem;}
+
+    /* CALLOUT */
+    .callout{background:var(--bg3);border:1px solid #3a2e00;border-left:4px solid var(--y);padding:1.4rem 1.6rem;margin:2rem 0;border-radius:0 4px 4px 0;}
+    .callout p{color:var(--w);font-size:.95rem;font-style:italic;margin:0;}
+
+    /* CRITERIA LIST */
+    .criteria-list{display:flex;flex-direction:column;gap:.8rem;margin:1.2rem 0;}
+    .criteria-item{display:flex;gap:.8rem;align-items:flex-start;padding:1rem 1.2rem;background:var(--bg3);border:1px solid var(--g3);border-radius:4px;}
+    .criteria-icon{font-size:1rem;flex-shrink:0;margin-top:.1rem;}
+    .criteria-text{font-size:.88rem;color:var(--g1);line-height:1.65;}
+    .criteria-text strong{color:var(--w);}
+
+    /* FAQ */
+    .faq-section{max-width:800px;margin:0 auto;padding:0 2rem 3rem;}
+    .faq-title{font-family:var(--fb);font-size:1.4rem;font-weight:900;margin-bottom:1.5rem;color:var(--g1);}
+    .faq-item{border-bottom:1px solid var(--g3);padding:1.2rem 0;}
+    .faq-q{font-weight:700;font-size:.92rem;color:var(--w);margin-bottom:.6rem;}
+    .faq-q::before{content:'Q. ';color:var(--y);}
+    .faq-a{font-size:.87rem;color:var(--g1);line-height:1.75;padding-left:1.5rem;}
+    .faq-a::before{content:'A. ';color:var(--g2);font-weight:700;}
+
+    /* CTA */
+    .art-cta{background:var(--bg3);border:1px solid var(--g3);border-top:2px solid var(--y);padding:2.5rem 2rem;text-align:center;margin:0 0 2rem;}
+    .cta-inner{max-width:500px;margin:0 auto;}
+    .cta-tag{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--y);margin-bottom:.8rem;}
+    .cta-title{font-family:var(--fb);font-size:1.6rem;font-weight:900;margin-bottom:.6rem;}
+    .cta-desc{font-size:.85rem;color:var(--g1);margin-bottom:1.5rem;line-height:1.65;}
+    .cta-phone{font-family:var(--fd);font-size:1.6rem;font-weight:600;color:var(--y);display:block;margin-bottom:1rem;}
+    .cta-btn{display:inline-block;background:var(--y);color:#000;font-weight:900;font-size:.9rem;padding:.75rem 2rem;border-radius:4px;font-family:var(--fb);letter-spacing:.04em;}
+
+    /* RELATED */
+    .related{max-width:800px;margin:0 auto;padding:0 2rem 3rem;}
+    .related-title{font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g2);margin-bottom:1rem;}
+    .related-links{display:flex;flex-direction:column;gap:.6rem;}
+    .related-link{display:flex;align-items:center;gap:.6rem;font-size:.85rem;color:var(--g1);padding:.7rem 1rem;background:var(--bg3);border:1px solid var(--g3);border-radius:4px;transition:border-color .2s;}
+    .related-link:hover{border-color:var(--y);color:var(--w);}
+    .related-link::before{content:'→';color:var(--y);font-weight:700;flex-shrink:0;}
+
+    /* FOOTER */
+    .art-footer{border-top:1px solid var(--g3);padding:1.5rem 2rem;text-align:center;font-size:.75rem;color:var(--g2);}
+
+    @media(max-width:600px){
+      .spec-grid{grid-template-columns:1fr;}
+      .compare-table,.resist-table{font-size:.78rem;}
+      .compare-table th,.compare-table td,.resist-table th,.resist-table td{padding:.5rem .6rem;}
+      .author-card{flex-direction:column;align-items:flex-start;}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <a href="/" class="nav-logo">KTN <span>KOREA</span></a>
+  <div class="nav-right">
+    <a href="/insights/" class="nav-back">← 인사이트</a>
+    <a href="tel:01023405791" class="nav-cta">긴급문의</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="art-hero">
+  <div class="breadcrumb">
+    <a href="/">홈</a> &nbsp;/&nbsp; <a href="/insights/">인사이트</a> &nbsp;/&nbsp; ESD·대전방지
+  </div>
+  <div class="art-tags">
+    <span class="art-tag">ESD · 대전방지</span>
+    <span class="art-tag">반도체 라인</span>
+    <span class="art-tag season">겨울 계절성</span>
+  </div>
+  <h1>반도체·PCB 라인 설비 담당자가<br>매년 <em>11월</em>에 꼭 점검해야 할 것 <em>한 가지</em></h1>
+  <div class="art-meta">
+    <span>2026.07.03</span>
+    <span class="art-meta-sep">|</span>
+    <span>박정훈 · KTN KOREA 대표</span>
+    <span class="art-meta-sep">|</span>
+    <span>ESD · 대전방지</span>
+  </div>
+  <div class="art-summary">
+    <strong>매년 11~12월, 같은 라인에서 정전기 불량이 반복된다면 — 이건 운이 나쁜 게 아닙니다.</strong><br>
+    겨울마다 같은 위치에서 불량이 터지는 이유는 단 하나입니다. 비금속 롤러 소재의 표면저항이 10¹²Ω 이상이기 때문입니다. 접지를 강화해도, 이온나이저를 추가해도 이 숫자가 바뀌지 않으면 내년 11월에 똑같은 일이 반복됩니다.
+  </div>
+</section>
+
+<!-- BODY -->
+<main class="art-body">
+
+  <!-- AUTHOR -->
+  <div class="author-card">
+    <div class="author-avatar">박</div>
+    <div class="author-info">
+      <div class="author-name">박정훈</div>
+      <div class="author-title">KTN KOREA 대표 · 베어링 & 정밀 가공 기술 마이스터</div>
+      <div class="author-badges">
+        <span class="badge badge-y">역설계 2,479건</span>
+        <span class="badge badge-y">20년 경력</span>
+        <span class="badge badge-g">포브스코리아 CSV 대상 2026</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPEC GRID -->
+  <div class="spec-grid">
+    <div class="spec-item">
+      <span class="spec-num">10⁶~10⁹Ω</span>
+      <span class="spec-lbl">ESD 보호 소재 표면저항 기준<br>(IEC 61340-5-1)</span>
+    </div>
+    <div class="spec-item">
+      <span class="spec-num">7일 이내</span>
+      <span class="spec-lbl">CNT UPE 롤러 가공 납기</span>
+    </div>
+    <div class="spec-item">
+      <span class="spec-num">MOQ 1개</span>
+      <span class="spec-lbl">최소 주문 수량</span>
+    </div>
+  </div>
+
+  <!-- SECTION 1 -->
+  <h2>왜 하필 11월부터 불량이 늘어나는가</h2>
+
+  <div class="season-box">
+    <div class="season-label">계절성 ESD 메커니즘</div>
+    <p>상대습도가 <strong>30% 이하</strong>로 내려가는 순간, 공기 중 수분이 사라집니다.<br>
+    수분은 전하의 자연 방전 경로 역할을 합니다. 수분이 없으면 — 소재 표면에 쌓인 전하는 갈 곳이 없습니다.</p>
+  </div>
+
+  <p>봄·여름에는 습도 60~70%가 유지되어 소재 표면저항이 10¹²Ω이어도 공기 중 방전이 어느 정도 일어납니다. 그래서 불량이 적습니다. 하지만 11월부터 습도가 급감하면 이 자연 방전 경로가 사라지고, 소재 표면에 전하가 그대로 쌓입니다.</p>
+
+  <p><strong>같은 라인, 같은 소재인데 겨울에만 불량이 나는 이유가 바로 이것입니다.</strong> 문제는 소재가 바뀐 게 아니라 환경이 바뀐 겁니다. 그리고 소재의 표면저항이 그 환경 변화를 견디지 못하고 있는 겁니다.</p>
+
+  <!-- SECTION 2 -->
+  <h2>점검해야 할 것 — 비금속 롤러의 표면저항</h2>
+
+  <p>반도체·PCB 이송 라인에서 사용하는 비금속 롤러(컨베이어 롤러, 가이드 롤러, 반송 롤러)는 대부분 POM, 일반 PE, 일반 UPE로 만들어집니다. 이 소재들의 표면저항은 10¹²Ω 이상 — 사실상 절연체입니다.</p>
+
+  <table class="resist-table">
+    <thead>
+      <tr>
+        <th>소재</th>
+        <th>표면저항</th>
+        <th>ESD 판정</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CNT UPE (탄소나노튜브)</td>
+        <td class="esd-ok">10⁶~10⁸ Ω</td>
+        <td class="esd-ok">✓ ESD 보호</td>
+      </tr>
+      <tr>
+        <td>카본블랙 UPE</td>
+        <td class="esd-ok">10⁷~10⁹ Ω</td>
+        <td class="esd-ok">✓ ESD 보호</td>
+      </tr>
+      <tr>
+        <td>일반 POM (폴리아세탈)</td>
+        <td class="esd-ng">10¹²+ Ω</td>
+        <td class="esd-ng">✗ 절연체</td>
+      </tr>
+      <tr>
+        <td>일반 UPE (초고분자량 PE)</td>
+        <td class="esd-ng">10¹²+ Ω</td>
+        <td class="esd-ng">✗ 절연체</td>
+      </tr>
+      <tr>
+        <td>PE · PP</td>
+        <td class="esd-ng">10¹³~10¹⁴ Ω</td>
+        <td class="esd-ng">✗ 절연체</td>
+      </tr>
+      <tr>
+        <td>PTFE (테프론)</td>
+        <td class="esd-ng">10¹⁵~10¹⁸ Ω</td>
+        <td class="esd-ng">✗ 강절연</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p>10¹²Ω 롤러 위에서 웨이퍼나 기판이 이송될 때마다 전하가 축적됩니다. 접지선은 금속 프레임에 연결되어 있지만, 전하는 금속이 아닌 롤러 표면에 쌓입니다. 접지가 전하를 꺼낼 수 없는 위치에 있는 겁니다.</p>
+  </div>
+
+  <!-- SECTION 3 - CHECKLIST -->
+  <h2>11월 전에 해야 할 3가지 점검</h2>
+
+  <ul class="checklist">
+    <li>
+      <span class="ck-num">01</span>
+      <div class="ck-text">
+        <strong>표면저항 성적서 요청</strong><br>
+        현재 사용 중인 롤러 공급업체에 표면저항 성적서를 요청하십시오. 성적서를 제공하지 못하거나 측정값이 없다면, 그 소재는 ESD 보호 소재가 아닙니다. "대전방지 처리"라는 문구만으로는 충분하지 않습니다.
+      </div>
+    </li>
+    <li>
+      <span class="ck-num">02</span>
+      <div class="ck-text">
+        <strong>불량 발생 시점과 계절 상관관계 확인</strong><br>
+        최근 2~3년치 불량 이력을 꺼내보십시오. 11월~2월 집중 발생 패턴이 있다면 계절성 ESD가 원인입니다. 같은 시기에 반복된다면 설비 점검이 아니라 소재 교체가 근본 해결책입니다.
+      </div>
+    </li>
+    <li>
+      <span class="ck-num">03</span>
+      <div class="ck-text">
+        <strong>접지 후에도 불량 지속 시 — 소재를 먼저 의심할 것</strong><br>
+        접지가 완벽한데도 겨울만 되면 불량이 나온다면, 접지 강화는 해결책이 아닙니다. 롤러 소재의 표면저항이 10¹²Ω 이상이면 접지선은 전하에 닿지 않습니다. 이 경우 CNT UPE 소재로의 교체를 먼저 검토하십시오.
+      </div>
+    </li>
+  </ul>
+
+  <!-- SECTION 4 -->
+  <h2>일반업체 롤러 vs KTN CNT UPE 롤러</h2>
+
+  <table class="compare-table">
+    <thead>
+      <tr>
+        <th>항목</th>
+        <th>일반 업체 롤러</th>
+        <th class="col-ktn">KTN CNT UPE 롤러</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>표면저항</td>
+        <td class="val-bad">성적서 없음 / 미확인</td>
+        <td class="val-key">10⁶~10⁹ Ω (성적서 제공)</td>
+      </tr>
+      <tr>
+        <td>겨울철 성능</td>
+        <td class="val-bad">습도 저하 시 불량 급증</td>
+        <td class="val-good">습도 무관 — 소재 자체가 도전성</td>
+      </tr>
+      <tr>
+        <td>ESD 보호 방식</td>
+        <td class="val-bad">코팅 처리 (마모 시 소멸)</td>
+        <td class="val-good">CNT 균일 분산 (내구성 유지)</td>
+      </tr>
+      <tr>
+        <td>MOQ</td>
+        <td class="val-bad">수십 개 이상</td>
+        <td class="val-good">1개부터</td>
+      </tr>
+      <tr>
+        <td>납기</td>
+        <td class="val-bad">3~6주</td>
+        <td class="val-key">7일 이내</td>
+      </tr>
+      <tr>
+        <td>도면 없을 때</td>
+        <td class="val-bad">도면 필수</td>
+        <td class="val-good">현품 역설계 가능 (2,479건 실적)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- SECTION 5 -->
+  <h2>11월 주문 기준 시즌 전 완료 가능합니다</h2>
+
+  <p>KTN KOREA CNT UPE 롤러 가공 납기는 <strong>7일 이내</strong>입니다. 11월 초 문의 → 11월 둘째 주 납품 → 시즌 시작 전 설치 완료가 가능합니다.</p>
+
+  <p>도면이 없어도 됩니다. 현품을 보내주시거나 치수를 알려주시면 역설계로 제작합니다. 지난 20년간 2,479건의 역설계 실적이 있습니다.</p>
+
+  <div class="criteria-list">
+    <div class="criteria-item">
+      <span class="criteria-icon">📋</span>
+      <div class="criteria-text"><strong>성적서를 요구하십시오.</strong> "대전방지 소재입니다"라는 말이 아니라 IEC 61340-5-1 기준 표면저항 측정값이 적힌 문서를 받으십시오. 수치 없는 대전방지는 마케팅 문구입니다.</div>
+    </div>
+    <div class="criteria-item">
+      <span class="criteria-icon">🌡️</span>
+      <div class="criteria-text"><strong>계절별 성능 변화를 확인하십시오.</strong> 코팅 처리 소재는 온습도 변화에 따라 표면저항이 급변합니다. CNT 균일 분산 소재는 계절에 무관하게 일정한 저항값을 유지합니다.</div>
+    </div>
+    <div class="criteria-item">
+      <span class="criteria-icon">⚡</span>
+      <div class="criteria-text"><strong>접지 후에도 불량이 계속되면 소재를 먼저 의심하십시오.</strong> 접지는 전하를 이동시킵니다. 소재 표면저항이 높으면 전하는 이동하지 않습니다. 순서가 중요합니다 — 소재 교체 후 접지.</div>
+    </div>
+  </div>
+
+  <p style="margin-top:1.5rem;padding:1rem 1.2rem;background:var(--bg3);border:1px solid var(--g3);border-radius:4px;font-size:.88rem;color:var(--g2);">
+    꼭 KTN이 아니어도 됩니다. 표면저항 성적서를 제공하고, CNT 균일 분산 소재를 7일 이내 납품할 수 있는 업체라면 그곳과 거래하시면 됩니다. 다만 그 조건을 모두 충족하는 곳을 먼저 확인하고 결정하십시오.
+  </p>
+
+</main>
+
+<!-- FAQ -->
+<section class="faq-section">
+  <div class="faq-title">자주 묻는 질문</div>
+
+  <div class="faq-item">
+    <div class="faq-q">왜 반도체·PCB 라인에서 겨울에 정전기 불량이 늘어나나요?</div>
+    <div class="faq-a">겨울철 상대습도가 30% 이하로 낮아지면 공기 중 수분이 줄어 전하가 자연 방전되지 않습니다. 이때 비금속 롤러 소재의 표면저항이 10¹²Ω 이상이면 접지가 완벽해도 전하가 소재 표면에 계속 축적되어 정전기 불량이 급증합니다.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">11월에 어떤 것을 점검해야 하나요?</div>
+    <div class="faq-a">비금속 롤러(컨베이어·이송·가이드 롤러)의 표면저항을 측정해야 합니다. 측정값이 10¹⁰Ω을 초과하면 겨울 시즌 전에 CNT UPE 또는 카본블랙 UPE 소재로 교체를 검토해야 합니다.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">표면저항 측정은 어떻게 하나요?</div>
+    <div class="faq-a">표면저항계(Surface Resistance Meter)를 사용해 롤러 표면 두 지점 간 저항을 측정합니다. IEC 61340-5-1 기준으로 ESD 보호 소재는 표면저항 10⁶~10⁹Ω 범위여야 합니다. 장비가 없다면 소재 공급업체에 성적서를 요청하는 것이 우선입니다.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">CNT UPE와 일반 UPE의 차이가 무엇인가요?</div>
+    <div class="faq-a">일반 UPE(초고분자량 폴리에틸렌)의 표면저항은 10¹²Ω 이상으로 사실상 절연체입니다. CNT(탄소나노튜브) UPE는 CNT를 균일 분산해 표면저항을 10⁶~10⁹Ω 범위로 낮춘 대전방지 소재입니다. 외관상 동일해 보이지만 정전기 특성은 완전히 다릅니다.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">교체 납기는 얼마나 걸리나요?</div>
+    <div class="faq-a">KTN KOREA 기준 CNT UPE 롤러 가공 납기는 7일 이내입니다. MOQ 1개부터 대응 가능하며, 도면이 없어도 현품 역설계로 제작합니다. 11월 초 주문 기준 시즌 시작 전 설치 완료가 가능합니다.</div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="art-cta">
+  <div class="cta-inner">
+    <div class="cta-tag">긴급 문의</div>
+    <div class="cta-title">11월 전에 점검하고 싶다면</div>
+    <div class="cta-desc">현재 사용 중인 롤러 소재명과 설치 환경을 알려주시면<br>표면저항 기준으로 교체 필요 여부를 검토해드립니다.</div>
+    <a href="tel:01023405791" class="cta-phone">010-2340-5791</a>
+    <a href="tel:01023405791" class="cta-btn">지금 전화 상담하기</a>
+  </div>
+</div>
+
+<!-- RELATED -->
+<section class="related">
+  <div class="related-title">관련 인사이트</div>
+  <div class="related-links">
+    <a href="esd-grounding-myth-semiconductor.html" class="related-link">반도체 라인 정전기, 접지(어스)로 해결된다고 생각하셨나요?</a>
+    <a href="cnt-upe-esd-roller.html" class="related-link">CNT UPE ESD 롤러 — 표면저항 10⁶Ω 대전방지 소재 완전 가이드</a>
+    <a href="esd-pcb-roller-surface-resistance.html" class="related-link">PCB 라인 롤러 표면저항 — ESD 보호 소재 선택 기준</a>
+  </div>
+</section>
+
+<footer class="art-footer">
+  © 2026 KTN 케이티엔 · 포브스코리아 CSV 대상 2026 · 사업자등록번호 문의: 010-2340-5791
+</footer>
+
+</body>
+</html>
