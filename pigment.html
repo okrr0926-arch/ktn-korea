@@ -258,9 +258,9 @@
     .process .container{max-width:1100px}
     .proc-timeline{display:grid;grid-template-columns:repeat(4,1fr);position:relative;margin-top:3.5rem}
     .proc-connector{position:absolute;top:9px;height:2px;background:var(--b);z-index:0;overflow:hidden}
-    .proc-connector-1{left:calc(12.5%);width:calc(25%)}
-    .proc-connector-2{left:calc(37.5%);width:calc(25%)}
-    .proc-connector-3{left:calc(62.5%);width:calc(25%)}
+    .proc-connector-1{left:10px;width:calc(25%)}
+    .proc-connector-2{left:calc(25% + 10px);width:calc(25%)}
+    .proc-connector-3{left:calc(50% + 10px);width:calc(25%)}
     .proc-connector-fill{height:100%;width:100%;background:var(--y);transform:scaleX(0);transform-origin:left;transition:transform .55s cubic-bezier(.16,1,.3,1)}
     .proc-connector-fill.active{transform:scaleX(1)}
     .proc-step{display:flex;flex-direction:column;align-items:flex-start;padding-right:1.5rem;position:relative;z-index:1;overflow:hidden}
@@ -430,7 +430,7 @@
 
     /* ── SOURCING ADVANTAGE ── */
     .advantage{background:var(--bg);border-bottom:1px solid var(--b);padding-block:5rem}
-    .adv-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;margin-top:3.5rem}
+    .adv-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:4rem;align-items:center;margin-top:3.5rem}
     .adv-list{display:flex;flex-direction:column;gap:1.5rem}
     .adv-item{display:flex;gap:1.25rem;align-items:flex-start;padding:1.5rem;background:var(--bg3);border:1px solid var(--b);border-radius:8px;transition:border-color .25s}
     .adv-item:hover{border-color:rgba(234,179,8,.3)}
@@ -703,7 +703,7 @@
     <div class="lead-form-inner">
       <div class="lead-copy rl" data-d="1">
         <div class="sec-eyebrow"><span class="sec-ebar" aria-hidden="true"></span><span class="sec-etxt">소싱 의뢰</span></div>
-        <h2 id="form-title"><em>원하는 스펙</em>을 알려주시면<br/>전 세계에서 찾아드립니다</h2>
+        <h2 id="form-title">지금 쓰는 안료,<br/><em>더 싸게 바꿀 수 있습니다</em></h2>
         <p>색상·수지 종류·내열 온도·목표 단가를 입력해 주시면 KENCO 글로벌 파트너십 기반으로 최적 공급처를 찾아 견적 드립니다. 상담은 무료입니다.</p>
       </div>
       <div class="rr" data-d="2">
