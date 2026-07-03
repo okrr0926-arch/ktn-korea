@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NGN68D5Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0NGN68D5Y5');
+  </script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="반도체 라인 정전기(ESD) 접지(어스)만으로는 부족합니다. 비금속 롤러·베어링 소재의 표면저항이 10¹²Ω 이상이면 접지를 해도 정전기가 생성됩니다. 소재 교체 판단 기준을 수치로 설명합니다."/>
+  <meta name="keywords" content="ESD 접지 한계, 정전기 소재 교체, 반도체 대전방지, 어스 ESD, 롤러 소재 교체, 표면저항 소재, 대전방지 베어링, 반도체 ESD 대책"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="author" content="박정훈 — KTN KOREA 대표"/>
+  <link rel="canonical" href="https://ktnkorea.com/insights/esd-grounding-myth-semiconductor"/>
+  <link rel="icon" type="image/png" href="/images/logo.png"/>
+
+  <meta property="og:type" content="article"/>
+  <meta property="og:locale" content="ko_KR"/>
+  <meta property="og:title" content="반도체 라인 정전기, 접지(어스)로 해결된다고 생각하셨나요? | KTN KOREA"/>
+  <meta property="og:description" content="접지는 필요조건이지 충분조건이 아닙니다. 비금속 롤러 소재의 표면저항이 10¹²Ω 이상이면 접지가 완벽해도 정전기는 계속 만들어집니다. 소재 교체 판단 기준과 수치를 공개합니다."/>
+  <meta property="og:url" content="https://ktnkorea.com/insights/esd-grounding-myth-semiconductor"/>
+  <meta property="og:site_name" content="KTN 케이티엔"/>
+  <meta property="og:image" content="https://ktnkorea.com/images/esd-roller-lineup.jpg"/>
+  <meta property="article:author" content="박정훈"/>
+  <meta property="article:published_time" content="2026-07-03"/>
+
+  <title>반도체 라인 정전기, 접지(어스)로 해결된다고 생각하셨나요? | KTN 케이티엔</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://ktnkorea.com/insights/esd-grounding-myth-semiconductor#article",
+        "headline": "반도체 라인 정전기, 접지(어스)로 해결된다고 생각하셨나요?",
+        "description": "반도체·PCB 라인에서 ESD 접지(어스)만으로 정전기 문제가 해결되지 않는 이유. 비금속 롤러·베어링 소재의 표면저항이 근본 원인이며, 소재 교체 판단 기준을 수치로 설명합니다.",
+        "datePublished": "2026-07-03",
+        "dateModified": "2026-07-03",
+        "author": {
+          "@type": "Person",
+          "name": "박정훈",
+          "jobTitle": "KTN KOREA 대표",
+          "description": "20년 베어링 & 정밀 가공 기술 마이스터. 반도체·PCB·디스플레이 라인용 ESD 대전방지 롤러·베어링 설계·제조.",
+          "worksFor": {"@type": "Organization", "name": "KTN KOREA"}
+        },
+        "publisher": {"@type": "Organization", "name": "KTN 케이티엔", "url": "https://ktnkorea.com"},
+        "mainEntityOfPage": "https://ktnkorea.com/insights/esd-grounding-myth-semiconductor",
+        "keywords": "ESD 접지 한계, 정전기 소재 교체, 반도체 대전방지, 표면저항, 롤러 소재"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "KTN 홈", "item": "https://ktnkorea.com"},
+          {"@type": "ListItem", "position": 2, "name": "기술 인사이트", "item": "https://ktnkorea.com/insights"},
+          {"@type": "ListItem", "position": 3, "name": "반도체 ESD 접지 한계와 소재 교체", "item": "https://ktnkorea.com/insights/esd-grounding-myth-semiconductor"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "접지(어스)를 완벽하게 했는데도 정전기 불량이 계속되는 이유는 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "접지는 이미 축적된 정전기를 방전시키는 역할입니다. 그러나 비금속 롤러·베어링 등 절연성 소재(표면저항 10¹²Ω 이상)는 기판이 지나갈 때마다 마찰 정전기를 계속 생성합니다. 접지는 이 생성 자체를 막지 못합니다. 생성 속도가 소산 속도보다 빠르면 불량이 반복됩니다. 소재의 표면저항이 10⁶~10⁹Ω 대역(대전방지 구간)에 있어야 정전기 생성 자체가 억제됩니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "접지와 소재 교체를 동시에 해야 하나요, 아니면 하나만 해도 되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "두 가지는 역할이 다릅니다. 접지는 금속 구조물·설비 프레임의 정적 전하를 소산시킵니다. 소재 교체는 롤러·베어링 표면에서 정전기가 생성되는 것 자체를 억제합니다. 반도체·PCB 라인에서는 두 가지를 병행해야 합니다. 접지만 하면 비금속 부품에서 정전기가 계속 생성되고, 소재만 교체하면 금속 구조물의 전하가 남습니다. 현장 경험상 소재 교체 없이 접지만으로 ESD 불량을 잡은 사례는 거의 없습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "표면저항 10⁶~10⁹Ω이 대전방지 구간인 이유는 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "10⁶Ω 미만은 도전체로 분류되어 오히려 누설 전류가 발생합니다. 10¹²Ω 이상은 절연체로 정전기를 소산시키지 못합니다. 10⁶~10⁹Ω 구간은 마찰로 생성된 정전기를 천천히, 안전하게 소산시키는 속도를 가집니다. ANSI/ESD S20.20 규격도 이 범위를 대전방지 소재의 기준으로 규정합니다. CNT(탄소나노튜브) 배합 UPE 소재는 이 구간을 수명 내내 안정적으로 유지합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "현재 쓰는 롤러가 ESD 소재인지 확인하는 방법은 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "표면저항계(메거)로 측정하는 것이 가장 정확합니다. 기기 없이 확인하려면 공급업체에 성적서(표면저항 측정 결과표)를 요청하십시오. 성적서가 없거나 수치가 10¹⁰Ω을 초과하면 대전방지 소재가 아닙니다. 일반 POM(폴리아세탈)은 10¹²~10¹⁴Ω으로 절연체에 해당하며 ESD 제어 효과가 없습니다. 성적서 제공 불가 업체는 대전방지 소재를 공급하지 않는 것으로 판단하십시오."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "KTN의 CNT UPE 롤러로 교체하면 얼마나 빠르게 효과가 나타나나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "교체 후 첫 생산 라인 가동 시점부터 효과가 나타납니다. 표면저항 10⁶~10⁹Ω 소재는 기판이 롤러 위를 지날 때 정전기가 생성되는 즉시 소산시킵니다. 다만 기존 라인에 잔류 전하가 남아 있을 경우 첫 1~2시간은 접지와 함께 운영하는 것이 좋습니다. KTN 납품 사례 기준 교체 후 첫 주 불량률 변화를 모니터링하면 소재 효과를 수치로 확인할 수 있습니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    :root{
+      --bg:#0D0D0D;--bg2:#141414;--bg3:#1a1a1a;
+      --y:#EAB308;--y2:#FDE047;
+      --w:#FFFFFF;--g1:#999;--g2:#666;--g3:#444;
+      --fh:'Barlow Condensed',sans-serif;
+      --fb:'Noto Sans KR',sans-serif;
+      --fm:'IBM Plex Mono',monospace;
+      --max:780px;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;}
+    html{scroll-behavior:smooth;}
+    body{background:var(--bg);color:var(--w);font-family:var(--fb);font-size:16px;line-height:1.75;}
+
+    /* NAV */
+    .nav{position:sticky;top:0;z-index:100;background:rgba(13,13,13,.95);backdrop-filter:blur(8px);border-bottom:1px solid #222;padding:.75rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;}
+    .nav-logo{font-family:var(--fh);font-size:1.2rem;font-weight:800;letter-spacing:.08em;color:var(--w);text-decoration:none;}
+    .nav-logo span{color:var(--y);}
+    .nav-back{font-size:.8rem;color:var(--g1);text-decoration:none;display:flex;align-items:center;gap:.4rem;transition:color .2s;}
+    .nav-back:hover{color:var(--y);}
+    .nav-cta{background:var(--y);color:#000;font-family:var(--fh);font-weight:700;font-size:.85rem;letter-spacing:.06em;padding:.45rem 1rem;text-decoration:none;transition:background .2s;}
+    .nav-cta:hover{background:var(--y2);}
+
+    /* HERO */
+    .art-hero{padding:3rem 1.5rem 2rem;max-width:var(--max);margin:0 auto;}
+    .breadcrumb{font-size:.75rem;color:var(--g2);font-family:var(--fm);margin-bottom:1.2rem;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;}
+    .breadcrumb a{color:var(--g2);text-decoration:none;}
+    .breadcrumb a:hover{color:var(--y);}
+    .art-tags{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.2rem;}
+    .art-tag{font-size:.7rem;font-family:var(--fm);letter-spacing:.08em;padding:.25rem .7rem;border:1px solid var(--y);color:var(--y);}
+    .art-hero h1{font-family:var(--fh);font-size:clamp(1.8rem,5vw,2.6rem);font-weight:800;line-height:1.2;letter-spacing:.02em;margin-bottom:1.2rem;}
+    .art-hero h1 em{color:var(--y);font-style:normal;}
+    .art-meta{display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;font-size:.78rem;color:var(--g1);font-family:var(--fm);margin-bottom:1.8rem;padding-bottom:1.8rem;border-bottom:1px solid #222;}
+    .art-summary{background:var(--bg3);border-left:3px solid var(--y);padding:1.2rem 1.4rem;font-size:.95rem;line-height:1.8;color:#ccc;}
+    .art-summary strong{color:var(--w);}
+
+    /* BODY */
+    .art-body{max-width:var(--max);margin:0 auto;padding:2rem 1.5rem 4rem;}
+    .art-body h2{font-family:var(--fh);font-size:1.6rem;font-weight:700;letter-spacing:.04em;margin:2.8rem 0 1rem;padding-bottom:.6rem;border-bottom:1px solid #222;color:var(--w);}
+    .art-body h2 em{color:var(--y);font-style:normal;}
+    .art-body h3{font-family:var(--fh);font-size:1.15rem;font-weight:600;color:var(--y);margin:1.8rem 0 .7rem;letter-spacing:.04em;}
+    .art-body p{margin-bottom:1.2rem;color:#ccc;line-height:1.85;}
+    .art-body strong{color:var(--w);}
+
+    /* AUTHOR CARD */
+    .author-card{background:var(--bg3);border:1px solid #2a2a2a;padding:1.2rem 1.4rem;display:flex;gap:1rem;align-items:flex-start;margin-bottom:2rem;}
+    .author-avatar{width:48px;height:48px;background:var(--y);display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-weight:800;font-size:1.1rem;color:#000;flex-shrink:0;}
+    .author-info{flex:1;}
+    .author-name{font-family:var(--fh);font-weight:700;font-size:1rem;letter-spacing:.04em;margin-bottom:.3rem;}
+    .author-desc{font-size:.78rem;color:var(--g1);line-height:1.6;}
+    .author-badges{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.6rem;}
+    .author-badge{font-size:.68rem;font-family:var(--fm);padding:.2rem .6rem;background:#222;color:var(--y);border:1px solid #333;}
+
+    /* SPEC GRID */
+    .spec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#222;margin:1.5rem 0 2rem;}
+    .spec-cell{background:var(--bg2);padding:1.2rem 1rem;text-align:center;}
+    .spec-num{font-family:var(--fh);font-size:1.6rem;font-weight:800;color:var(--y);letter-spacing:.02em;display:block;}
+    .spec-lbl{font-size:.72rem;color:var(--g1);margin-top:.3rem;font-family:var(--fm);}
+
+    /* MYTH BOX */
+    .myth-box{background:#110000;border:1px solid #440000;border-left:4px solid #ff4444;padding:1.4rem 1.6rem;margin:1.5rem 0;}
+    .myth-label{font-family:var(--fm);font-size:.7rem;color:#ff6666;letter-spacing:.1em;margin-bottom:.6rem;}
+    .myth-box p{color:#ffaaaa;margin:0;font-size:.92rem;line-height:1.8;}
+
+    /* PROCESS FLOW */
+    .flow-wrap{margin:1.5rem 0 2rem;display:flex;flex-direction:column;gap:.8rem;}
+    .flow-step{display:flex;align-items:flex-start;gap:1rem;padding:1rem 1.2rem;background:var(--bg3);border:1px solid #2a2a2a;}
+    .flow-num{font-family:var(--fh);font-weight:800;font-size:1.4rem;color:var(--y);flex-shrink:0;line-height:1;}
+    .flow-content .flow-title{font-family:var(--fh);font-size:1rem;font-weight:700;letter-spacing:.04em;margin-bottom:.3rem;color:var(--w);}
+    .flow-content p{font-size:.85rem;color:var(--g1);margin:0;line-height:1.7;}
+
+    /* COMPARE TABLE */
+    .compare-table{width:100%;border-collapse:collapse;margin:1.2rem 0 2rem;font-size:.88rem;}
+    .compare-table th{background:#1a1a1a;color:var(--g1);font-family:var(--fm);font-weight:400;font-size:.72rem;letter-spacing:.06em;padding:.8rem .9rem;text-align:left;border-bottom:1px solid #333;}
+    .compare-table th:first-child{width:38%;}
+    .compare-table td{padding:.85rem .9rem;border-bottom:1px solid #1e1e1e;color:#ccc;vertical-align:middle;}
+    .compare-table tr:last-child td{border-bottom:none;}
+    .compare-table td.col-ktn{color:var(--y);}
+    .compare-table td.col-bad{color:#888;}
+    .badge-y{display:inline-block;background:var(--y);color:#000;font-family:var(--fm);font-size:.68rem;font-weight:700;padding:.15rem .5rem;margin-left:.4rem;vertical-align:middle;}
+    .badge-n{display:inline-block;background:#333;color:#666;font-family:var(--fm);font-size:.68rem;padding:.15rem .5rem;margin-left:.4rem;vertical-align:middle;}
+
+    /* CALLOUT */
+    .callout{background:#0f0f0f;border:1px solid var(--y);border-left:4px solid var(--y);padding:1.4rem 1.6rem;margin:2rem 0;}
+    .callout-label{font-family:var(--fm);font-size:.7rem;color:var(--y);letter-spacing:.1em;margin-bottom:.6rem;}
+    .callout p{color:var(--w);margin:0;font-size:.95rem;line-height:1.8;}
+
+    /* CRITERIA LIST */
+    .criteria-list{display:flex;flex-direction:column;gap:.8rem;margin:1.2rem 0 2rem;}
+    .criteria-item{display:flex;gap:1rem;align-items:flex-start;padding:.9rem 1rem;background:var(--bg3);border:1px solid #2a2a2a;}
+    .criteria-num{font-family:var(--fh);font-weight:800;font-size:1.1rem;color:var(--y);flex-shrink:0;min-width:1.4rem;}
+    .criteria-body .criteria-title{font-family:var(--fh);font-size:.95rem;font-weight:700;letter-spacing:.04em;color:var(--w);margin-bottom:.3rem;}
+    .criteria-body p{font-size:.82rem;color:var(--g1);margin:0;line-height:1.65;}
+
+    /* FAQ */
+    .faq-section{margin:3rem 0 2rem;}
+    .faq-section h2{font-family:var(--fh);font-size:1.6rem;font-weight:700;letter-spacing:.04em;margin-bottom:1.5rem;padding-bottom:.6rem;border-bottom:1px solid #222;}
+    .faq-item{border-bottom:1px solid #1e1e1e;padding:1.2rem 0;}
+    .faq-q{font-family:var(--fh);font-size:1.05rem;font-weight:600;color:var(--w);margin-bottom:.7rem;display:flex;gap:.7rem;}
+    .faq-q::before{content:'Q';color:var(--y);font-size:1rem;flex-shrink:0;}
+    .faq-a{font-size:.9rem;color:#aaa;line-height:1.85;padding-left:1.4rem;}
+
+    /* CTA */
+    .art-cta{background:var(--bg3);border:1px solid #2a2a2a;padding:2rem 1.5rem;text-align:center;margin:3rem 0 2rem;}
+    .art-cta h3{font-family:var(--fh);font-size:1.5rem;font-weight:700;letter-spacing:.04em;margin-bottom:.6rem;}
+    .art-cta p{color:var(--g1);font-size:.9rem;margin-bottom:1.4rem;}
+    .cta-btn{display:inline-flex;align-items:center;gap:.6rem;background:var(--y);color:#000;font-family:var(--fh);font-weight:700;font-size:1rem;letter-spacing:.06em;padding:.85rem 2rem;text-decoration:none;transition:background .2s;}
+    .cta-btn:hover{background:var(--y2);}
+
+    /* RELATED */
+    .related{margin:2rem 0 3rem;}
+    .related-title{font-family:var(--fh);font-size:.8rem;letter-spacing:.1em;color:var(--g2);margin-bottom:1rem;}
+    .related-links{display:flex;flex-direction:column;gap:.6rem;}
+    .related-link{color:var(--g1);text-decoration:none;font-size:.88rem;display:flex;align-items:center;gap:.5rem;padding:.6rem 0;border-bottom:1px solid #1a1a1a;transition:color .2s;}
+    .related-link:hover{color:var(--y);}
+    .related-link::before{content:'→';color:var(--y);font-size:.8rem;flex-shrink:0;}
+
+    /* FOOTER */
+    .art-footer{border-top:1px solid #1e1e1e;padding:1.5rem;text-align:center;}
+    .art-footer p{font-size:.75rem;color:var(--g2);font-family:var(--fm);}
+
+    @media(max-width:600px){
+      .spec-num{font-size:1.3rem;}
+      .art-hero h1{font-size:1.6rem;}
+      .author-card{flex-direction:column;}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" role="navigation" aria-label="주 메뉴">
+  <a href="/" class="nav-logo">KT<span>N</span> KOREA</a>
+  <a href="/insights/" class="nav-back">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M9 2L4 7l5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    인사이트 목록
+  </a>
+  <a href="tel:+821023405791" class="nav-cta">긴급문의 010-2340-5791</a>
+</nav>
+
+<!-- HERO -->
+<header class="art-hero">
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/">KTN 홈</a> / <a href="/insights/">기술 인사이트</a> / ESD 접지 한계와 소재 교체
+  </nav>
+  <div class="art-tags">
+    <span class="art-tag">ESD · 대전방지</span>
+    <span class="art-tag">반도체 · PCB</span>
+    <span class="art-tag">접지 한계</span>
+  </div>
+  <h1>반도체 라인 정전기,<br><em>접지(어스)로 해결된다고</em><br>생각하셨나요?</h1>
+  <div class="art-meta">
+    <span>2026.07.03</span>
+    <span>박정훈 · KTN KOREA 대표</span>
+    <span>20년 베어링 &amp; 정밀 가공 기술 마이스터</span>
+  </div>
+  <div class="art-summary">
+    <strong>핵심 요약:</strong> 접지(어스)는 이미 축적된 정전기를 소산시킵니다. 그러나 비금속 롤러·베어링 소재가 정전기를 계속 <em>생성</em>하면, 접지가 완벽해도 불량은 멈추지 않습니다. 반도체·PCB 라인 ESD 문제의 80%는 접지 부족이 아니라 <strong>소재의 표면저항</strong>에 있습니다.
+  </div>
+</header>
+
+<!-- BODY -->
+<main class="art-body">
+
+  <!-- AUTHOR -->
+  <div class="author-card">
+    <div class="author-avatar">박</div>
+    <div class="author-info">
+      <div class="author-name">박정훈 · KTN KOREA 대표</div>
+      <div class="author-desc">20년 베어링 &amp; 정밀 가공 기술 마이스터. 반도체·PCB·디스플레이 라인 ESD 대전방지 롤러·베어링 2,479건 설계·납품.</div>
+      <div class="author-badges">
+        <span class="author-badge">포브스코리아 CSV 대상 2026</span>
+        <span class="author-badge">역설계 2,479건</span>
+        <span class="author-badge">7일 이내 납기</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPEC GRID -->
+  <div class="spec-grid" aria-label="KTN 핵심 수치">
+    <div class="spec-cell">
+      <span class="spec-num">10⁶~10⁹</span>
+      <div class="spec-lbl">Ω 대전방지 구간<br>(CNT UPE 유지 범위)</div>
+    </div>
+    <div class="spec-cell">
+      <span class="spec-num">10¹²+</span>
+      <div class="spec-lbl">Ω 일반 POM 수치<br>(절연체 — 접지 무의미)</div>
+    </div>
+    <div class="spec-cell">
+      <span class="spec-num">7일</span>
+      <div class="spec-lbl">이내 납기<br>(소재 교체 기준)</div>
+    </div>
+  </div>
+
+  <h2>접지를 다 해놨는데, <em>왜 아직도 불량이 나오나요</em></h2>
+  <p>반도체·PCB 라인에서 ESD 문제가 생기면 가장 먼저 하는 일이 접지(어스) 점검입니다. 설비 프레임에 접지선을 달고, 작업자 손목 밴드를 확인하고, 이온나이저를 추가합니다. 그런데도 불량이 계속 나옵니다.</p>
+  <p>이 상황이 반복된다면 접지가 문제가 아닙니다. <strong>롤러·베어링 소재가 정전기를 만들고 있기 때문</strong>입니다.</p>
+
+  <div class="myth-box">
+    <div class="myth-label">⚠ 흔한 오해</div>
+    <p>"접지를 완벽하게 하면 ESD는 해결된다." — 이 문장은 절반만 맞습니다. 접지는 이미 만들어진 정전기를 소산시키는 장치입니다. 소재가 정전기를 계속 만들고 있다면, 소산 속도보다 생성 속도가 빨라서 불량이 반복됩니다.</p>
+  </div>
+
+  <h2>접지가 <em>해결 못하는 것</em></h2>
+  <p>접지는 금속 구조물, 설비 프레임, 금속 부품의 정적 전하를 대지로 흘려보냅니다. 이 역할은 정확합니다. 문제는 반도체·PCB 라인의 롤러와 베어링이 비금속 플라스틱 소재로 만들어진다는 점입니다.</p>
+
+  <h3>마찰 정전기는 접지로 막을 수 없습니다</h3>
+  <p>기판이 롤러 위를 이동할 때마다 마찰이 발생합니다. 일반 POM(폴리아세탈) 롤러는 표면저항이 <strong>10¹²~10¹⁴Ω</strong>으로 절연체입니다. 절연체 소재는 마찰로 생성된 정전기를 소산시키지 못하고 표면에 축적합니다. 이 전하가 기판으로 방전되는 순간 ESD 손상이 발생합니다.</p>
+  <p>접지선은 금속 프레임에 연결되어 있습니다. 플라스틱 롤러 표면의 전하는 접지로 이동하지 못합니다. 절연체이기 때문에 전류가 흐르지 않습니다.</p>
+
+  <div class="callout">
+    <div class="callout-label">CORE PRINCIPLE</div>
+    <p>접지는 전하를 <em>이동</em>시킵니다. 소재 교체는 전하가 <em>축적되지 않도록</em> 합니다. 반도체 라인에서는 두 가지를 병행해야 합니다. 그 중 더 근본적인 것은 소재 교체입니다.</p>
+  </div>
+
+  <h2>표면저항 — <em>소재가 정전기를 얼마나 빠르게 소산하는가</em></h2>
+  <p>표면저항은 소재 표면에서 전하가 이동하는 속도를 나타냅니다. 수치가 낮을수록 전하가 빠르게 소산됩니다. ANSI/ESD S20.20 규격은 대전방지 소재를 <strong>10⁶~10⁹Ω</strong>으로 정의합니다.</p>
+
+  <table class="compare-table" aria-label="소재별 표면저항 비교">
+    <thead>
+      <tr>
+        <th>소재</th>
+        <th>표면저항 (Ω)</th>
+        <th>분류</th>
+        <th>ESD 제어 가능 여부</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>CNT UPE</strong> (KTN 공급)</td>
+        <td class="col-ktn"><strong>10⁶~10⁹</strong></td>
+        <td class="col-ktn">대전방지</td>
+        <td class="col-ktn">가능 <span class="badge-y">OK</span></td>
+      </tr>
+      <tr>
+        <td>카본블랙 UPE</td>
+        <td>10⁸~10¹⁰</td>
+        <td>대전방지~정전기 소산</td>
+        <td>조건부 가능</td>
+      </tr>
+      <tr>
+        <td>일반 POM</td>
+        <td class="col-bad">10¹²~10¹⁴</td>
+        <td class="col-bad">절연체</td>
+        <td class="col-bad">불가 <span class="badge-n">NG</span></td>
+      </tr>
+      <tr>
+        <td>일반 PE·PP</td>
+        <td class="col-bad">10¹³~10¹⁶</td>
+        <td class="col-bad">절연체</td>
+        <td class="col-bad">불가 <span class="badge-n">NG</span></td>
+      </tr>
+      <tr>
+        <td>PTFE(테프론)</td>
+        <td class="col-bad">10¹⁶~10¹⁸</td>
+        <td class="col-bad">강절연체</td>
+        <td class="col-bad">불가 <span class="badge-n">NG</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>일반 POM과 CNT UPE의 표면저항 차이는 수백만 배입니다. POM 롤러를 쓰는 라인에서 접지를 아무리 잘 해도 정전기 불량이 반복되는 것은 이 때문입니다.</p>
+
+  <h2>접지 + 소재 교체를 <em>같이 해야 하는 이유</em></h2>
+  <p>접지와 소재 교체는 서로 대체 관계가 아닙니다. 역할이 다릅니다.</p>
+
+  <div class="flow-wrap">
+    <div class="flow-step">
+      <div class="flow-num">1</div>
+      <div class="flow-content">
+        <div class="flow-title">접지 (어스) — 금속 구조물의 잔류 전하 소산</div>
+        <p>설비 프레임, 컨베이어 구조물, 작업자 인체 정전기를 대지로 흘려보냅니다. ESD 제어의 기초입니다. 없으면 안 됩니다.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">2</div>
+      <div class="flow-content">
+        <div class="flow-title">소재 교체 — 비금속 부품의 정전기 생성 억제</div>
+        <p>롤러·베어링을 CNT UPE 등 표면저항 10⁶~10⁹Ω 소재로 교체하면 마찰 정전기 자체가 축적되지 않습니다. 접지가 없어도 정전기가 발생하지 않는 구조를 만듭니다.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">3</div>
+      <div class="flow-content">
+        <div class="flow-title">측정 확인 — 표면저항계(메거)로 수치 검증</div>
+        <p>교체 후 표면저항계로 직접 측정해 10⁶~10⁹Ω 범위에 들어오는지 확인합니다. 성적서 없는 소재는 수치를 신뢰할 수 없습니다.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>소재 교체 판단 — <em>이 3가지를 먼저 확인하십시오</em></h2>
+
+  <div class="criteria-list">
+    <div class="criteria-item">
+      <div class="criteria-num">1</div>
+      <div class="criteria-body">
+        <div class="criteria-title">현재 롤러·베어링 소재의 표면저항 성적서를 요청하십시오</div>
+        <p>공급업체에 표면저항 측정 결과표를 요청해 수치가 10¹⁰Ω을 초과하면 즉시 교체 검토가 필요합니다. 성적서 제공이 불가하다면 대전방지 소재가 아닐 가능성이 높습니다.</p>
+      </div>
+    </div>
+    <div class="criteria-item">
+      <div class="criteria-num">2</div>
+      <div class="criteria-body">
+        <div class="criteria-title">불량이 계절성이라면 소재 문제입니다</div>
+        <p>겨울철 상대습도 30% 이하에서 불량률이 급증한다면 소재 표면저항 문제입니다. 여름에는 공기 중 수분이 자연 방전 역할을 하지만, 겨울에는 소재 자체의 표면저항만이 ESD를 제어합니다.</p>
+      </div>
+    </div>
+    <div class="criteria-item">
+      <div class="criteria-num">3</div>
+      <div class="criteria-body">
+        <div class="criteria-title">접지 점검 후에도 불량이 나오면 소재 교체를 먼저</div>
+        <p>접지 점검→이온나이저 추가→작업자 교육 후에도 불량이 반복된다면 롤러·베어링 소재 교체가 우선입니다. 이 순서를 바꾸면 비용과 시간을 낭비하는 경우가 많습니다.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>일반 업체 vs KTN — <em>무엇이 다른가</em></h2>
+
+  <table class="compare-table" aria-label="일반업체 vs KTN 비교">
+    <thead>
+      <tr>
+        <th>항목</th>
+        <th>일반 업체</th>
+        <th>KTN KOREA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>표면저항 수치 제공</td>
+        <td class="col-bad">미제공 또는 명목상<span class="badge-n">NG</span></td>
+        <td class="col-ktn">측정 성적서 필수 제공<span class="badge-y">OK</span></td>
+      </tr>
+      <tr>
+        <td>CNT UPE 소재 가공</td>
+        <td class="col-bad">대부분 카본블랙 대체<span class="badge-n">NG</span></td>
+        <td class="col-ktn">CNT 배합 UPE 자체 가공<span class="badge-y">OK</span></td>
+      </tr>
+      <tr>
+        <td>소량 발주</td>
+        <td class="col-bad">MOQ 100개 이상</td>
+        <td class="col-ktn">MOQ 1개부터<span class="badge-y">OK</span></td>
+      </tr>
+      <tr>
+        <td>납기</td>
+        <td class="col-bad">3~6주 이상</td>
+        <td class="col-ktn">7일 이내 (긴급 시)<span class="badge-y">OK</span></td>
+      </tr>
+      <tr>
+        <td>역설계·비표준 치수</td>
+        <td class="col-bad">도면 필요, 거부 多</td>
+        <td class="col-ktn">도면 없이 실측 후 제작<span class="badge-y">OK</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <div class="callout-label">REVERSE-SELLING</div>
+    <p>단, ESD 롤러·베어링 교체가 모든 정전기 문제를 해결하지는 않습니다. 이온나이저 부재, 작업자 인체 정전기, 설비 접지 불량이 복합적으로 작용하는 경우엔 소재 교체 후에도 추가 점검이 필요합니다. KTN은 소재 공급 후 불량 원인 분석을 함께 진행하고 있습니다.</p>
+  </div>
+
+  <h2>마지막으로</h2>
+  <p>접지는 잘못이 없습니다. 해야 합니다. 다만, 접지를 한다고 해서 절연체 소재의 롤러가 대전방지 소재로 바뀌지는 않습니다. 정전기를 만들고 있는 소재를 그대로 두고 접지만 강화하는 것은 배수구를 넓히면서 수도꼭지를 잠그지 않는 것과 같습니다.</p>
+  <p>소재 교체를 검토하고 있다면, 현재 쓰는 롤러의 표면저항 성적서부터 확인하십시오. 수치가 없거나 10¹⁰Ω을 초과한다면 그것이 불량의 원인입니다.</p>
+  <p style="color:var(--g1);font-size:.9rem;">꼭 KTN이 아니어도 됩니다. 표면저항 성적서를 제공하고, CNT 또는 카본블랙 배합 소재를 직접 가공하는 업체라면 충분합니다. 그 조건을 충족하는 업체를 찾는 데 도움이 필요하다면 아래로 문의해 주십시오.</p>
+
+  <!-- FAQ -->
+  <section class="faq-section" aria-labelledby="faq-title">
+    <h2 id="faq-title">자주 묻는 질문</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">접지(어스)를 완벽하게 했는데도 정전기 불량이 계속되는 이유는 무엇인가요?</div>
+      <div class="faq-a">접지는 이미 축적된 정전기를 방전시키는 역할입니다. 그러나 비금속 롤러·베어링 등 절연성 소재(표면저항 10¹²Ω 이상)는 기판이 지나갈 때마다 마찰 정전기를 계속 생성합니다. 접지는 이 생성 자체를 막지 못합니다. 소재의 표면저항이 10⁶~10⁹Ω 대역(대전방지 구간)에 있어야 정전기 생성 자체가 억제됩니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">접지와 소재 교체를 동시에 해야 하나요, 아니면 하나만 해도 되나요?</div>
+      <div class="faq-a">두 가지는 역할이 다릅니다. 접지는 금속 구조물·설비 프레임의 정적 전하를 소산시킵니다. 소재 교체는 롤러·베어링 표면에서 정전기가 생성되는 것 자체를 억제합니다. 반도체·PCB 라인에서는 두 가지를 병행해야 합니다. 현장 경험상 소재 교체 없이 접지만으로 ESD 불량을 잡은 사례는 거의 없습니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">표면저항 10⁶~10⁹Ω이 대전방지 구간인 이유는 무엇인가요?</div>
+      <div class="faq-a">10⁶Ω 미만은 도전체로 분류되어 오히려 누설 전류가 발생합니다. 10¹²Ω 이상은 절연체로 정전기를 소산시키지 못합니다. 10⁶~10⁹Ω 구간은 마찰로 생성된 정전기를 천천히, 안전하게 소산시키는 속도를 가집니다. ANSI/ESD S20.20 규격도 이 범위를 대전방지 소재의 기준으로 규정합니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">현재 쓰는 롤러가 ESD 소재인지 확인하는 방법은 무엇인가요?</div>
+      <div class="faq-a">표면저항계(메거)로 측정하는 것이 가장 정확합니다. 기기 없이 확인하려면 공급업체에 성적서(표면저항 측정 결과표)를 요청하십시오. 성적서가 없거나 수치가 10¹⁰Ω을 초과하면 대전방지 소재가 아닙니다. 일반 POM(폴리아세탈)은 10¹²~10¹⁴Ω으로 절연체에 해당하며 ESD 제어 효과가 없습니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">KTN의 CNT UPE 롤러로 교체하면 얼마나 빠르게 효과가 나타나나요?</div>
+      <div class="faq-a">교체 후 첫 생산 라인 가동 시점부터 효과가 나타납니다. 표면저항 10⁶~10⁹Ω 소재는 기판이 롤러 위를 지날 때 정전기가 생성되는 즉시 소산시킵니다. 다만 기존 라인에 잔류 전하가 남아 있을 경우 첫 1~2시간은 접지와 함께 운영하는 것이 좋습니다. KTN 납품 사례 기준 교체 후 첫 주 불량률 변화를 모니터링하면 소재 효과를 수치로 확인할 수 있습니다.</div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="art-cta">
+    <h3>현재 롤러 소재의 표면저항이 궁금하신가요?</h3>
+    <p>소재명과 현재 불량 패턴을 알려주시면 교체 필요 여부를 수치로 판단해 드립니다.<br>20년 실적 2,479건 · 표면저항 성적서 필수 제공 · MOQ 1개 · 납기 7일 이내</p>
+    <a href="tel:+821023405791" class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M16.5 12.9v2.1a1.4 1.4 0 01-1.5 1.4A13.9 13.9 0 011.6 3 1.4 1.4 0 013 1.5h2.1a1.4 1.4 0 011.4 1.2c.1.9.4 1.8.7 2.6a1.4 1.4 0 01-.3 1.5L6 7.7a11.2 11.2 0 004.3 4.3l.9-.9a1.4 1.4 0 011.5-.3c.8.3 1.7.6 2.6.7a1.4 1.4 0 011.2 1.4z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      010-2340-5791 무료 상담
+    </a>
+  </div>
+
+  <!-- RELATED -->
+  <div class="related">
+    <div class="related-title">RELATED ARTICLES</div>
+    <div class="related-links">
+      <a href="/insights/esd-pcb-roller-surface-resistance" class="related-link">PCB 기판 불량률을 0%로 만든 '이 롤러 소재'의 표면저항 수치</a>
+      <a href="/insights/cnt-upe-esd-roller" class="related-link">CNT/UPE ESD 롤러 — 반도체·PCB 라인 대전방지 소재 선택</a>
+      <a href="/insights/special-bearing-procurement" class="related-link">특수 베어링 조달 가이드 — 구매팀이 확인할 5가지</a>
+    </div>
+  </div>
+
+</main>
+
+<footer class="art-footer">
+  <p>© 2026 KTN 케이티엔 · ktnkorea.com · 010-2340-5791</p>
+</footer>
+
+</body>
+</html>
