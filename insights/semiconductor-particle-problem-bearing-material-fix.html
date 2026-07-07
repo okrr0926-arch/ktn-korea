@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NGN68D5Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0NGN68D5Y5');
+  </script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="반도체 클린룸 파티클 불량의 30% 이상은 베어링과 롤러에서 발생합니다. 소재 교체 한 번으로 파티클을 잡은 라인 사례와 소재 선택 기준을 수치로 정리합니다."/>
+  <meta name="keywords" content="파티클 발생, 베어링 파티클, 클린룸 이물질 원인, 반도체 파티클 베어링, 클린룸 베어링 소재, 파티클 저감 방법"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="author" content="박정훈 — KTN KOREA 대표"/>
+  <link rel="canonical" href="https://ktnkorea.com/insights/semiconductor-particle-problem-bearing-material-fix.html"/>
+  <link rel="icon" type="image/png" href="/images/logo.png"/>
+
+  <meta property="og:type" content="article"/>
+  <meta property="og:locale" content="ko_KR"/>
+  <meta property="og:title" content="파티클 발생 문제 — 베어링 소재 교체로 해결한 반도체 라인 사례 | KTN KOREA"/>
+  <meta property="og:description" content="클린룸 파티클 불량의 주범이 베어링일 수 있습니다. 소재 교체 한 번으로 파티클을 잡은 사례와 선택 기준을 정리합니다."/>
+  <meta property="og:url" content="https://ktnkorea.com/insights/semiconductor-particle-problem-bearing-material-fix.html"/>
+  <meta property="og:site_name" content="KTN 케이티엔"/>
+  <meta property="og:image" content="https://ktnkorea.com/images/esd-roller-lineup.jpg"/>
+  <meta property="article:author" content="박정훈"/>
+  <meta property="article:published_time" content="2026-07-07"/>
+
+  <title>파티클 발생 문제 — 베어링 소재 교체로 해결한 반도체 라인 사례 | KTN 케이티엔</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://ktnkorea.com/insights/semiconductor-particle-problem-bearing-material-fix#article",
+        "headline": "파티클 발생 문제 — 베어링 소재 교체로 해결한 반도체 라인 사례",
+        "description": "반도체 클린룸 파티클 불량의 원인이 베어링 마모 분진인 경우, 소재 교체만으로 해결됩니다. 현장 사례와 소재 선택 기준을 수치로 정리합니다.",
+        "datePublished": "2026-07-07",
+        "dateModified": "2026-07-07",
+        "author": {
+          "@type": "Person",
+          "name": "박정훈",
+          "jobTitle": "KTN KOREA 대표",
+          "description": "20년 베어링 & 정밀 가공 기술 마이스터. 반도체·PCB·디스플레이 라인용 클린룸 베어링·롤러 설계·제조.",
+          "worksFor": {"@type": "Organization", "name": "KTN KOREA"}
+        },
+        "publisher": {"@type": "Organization", "name": "KTN 케이티엔", "url": "https://ktnkorea.com"},
+        "mainEntityOfPage": "https://ktnkorea.com/insights/semiconductor-particle-problem-bearing-material-fix",
+        "keywords": "파티클 발생, 베어링 파티클, 클린룸 이물질 원인, 반도체 파티클, 클린룸 베어링"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "KTN 홈", "item": "https://ktnkorea.com"},
+          {"@type": "ListItem", "position": 2, "name": "기술 인사이트", "item": "https://ktnkorea.com/insights"},
+          {"@type": "ListItem", "position": 3, "name": "파티클 발생 베어링 소재 교체", "item": "https://ktnkorea.com/insights/semiconductor-particle-problem-bearing-material-fix"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "반도체 클린룸에서 파티클이 계속 발생하는 이유는 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "클린룸 파티클의 주요 발생원은 사람, 공정 부산물, 그리고 설비 내 기계 부품입니다. 이 중 간과하기 쉬운 것이 베어링과 롤러의 마모 분진입니다. 일반 스틸 베어링은 운전 중 금속 마모 분진을 지속적으로 발생시키며, 그리스나 오일을 사용하는 경우 오염물이 기화·비산합니다. 클린룸 등급이 높을수록 이 마모 분진이 수율에 직접 영향을 줍니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "클린룸 베어링 소재로 무엇을 써야 하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "클린룸 등급과 환경에 따라 다릅니다. ISO Class 5 이하 고청정 환경에서는 세라믹(Si₃N₄) 또는 PEEK 소재 베어링을 씁니다. 두 소재 모두 무급지로 운전 가능하고 금속 분진이 발생하지 않습니다. ISO Class 6~7 환경에서는 STS304 베어링에 그리스 없이 운전하거나, PTFE 케이지 적용 스틸 베어링을 사용하는 방법이 있습니다. 핵심은 무급지 또는 저발진 그리스이며, 반드시 소재 선택 전 환경 조건을 확인해야 합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "베어링을 교체하면 파티클이 바로 잡히나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "베어링이 파티클의 주요 발생원이었다면 교체 후 수일 내 파티클 카운트가 눈에 띄게 떨어집니다. 다만 파티클 발생원이 복수인 경우(설비 시일 마모, 공정 부산물 등)는 베어링 교체만으로 전량 해결되지 않습니다. 파티클 모니터링 장비로 발생 위치를 특정한 후 해당 부위의 소재를 교체하는 것이 올바른 순서입니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "납기가 너무 길어서 급히 구할 수 없는 경우 어떻게 하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "클린룸용 특수 소재 베어링은 일반 유통망에 재고가 없는 경우가 많습니다. KTN KOREA는 PEEK·세라믹·STS304 등 클린룸용 소재 베어링을 도면 없이도 7일 이내 제작·납품합니다. 기존 베어링을 현물로 가져오시면 역설계 후 동일 규격으로 제작하는 것도 가능합니다. MOQ는 1개부터 가능합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "그리스 없이 베어링을 운전해도 되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "소재에 따라 다릅니다. PEEK과 세라믹 베어링은 자체 저마찰 특성으로 무급지 운전이 가능합니다. 일반 스틸 베어링에서 그리스를 제거하면 수명이 급격히 짧아지고 마모 분진이 오히려 늘어납니다. 클린룸에서 무급지 운전이 필요하다면 처음부터 무급지 운전에 적합한 소재를 선택해야 합니다. 단순히 그리스를 빼는 방식은 적합하지 않습니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    :root{
+      --bg:#0D0D0D;--bg2:#141414;--bg3:#1a1a1a;
+      --y:#EAB308;--y2:#FDE047;
+      --w:#FFFFFF;--g1:#999;--g2:#666;--g3:#444;
+      --fh:'Barlow Condensed',sans-serif;
+      --fb:'Noto Sans KR',sans-serif;
+      --fm:'IBM Plex Mono',monospace;
+      --max:780px;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;}
+    html{scroll-behavior:smooth;}
+    body{background:var(--bg);color:var(--w);font-family:var(--fb);font-size:16px;line-height:1.75;}
+
+    .nav{position:sticky;top:0;z-index:100;background:rgba(13,13,13,.95);backdrop-filter:blur(8px);border-bottom:1px solid #222;padding:.75rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;}
+    .nav-logo{font-family:var(--fh);font-size:1.2rem;font-weight:800;letter-spacing:.08em;color:var(--w);text-decoration:none;}
+    .nav-logo span{color:var(--y);}
+    .nav-back{font-size:.8rem;color:var(--g1);text-decoration:none;display:flex;align-items:center;gap:.4rem;transition:color .2s;}
+    .nav-back:hover{color:var(--y);}
+    .nav-cta{background:var(--y);color:#000;font-family:var(--fh);font-weight:700;font-size:.85rem;letter-spacing:.06em;padding:.45rem 1rem;text-decoration:none;transition:background .2s;}
+    .nav-cta:hover{background:var(--y2);}
+
+    .art-hero{padding:3rem 1.5rem 2rem;max-width:var(--max);margin:0 auto;}
+    .breadcrumb{font-size:.75rem;color:var(--g2);font-family:var(--fm);margin-bottom:1.2rem;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;}
+    .breadcrumb a{color:var(--g2);text-decoration:none;}
+    .breadcrumb a:hover{color:var(--y);}
+    .art-tags{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.2rem;}
+    .art-tag{font-size:.7rem;font-family:var(--fm);letter-spacing:.08em;padding:.25rem .7rem;border:1px solid var(--y);color:var(--y);}
+    .art-hero h1{font-family:var(--fh);font-size:clamp(1.8rem,5vw,2.6rem);font-weight:800;line-height:1.2;letter-spacing:.02em;margin-bottom:1.2rem;}
+    .art-hero h1 em{color:var(--y);font-style:normal;}
+    .art-meta{display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;font-size:.78rem;color:var(--g1);font-family:var(--fm);margin-bottom:1.8rem;padding-bottom:1.8rem;border-bottom:1px solid #222;}
+    .art-summary{background:var(--bg3);border-left:3px solid var(--y);padding:1.2rem 1.4rem;font-size:.95rem;line-height:1.8;color:#ccc;}
+    .art-summary strong{color:var(--w);}
+
+    .art-body{max-width:var(--max);margin:0 auto;padding:2rem 1.5rem 4rem;}
+    .art-body h2{font-family:var(--fh);font-size:1.6rem;font-weight:700;letter-spacing:.04em;margin:2.8rem 0 1rem;padding-bottom:.6rem;border-bottom:1px solid #222;color:var(--w);}
+    .art-body h2 em{color:var(--y);font-style:normal;}
+    .art-body h3{font-family:var(--fh);font-size:1.15rem;font-weight:600;color:var(--y);margin:1.8rem 0 .7rem;letter-spacing:.04em;}
+    .art-body p{margin-bottom:1.2rem;color:#ccc;line-height:1.85;}
+    .art-body strong{color:var(--w);}
+
+    .author-card{background:var(--bg3);border:1px solid #2a2a2a;padding:1.2rem 1.4rem;display:flex;gap:1rem;align-items:flex-start;margin-bottom:2rem;}
+    .author-avatar{width:48px;height:48px;background:var(--y);display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-weight:800;font-size:1.1rem;color:#000;flex-shrink:0;}
+    .author-info{flex:1;}
+    .author-name{font-family:var(--fh);font-weight:700;font-size:1rem;letter-spacing:.04em;margin-bottom:.3rem;}
+    .author-desc{font-size:.78rem;color:var(--g1);line-height:1.6;}
+    .author-badges{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.6rem;}
+    .author-badge{font-size:.68rem;font-family:var(--fm);padding:.2rem .6rem;background:#222;color:var(--y);border:1px solid #333;}
+
+    .spec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#222;margin:1.5rem 0 2rem;}
+    .spec-cell{background:var(--bg2);padding:1.2rem 1rem;text-align:center;}
+    .spec-num{font-family:var(--fh);font-size:1.6rem;font-weight:800;color:var(--y);letter-spacing:.02em;display:block;}
+    .spec-lbl{font-size:.72rem;color:var(--g1);margin-top:.3rem;font-family:var(--fm);}
+
+    .warn-box{background:#0d0800;border:1px solid #554400;border-left:4px solid var(--y);padding:1.4rem 1.6rem;margin:1.5rem 0;}
+    .warn-label{font-family:var(--fm);font-size:.7rem;color:var(--y);letter-spacing:.1em;margin-bottom:.6rem;}
+    .warn-box p{color:#e8d080;margin:0;font-size:.92rem;line-height:1.8;}
+
+    .cause-list{display:flex;flex-direction:column;gap:1rem;margin:1.5rem 0 2rem;}
+    .cause-item{background:var(--bg3);border:1px solid #2a2a2a;border-left:4px solid var(--y);padding:1.2rem 1.4rem;}
+    .cause-num{font-family:var(--fh);font-size:.7rem;font-weight:700;color:var(--y);letter-spacing:.12em;margin-bottom:.5rem;}
+    .cause-title{font-family:var(--fh);font-size:1.1rem;font-weight:700;color:var(--w);margin-bottom:.6rem;letter-spacing:.03em;}
+    .cause-item p{font-size:.88rem;color:#bbb;margin:0;line-height:1.75;}
+
+    .diag-table{width:100%;border-collapse:collapse;margin:1.2rem 0 2rem;font-size:.86rem;}
+    .diag-table th{background:#1a1a1a;color:var(--g1);font-family:var(--fm);font-weight:400;font-size:.7rem;letter-spacing:.06em;padding:.8rem .9rem;text-align:left;border-bottom:1px solid #333;}
+    .diag-table td{padding:.85rem .9rem;border-bottom:1px solid #1e1e1e;color:#ccc;vertical-align:top;}
+    .diag-table tr:last-child td{border-bottom:none;}
+    .diag-table td.symptom{color:var(--w);font-weight:500;}
+    .diag-table td.fix{color:var(--y);}
+
+    .compare-table{width:100%;border-collapse:collapse;margin:1.2rem 0 2rem;font-size:.88rem;}
+    .compare-table th{background:#1a1a1a;color:var(--g1);font-family:var(--fm);font-weight:400;font-size:.72rem;letter-spacing:.06em;padding:.8rem .9rem;text-align:left;border-bottom:1px solid #333;}
+    .compare-table th:first-child{width:36%;}
+    .compare-table td{padding:.85rem .9rem;border-bottom:1px solid #1e1e1e;color:#ccc;vertical-align:middle;}
+    .compare-table tr:last-child td{border-bottom:none;}
+    .compare-table td.col-ktn{color:var(--y);}
+    .compare-table td.col-bad{color:#888;}
+    .badge-y{display:inline-block;background:var(--y);color:#000;font-family:var(--fm);font-size:.68rem;font-weight:700;padding:.15rem .5rem;margin-left:.4rem;vertical-align:middle;}
+    .badge-n{display:inline-block;background:#333;color:#666;font-family:var(--fm);font-size:.68rem;padding:.15rem .5rem;margin-left:.4rem;vertical-align:middle;}
+
+    .callout{background:#0f0f0f;border:1px solid var(--y);border-left:4px solid var(--y);padding:1.4rem 1.6rem;margin:2rem 0;}
+    .callout-label{font-family:var(--fm);font-size:.7rem;color:var(--y);letter-spacing:.1em;margin-bottom:.6rem;}
+    .callout p{color:var(--w);margin:0;font-size:.95rem;line-height:1.8;}
+
+    .material-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#222;margin:1.5rem 0 2rem;}
+    .material-cell{background:var(--bg2);padding:1.3rem 1.2rem;}
+    .material-name{font-family:var(--fh);font-size:1rem;font-weight:700;color:var(--y);letter-spacing:.04em;margin-bottom:.5rem;}
+    .material-cell p{font-size:.82rem;color:#bbb;line-height:1.7;margin:0;}
+
+    .faq-section{margin:3rem 0 2rem;}
+    .faq-section h2{font-family:var(--fh);font-size:1.6rem;font-weight:700;letter-spacing:.04em;margin-bottom:1.5rem;padding-bottom:.6rem;border-bottom:1px solid #222;}
+    .faq-item{border-bottom:1px solid #1e1e1e;padding:1.2rem 0;}
+    .faq-q{font-family:var(--fh);font-size:1.05rem;font-weight:600;color:var(--w);margin-bottom:.7rem;display:flex;gap:.7rem;}
+    .faq-q::before{content:'Q';color:var(--y);font-size:1rem;flex-shrink:0;}
+    .faq-a{font-size:.9rem;color:#aaa;line-height:1.85;padding-left:1.4rem;}
+
+    .art-cta{background:var(--bg3);border:1px solid #2a2a2a;padding:2rem 1.5rem;text-align:center;margin:3rem 0 2rem;}
+    .art-cta h3{font-family:var(--fh);font-size:1.5rem;font-weight:700;letter-spacing:.04em;margin-bottom:.6rem;}
+    .art-cta p{color:var(--g1);font-size:.9rem;margin-bottom:1.4rem;}
+    .cta-btn{display:inline-flex;align-items:center;gap:.6rem;background:var(--y);color:#000;font-family:var(--fh);font-weight:700;font-size:1rem;letter-spacing:.06em;padding:.85rem 2rem;text-decoration:none;transition:background .2s;}
+    .cta-btn:hover{background:var(--y2);}
+
+    .related{margin:2rem 0 3rem;}
+    .related-title{font-family:var(--fh);font-size:.8rem;letter-spacing:.1em;color:var(--g2);margin-bottom:1rem;}
+    .related-links{display:flex;flex-direction:column;gap:.6rem;}
+    .related-link{color:var(--g1);text-decoration:none;font-size:.88rem;display:flex;align-items:center;gap:.5rem;padding:.6rem 0;border-bottom:1px solid #1a1a1a;transition:color .2s;}
+    .related-link:hover{color:var(--y);}
+    .related-link::before{content:'→';color:var(--y);font-size:.8rem;flex-shrink:0;}
+
+    .art-footer{border-top:1px solid #1e1e1e;padding:1.5rem;text-align:center;}
+    .art-footer p{font-size:.75rem;color:var(--g2);font-family:var(--fm);}
+
+    @media(max-width:600px){
+      .spec-num{font-size:1.3rem;}
+      .art-hero h1{font-size:1.6rem;}
+      .author-card{flex-direction:column;}
+      .material-grid{grid-template-columns:1fr;}
+      .diag-table{font-size:.78rem;}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav" role="navigation" aria-label="주 메뉴">
+  <a href="/" class="nav-logo">KT<span>N</span> KOREA</a>
+  <a href="/insights/" class="nav-back">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M9 2L4 7l5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    인사이트 목록
+  </a>
+  <a href="tel:+821023405791" class="nav-cta">긴급문의 010-2340-5791</a>
+</nav>
+
+<header class="art-hero">
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/">KTN 홈</a> / <a href="/insights/">기술 인사이트</a> / 파티클 발생 베어링 소재 교체
+  </nav>
+  <div class="art-tags">
+    <span class="art-tag">반도체 · 클린룸</span>
+    <span class="art-tag">파티클 · 이물질</span>
+    <span class="art-tag">문제해결</span>
+  </div>
+  <h1>파티클 발생 문제 —<br><em>베어링 소재 교체로</em><br>해결한 반도체 라인 사례</h1>
+  <div class="art-meta">
+    <span>2026.07.07</span>
+    <span>박정훈 · KTN KOREA 대표</span>
+    <span>20년 베어링 &amp; 정밀 가공 기술 마이스터</span>
+  </div>
+  <div class="art-summary">
+    <strong>핵심 요약:</strong> 클린룸 파티클 불량의 원인을 공정·사람·설비 순서로 뒤지다가 정작 <strong>베어링과 롤러의 마모 분진</strong>을 놓치는 경우가 많습니다. 소재를 PEEK 또는 세라믹으로 교체한 것만으로 파티클 카운트가 수십 분의 일로 줄어든 사례가 있습니다. 교체 전 확인해야 할 소재 기준과 진단 순서를 정리합니다.
+  </div>
+</header>
+
+<main class="art-body">
+
+  <div class="author-card">
+    <div class="author-avatar">박</div>
+    <div class="author-info">
+      <div class="author-name">박정훈 · KTN KOREA 대표</div>
+      <div class="author-desc">20년 베어링 &amp; 정밀 가공 기술 마이스터. 반도체·PCB·디스플레이 클린룸 라인 특수 베어링·롤러 2,479건 설계·납품.</div>
+      <div class="author-badges">
+        <span class="author-badge">포브스코리아 CSV 대상 2026</span>
+        <span class="author-badge">역설계 2,479건</span>
+        <span class="author-badge">7일 이내 납기</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="spec-grid" aria-label="KTN 핵심 수치">
+    <div class="spec-cell">
+      <span class="spec-num">±0.001</span>
+      <div class="spec-lbl">mm 가공 정밀도<br>클린룸용 베어링 제작</div>
+    </div>
+    <div class="spec-cell">
+      <span class="spec-num">7일</span>
+      <div class="spec-lbl">이내 납기<br>PEEK·세라믹 베어링</div>
+    </div>
+    <div class="spec-cell">
+      <span class="spec-num">1개</span>
+      <div class="spec-lbl">부터 MOQ<br>역설계 제작 가능</div>
+    </div>
+  </div>
+
+  <h2>파티클 원인을 찾는데 <em>베어링은 보지 않았습니다</em></h2>
+  <p>클린룸 파티클 불량이 발생하면 대부분 다음 순서로 원인을 추적합니다. 작업자 복장 → 에어 필터 점검 → 공정 부산물 → 설비 시일 상태. 이 과정에서 베어링과 롤러가 목록에 오르는 경우는 드뭅니다.</p>
+  <p>그런데 <strong>스틸 베어링은 운전 중 금속 마모 분진을 지속적으로 발생</strong>시킵니다. 그리스나 오일을 사용하는 경우 오염물이 기화하거나 비산합니다. ISO Class 5 이하 고청정 환경에서는 이 분진 하나가 웨이퍼 한 장을 폐기시키기에 충분한 크기입니다.</p>
+
+  <div class="warn-box">
+    <div class="warn-label">⚠ 자주 있는 상황</div>
+    <p>파티클 모니터가 경보를 울립니다. 작업자를 교체하고, 필터를 점검하고, 공정을 바꿔봤지만 수치가 내려가지 않습니다. 그런데 라인 내 베어링은 3년째 교체 이력이 없습니다. 마모 분진이 발생원인지 확인한 적도 없습니다.</p>
+  </div>
+
+  <h2>베어링이 파티클을 <em>만드는 3가지 경로</em></h2>
+
+  <div class="cause-list">
+    <div class="cause-item">
+      <div class="cause-num">CAUSE 01</div>
+      <div class="cause-title">금속 마모 분진 — 스틸 레이스와 볼의 접촉</div>
+      <p>스틸 베어링은 내·외륜과 볼이 금속 대 금속으로 접촉합니다. 운전 시간이 쌓일수록 표면에서 금속 입자가 이탈합니다. 입자 크기는 1~10µm 수준으로, 클린룸 파티클 카운터가 감지하는 범위 안에 있습니다. 고속 회전부일수록 분진 발생량이 더 많습니다.</p>
+    </div>
+    <div class="cause-item">
+      <div class="cause-num">CAUSE 02</div>
+      <div class="cause-title">그리스 기화 — 오일 성분 비산</div>
+      <p>고온 공정이나 진공에 가까운 저압 환경에서 베어링 그리스의 기유 성분이 기화합니다. 기화한 성분이 냉각된 기판 표면에 재부착되면 유기물 오염으로 이어집니다. 반도체 공정에서 유기물 오염은 게이트 산화막 불량, 접합 저항 변화 등 공정 오류로 직결됩니다.</p>
+    </div>
+    <div class="cause-item">
+      <div class="cause-num">CAUSE 03</div>
+      <div class="cause-title">케이지 마모 분진 — 리테이너 소재</div>
+      <p>베어링 볼 간격을 유지하는 케이지(리테이너)도 마모됩니다. 나일론·폴리아미드 케이지는 운전 중 수지 분진을 발생시킵니다. 스틸 케이지는 금속 분진을 냅니다. 클린룸 등급에 따라 케이지 소재 선택도 베어링 본체와 동일한 기준으로 검토해야 합니다.</p>
+    </div>
+  </div>
+
+  <h2>클린룸 등급별 <em>소재 선택 기준</em></h2>
+  <p>파티클 발생원이 베어링으로 특정됐다면, 교체 소재는 클린룸 등급과 운전 조건에 따라 결정합니다.</p>
+
+  <div class="material-grid">
+    <div class="material-cell">
+      <div class="material-name">PEEK (폴리에테르에테르케톤)</div>
+      <p>ISO Class 4~6 환경 적합. 무급지 운전 가능. 금속 분진 없음. 최대 250°C까지 내열. 내화학성 우수. 가장 범용적인 클린룸 베어링 소재.</p>
+    </div>
+    <div class="material-cell">
+      <div class="material-name">세라믹 (Si₃N₄)</div>
+      <p>ISO Class 4 이하 고청정 환경. 무급지 운전. 금속 이온 용출 없음. 고속·고하중 내구성 우수. 진공 환경 적용 가능. PEEK 대비 고가.</p>
+    </div>
+    <div class="material-cell">
+      <div class="material-name">STS304 / STS316</div>
+      <p>ISO Class 6~7 환경. 일반 스틸 대비 내부식성 높음. 저발진 그리스와 조합 시 파티클 저감 효과. 내화학 환경(도금·세정 라인) 적합.</p>
+    </div>
+    <div class="material-cell">
+      <div class="material-name">PTFE 케이지 + 스틸</div>
+      <p>베어링 본체는 스틸, 케이지만 PTFE로 교체. 수지 분진 저감. 전면 교체 대비 비용 절감. 금속 분진 자체는 여전히 발생하므로 등급이 낮은 환경에 적합.</p>
+    </div>
+  </div>
+
+  <h2>증상으로 보는 <em>파티클 발생원 진단표</em></h2>
+
+  <table class="diag-table" aria-label="파티클 증상별 원인 진단">
+    <thead>
+      <tr>
+        <th>증상</th>
+        <th>의심 발생원</th>
+        <th>확인 방법</th>
+        <th>조치</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="symptom">금속성 파티클 감지, 위치 특정</td>
+        <td>스틸 베어링 마모 분진</td>
+        <td>해당 부위 베어링 상태 육안 확인</td>
+        <td class="fix">PEEK 또는 세라믹으로 교체</td>
+      </tr>
+      <tr>
+        <td class="symptom">유기물 오염, 고온 공정 라인</td>
+        <td>그리스 기화</td>
+        <td>오염 성분 분석 (유기물 여부)</td>
+        <td class="fix">무급지 소재(PEEK·세라믹)로 교체</td>
+      </tr>
+      <tr>
+        <td class="symptom">수지 분진, 케이지 마모 확인</td>
+        <td>나일론 케이지 마모</td>
+        <td>케이지 상태 육안 점검</td>
+        <td class="fix">PTFE 케이지 또는 전면 교체</td>
+      </tr>
+      <tr>
+        <td class="symptom">특정 시간대 파티클 급증</td>
+        <td>베어링 수명 한계 도달</td>
+        <td>운전 시간 이력 확인</td>
+        <td class="fix">정기 교체 주기 설정</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>일반 베어링 vs <em>클린룸 전용 소재 베어링</em></h2>
+
+  <table class="compare-table" aria-label="일반 베어링과 클린룸 베어링 비교">
+    <thead>
+      <tr>
+        <th>항목</th>
+        <th>일반 스틸 베어링</th>
+        <th>KTN 클린룸용 베어링</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>마모 분진</td>
+        <td class="col-bad">금속 분진 지속 발생 <span class="badge-n">NG</span></td>
+        <td class="col-ktn">PEEK·세라믹 — 분진 없음 <span class="badge-y">OK</span></td>
+      </tr>
+      <tr>
+        <td>급지 필요 여부</td>
+        <td class="col-bad">그리스 정기 보충 필요</td>
+        <td class="col-ktn">무급지 운전 가능 <span class="badge-y">OK</span></td>
+      </tr>
+      <tr>
+        <td>그리스 기화 오염</td>
+        <td class="col-bad">고온·저압 환경에서 발생 <span class="badge-n">NG</span></td>
+        <td class="col-ktn">해당 없음 <span class="badge-y">OK</span></td>
+      </tr>
+      <tr>
+        <td>내화학성</td>
+        <td class="col-bad">산·알칼리 부식 발생</td>
+        <td class="col-ktn">PEEK·세라믹 내화학 우수</td>
+      </tr>
+      <tr>
+        <td>납기</td>
+        <td class="col-bad">수입 특수 소재 4~8주</td>
+        <td class="col-ktn">7일 이내 국내 제작 <span class="badge-y">OK</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <div class="callout-label">POINT — 파티클 원인 특정 전에 교체하지 마십시오</div>
+    <p>베어링이 발생원이 아닌 경우 교체해도 파티클이 줄지 않습니다. 파티클 모니터로 발생 위치를 특정하고, 해당 부위의 베어링 상태를 확인한 뒤 교체 여부를 결정하십시오. 단, 발생원 특정이 어렵고 베어링 교체 이력이 3년 이상 없다면 예방적 교체를 검토할 수 있습니다.</p>
+  </div>
+
+  <h2>꼭 <em>저희가 아니어도 됩니다</em></h2>
+  <p>현재 라인의 파티클 발생원이 베어링이 아닌 것으로 확인됐다면, 다른 원인을 찾아야 합니다. 베어링이 원인이더라도 이미 클린룸 전용 소재를 공급할 수 있는 업체가 있다면 그 업체와 진행하십시오.</p>
+  <p>다만, 베어링 교체 이력이 없고 파티클 원인을 찾지 못하고 있다면 저희에게 문의 주십시오. <strong>라인 환경과 현재 베어링 소재를 확인한 후, 교체가 필요한 경우에만 제안합니다.</strong> 도면 없이도 기존 베어링을 현물로 가져오시면 역설계 후 7일 이내 클린룸 전용 소재로 제작합니다. MOQ는 1개부터입니다.</p>
+
+  <section class="faq-section" aria-label="자주 묻는 질문">
+    <h2>자주 묻는 질문</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">반도체 클린룸에서 파티클이 계속 발생하는 이유는 무엇인가요?</div>
+      <div class="faq-a">클린룸 파티클의 주요 발생원은 작업자, 공정 부산물, 설비 내 기계 부품입니다. 이 중 간과하기 쉬운 것이 베어링과 롤러의 마모 분진입니다. 일반 스틸 베어링은 운전 중 금속 마모 분진을 지속적으로 발생시키며, 그리스를 사용하는 경우 오염물이 기화·비산합니다. 클린룸 등급이 높을수록 이 마모 분진이 수율에 직접 영향을 줍니다.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">클린룸 베어링 소재로 무엇을 써야 하나요?</div>
+      <div class="faq-a">클린룸 등급과 운전 조건에 따라 다릅니다. ISO Class 5 이하 고청정 환경에서는 세라믹(Si₃N₄) 또는 PEEK 소재 베어링을 씁니다. 두 소재 모두 무급지 운전이 가능하고 금속 분진이 발생하지 않습니다. ISO Class 6~7 환경에서는 STS304 저발진 베어링이나 PTFE 케이지 적용이 선택지입니다. 소재 선택 전 환경 조건(온도·화학물질·속도)을 확인하는 것이 먼저입니다.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">베어링을 교체하면 파티클이 바로 잡히나요?</div>
+      <div class="faq-a">베어링이 파티클의 주요 발생원이었다면 교체 후 수일 내 파티클 카운트가 눈에 띄게 감소합니다. 다만 발생원이 복수인 경우 베어링 교체만으로 전량 해결되지 않습니다. 파티클 모니터로 발생 위치를 특정한 후 해당 부위를 교체하는 것이 올바른 순서입니다.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">납기가 너무 길어서 급히 구할 수 없는 경우 어떻게 하나요?</div>
+      <div class="faq-a">클린룸용 특수 소재 베어링은 일반 유통망에 재고가 없는 경우가 많습니다. KTN KOREA는 PEEK·세라믹·STS304 등 클린룸용 소재 베어링을 도면 없이도 7일 이내 제작·납품합니다. 기존 베어링을 현물로 가져오시면 역설계 후 동일 규격으로 제작 가능합니다. MOQ는 1개부터입니다.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">그리스 없이 베어링을 운전해도 되나요?</div>
+      <div class="faq-a">소재에 따라 다릅니다. PEEK과 세라믹 베어링은 자체 저마찰 특성으로 무급지 운전이 가능합니다. 일반 스틸 베어링에서 그리스를 제거하면 수명이 급격히 짧아지고 마모 분진이 오히려 증가합니다. 클린룸에서 무급지 운전이 필요하다면 처음부터 무급지에 적합한 소재를 선택해야 합니다.</div>
+    </div>
+  </section>
+
+  <div class="art-cta">
+    <h3>파티클 원인부터 찾겠습니다</h3>
+    <p>현물 베어링으로 역설계 후 7일 이내 클린룸용 소재로 제작합니다.<br>2,479건 현장 대응 경험 · ±0.001mm 정밀 가공 · MOQ 1개</p>
+    <a href="tel:+821023405791" class="cta-btn">
+      010-2340-5791 지금 전화하기
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+
+  <nav class="related" aria-label="관련 인사이트">
+    <div class="related-title">RELATED INSIGHTS</div>
+    <div class="related-links">
+      <a href="/insights/sts304-peek-ceramic-ball-bearing.html" class="related-link">STS304, PEEK, 세라믹 볼베어링 — 소재별 선택 기준 완전 정리</a>
+      <a href="/insights/semiconductor-line-stop-emergency-7day-bearing.html" class="related-link">반도체 라인 정지 시 긴급 납기 대응 — 7일 이내 가능한가</a>
+      <a href="/insights/reverse-engineering-emergency-response.html" class="related-link">도면 없어서 발주 못 한다고요? — 역설계로 48시간 안에 해결한 사례</a>
+    </div>
+  </nav>
+
+</main>
+
+<footer class="art-footer">
+  <p>© 2026 KTN KOREA · 포브스코리아 CSV 대상 2026 · 010-2340-5791</p>
+</footer>
+
+</body>
+</html>
