@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NGN68D5Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0NGN68D5Y5');
+  </script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="수입 베어링 납기가 8~16주로 밀렸을 때, 라인 정지 전에 국산화 전환을 판단하는 체크리스트. 역설계 가능 조건, 필요한 것(도면 vs 실물), 국산화가 안 되는 경우까지 — 판단 기준을 수치로 정리했습니다."/>
+  <meta name="keywords" content="베어링 납기 지연, 수입 베어링 대체, 반도체 설비 부품 국산화, 베어링 국산화, 단종 베어링, 베어링 역설계, 수입 베어링 리드타임, 설비 부품 수급"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="author" content="박정훈 — KTN KOREA 대표"/>
+  <link rel="canonical" href="https://ktnkorea.com/insights/import-bearing-delay-semiconductor-localization.html"/>
+  <link rel="icon" type="image/png" href="/images/logo.png"/>
+
+  <meta property="og:type" content="article"/>
+  <meta property="og:locale" content="ko_KR"/>
+  <meta property="og:title" content="수입 베어링 납기 지연 — 반도체 라인 정지 전 국산화 체크리스트 | KTN KOREA"/>
+  <meta property="og:description" content="수입 베어링 납기 8~16주 — 기다리다 라인이 서기 전에 국산화 전환을 판단하는 체크리스트. 역설계 가능 조건과 국산화가 안 되는 경우까지 정리했습니다."/>
+  <meta property="og:url" content="https://ktnkorea.com/insights/import-bearing-delay-semiconductor-localization.html"/>
+  <meta property="og:site_name" content="KTN 케이티엔"/>
+  <meta property="og:image" content="https://ktnkorea.com/images/6902zz-sus304-main.jpg"/>
+  <meta property="article:author" content="박정훈"/>
+  <meta property="article:published_time" content="2026-07-20"/>
+
+  <title>수입 베어링 납기 지연 — 반도체 라인 정지 전 국산화 체크리스트 | KTN 케이티엔</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://ktnkorea.com/insights/import-bearing-delay-semiconductor-localization#article",
+        "headline": "수입 베어링 납기 지연 — 반도체 라인 정지 전 국산화 체크리스트",
+        "description": "수입 베어링 납기가 8~16주로 밀렸을 때 라인 정지 전에 국산화 전환을 판단하는 체크리스트. 역설계 가능 조건과 국산화가 안 되는 경우까지 정리.",
+        "datePublished": "2026-07-20",
+        "dateModified": "2026-07-20",
+        "author": {
+          "@type": "Person",
+          "name": "박정훈",
+          "jobTitle": "KTN KOREA 대표",
+          "description": "20년 베어링 & 정밀 가공 기술 마이스터. 역설계 2,479건, 반도체·PCB 설비용 특수 베어링 설계·제조.",
+          "worksFor": {"@type": "Organization", "name": "KTN KOREA"}
+        },
+        "publisher": {"@type": "Organization", "name": "KTN 케이티엔", "url": "https://ktnkorea.com"},
+        "mainEntityOfPage": "https://ktnkorea.com/insights/import-bearing-delay-semiconductor-localization",
+        "keywords": "베어링 납기 지연, 수입 베어링 대체, 부품 국산화, 베어링 역설계, 단종 베어링"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "KTN 홈", "item": "https://ktnkorea.com"},
+          {"@type": "ListItem", "position": 2, "name": "기술 인사이트", "item": "https://ktnkorea.com/insights"},
+          {"@type": "ListItem", "position": 3, "name": "수입 베어링 납기 지연 국산화 체크리스트", "item": "https://ktnkorea.com/insights/import-bearing-delay-semiconductor-localization"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "수입 베어링 납기는 왜 이렇게 오래 걸리나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "표준 카탈로그품은 국내 재고가 있으면 수일 내 수급되지만, 반도체·PCB 설비용 특수 사양(비표준 치수, 특수 소재, 플랜지형)은 본사 생산 일정에 들어가야 합니다. 유럽·일본 제조사의 특수품 생산 리드타임은 통상 8~16주이고, 단종 모델이면 아예 생산이 거부됩니다. 여기에 선적·통관 기간과 대리점 경유 단계가 더해집니다. 설비 가동률이 걸린 소모성 베어링을 이 리드타임에 맡기는 것 자체가 리스크입니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "도면이 없는 수입 베어링도 국산화가 가능한가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "가능합니다. 마모된 실물만 있으면 역설계로 치수를 복원합니다. 3차원 측정으로 내경·외경·폭·홈 곡률(R)·클리어런스를 실측하고, 마모량을 보정해 원 설계 치수를 추정합니다. 소재는 단면 분석으로 강종(STS304/316, 크롬강 등)과 열처리 상태를 확인합니다. KTN은 이 방식으로 누적 2,479건을 제작했습니다. 단, 심하게 파손되어 궤도면이 남아있지 않은 경우 정밀 복원이 어려우므로, 완전히 부서지기 전 마모품을 확보해 두는 것이 중요합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "국산화 제작 납기와 품질 수준은 어느 정도인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "KTN 기준 맞춤 제작 납기는 7일 이내, 가공 정밀도는 ±0.001mm입니다. 수입품 8~16주 대비 납기가 1/8 이하로 줄어듭니다. 품질은 치수 성적서로 검증합니다 — 납품 시 실측 치수 기록을 제공하므로 원품 도면 또는 실측값과 직접 비교할 수 있습니다. 첫 발주는 1개(MOQ 1개)로 시제 검증 후 정식 수량을 발주하는 방식을 권장합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "국산화가 어렵거나 권하지 않는 경우도 있나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "있습니다. 첫째, 초고속 스핀들용 초정밀 등급(P4 이상) 앵귤러 베어링 — 전용 연삭 설비가 필요한 영역으로, 정품 수급이 원칙입니다. 둘째, 설비 제조사 보증(워런티)이 살아있는 신규 장비 — 임의 부품 교체 시 보증이 소멸될 수 있으므로 제조사와 협의가 먼저입니다. 셋째, 파손 원인이 규명되지 않은 경우 — 같은 사양으로 다시 만들면 같은 파손이 반복되므로 원인 분석이 우선입니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "국산화 전환을 준비하려면 지금 무엇을 해두면 되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "3가지입니다. 첫째, 교체 주기가 짧은 소모성 베어링 목록을 만들고 품번·장착 위치·연간 사용량을 정리하십시오. 둘째, 교체 시 나오는 마모품을 폐기하지 말고 품번별로 1~2개씩 보관하십시오 — 역설계의 원본이 됩니다. 셋째, 리드타임이 긴 품목부터 시제 1개를 미리 제작·검증해 두십시오. 납기 지연이 터진 뒤에 시작하면 검증 시간이 없어 라인 정지를 피하기 어렵습니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    :root{--bg:#0D0D0D;--y:#EAB308;--w:#FFFFFF;--g1:#1A1A1A;--g2:#2A2A2A;--g3:#888;}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--w);font-family:'Noto Sans KR',sans-serif;line-height:1.7}
+
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 32px;border-bottom:1px solid #222;position:sticky;top:0;background:rgba(13,13,13,.95);backdrop-filter:blur(8px);z-index:100}
+    .nav-logo{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.3rem;letter-spacing:.08em;color:var(--w);text-decoration:none}
+    .nav-logo span{color:var(--y)}
+    .nav-right{display:flex;align-items:center;gap:16px}
+    .nav-back{font-size:.85rem;color:var(--g3);text-decoration:none;display:flex;align-items:center;gap:6px}
+    .nav-back:hover{color:var(--w)}
+    .nav-cta{background:var(--y);color:#000;font-weight:700;font-size:.82rem;padding:8px 16px;border-radius:4px;text-decoration:none;white-space:nowrap}
+
+    .art-hero{max-width:800px;margin:0 auto;padding:56px 24px 40px}
+    .breadcrumb{font-size:.78rem;color:var(--g3);margin-bottom:20px}
+    .breadcrumb a{color:var(--g3);text-decoration:none}
+    .breadcrumb a:hover{color:var(--y)}
+    .tag-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+    .tag{font-size:.75rem;background:var(--g2);color:var(--g3);padding:4px 10px;border-radius:20px;border:1px solid #333}
+    .tag.hot{background:rgba(234,179,8,.12);color:var(--y);border-color:rgba(234,179,8,.3)}
+    h1{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(2rem,5vw,2.8rem);line-height:1.1;margin-bottom:20px;letter-spacing:-.01em}
+    .art-meta{display:flex;align-items:center;gap:16px;font-size:.82rem;color:var(--g3);flex-wrap:wrap;margin-bottom:32px}
+    .summary-box{background:var(--g1);border-left:3px solid var(--y);padding:20px 24px;border-radius:0 8px 8px 0;font-size:.95rem;line-height:1.8;color:#ccc}
+    .summary-box strong{color:var(--w)}
+
+    .art-body{max-width:800px;margin:0 auto;padding:0 24px 80px}
+
+    .author-card{display:flex;align-items:center;gap:16px;background:var(--g1);border:1px solid #2a2a2a;border-radius:10px;padding:20px;margin-bottom:40px}
+    .author-avatar{width:52px;height:52px;border-radius:50%;background:var(--y);display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.4rem;color:#000;flex-shrink:0}
+    .author-info{flex:1}
+    .author-name{font-weight:700;font-size:.95rem;margin-bottom:4px}
+    .author-desc{font-size:.8rem;color:var(--g3);line-height:1.5}
+    .author-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(234,179,8,.1);border:1px solid rgba(234,179,8,.25);color:var(--y);font-size:.72rem;padding:3px 8px;border-radius:3px;margin-top:6px}
+
+    .spec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:32px 0}
+    .spec-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px;text-align:center}
+    .spec-num{font-family:'IBM Plex Mono',monospace;font-size:1.5rem;font-weight:600;color:var(--y);line-height:1.2}
+    .spec-lbl{font-size:.75rem;color:var(--g3);margin-top:4px}
+
+    .art-body h2{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1.6rem;color:var(--w);margin:44px 0 16px;letter-spacing:.01em}
+    .art-body h3{font-size:1.05rem;font-weight:700;color:var(--y);margin:28px 0 10px}
+    .art-body p{font-size:.95rem;color:#ccc;margin-bottom:16px;line-height:1.8}
+    .art-body ul{margin:0 0 20px 20px}
+    .art-body li{font-size:.93rem;color:#ccc;margin-bottom:8px;line-height:1.7}
+
+    .check-list{display:flex;flex-direction:column;gap:14px;margin:20px 0}
+    .check-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:18px 20px;display:flex;gap:14px;align-items:flex-start}
+    .check-box{font-family:'IBM Plex Mono',monospace;font-size:1rem;color:var(--y);min-width:28px}
+    .check-title{font-weight:700;font-size:.95rem;margin-bottom:6px}
+    .check-desc{font-size:.88rem;color:#aaa;line-height:1.65}
+
+    .compare-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.88rem}
+    .compare-table th{background:var(--g2);color:var(--g3);font-weight:600;padding:12px 14px;text-align:left;border:1px solid #333}
+    .compare-table td{padding:12px 14px;border:1px solid #2a2a2a;color:#ccc;vertical-align:top}
+    .compare-table tr:hover td{background:rgba(255,255,255,.02)}
+    .td-bad{color:#f87171}
+    .td-good{color:#4ade80}
+
+    .callout{background:rgba(234,179,8,.07);border:1px solid rgba(234,179,8,.25);border-radius:8px;padding:20px 24px;margin:32px 0}
+    .callout p{color:var(--w);font-size:.95rem;margin:0;line-height:1.7}
+    .callout strong{color:var(--y)}
+
+    .faq-section{background:var(--g1);border-radius:12px;padding:32px;margin:48px 0}
+    .faq-section h2{font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;font-weight:700;margin-bottom:24px;color:var(--w)}
+    .faq-item{border-bottom:1px solid #2a2a2a;padding:20px 0}
+    .faq-item:last-child{border-bottom:none;padding-bottom:0}
+    .faq-q{font-weight:700;font-size:.95rem;color:var(--y);margin-bottom:10px;line-height:1.5}
+    .faq-a{font-size:.9rem;color:#bbb;line-height:1.75}
+
+    .art-cta{background:linear-gradient(135deg,var(--g1) 0%,#1a1600 100%);border:1px solid rgba(234,179,8,.25);border-radius:12px;padding:40px 32px;text-align:center;margin:48px 0}
+    .art-cta h2{font-family:'Barlow Condensed',sans-serif;font-size:1.8rem;font-weight:800;margin-bottom:12px}
+    .art-cta p{color:#bbb;font-size:.93rem;margin-bottom:24px;line-height:1.7}
+    .cta-btn{display:inline-flex;align-items:center;gap:8px;background:var(--y);color:#000;font-weight:700;font-size:1rem;padding:14px 28px;border-radius:6px;text-decoration:none}
+    .cta-sub{margin-top:14px;font-size:.8rem;color:var(--g3)}
+
+    .related{margin:48px 0}
+    .related h3{font-family:'Barlow Condensed',sans-serif;font-size:1.2rem;font-weight:700;margin-bottom:16px;color:var(--g3);letter-spacing:.05em;text-transform:uppercase}
+    .related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .related-card{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px;text-decoration:none;display:block;transition:border-color .2s}
+    .related-card:hover{border-color:var(--y)}
+    .related-card-tag{font-size:.72rem;color:var(--g3);margin-bottom:6px}
+    .related-card-title{font-size:.88rem;font-weight:700;color:var(--w);line-height:1.4}
+
+    .art-footer{border-top:1px solid #1a1a1a;padding:32px 24px;text-align:center;font-size:.8rem;color:var(--g3);max-width:800px;margin:0 auto}
+
+    @media(max-width:600px){
+      .spec-grid{grid-template-columns:repeat(2,1fr)}
+      .nav{padding:14px 16px}
+      .art-hero,.art-body{padding-left:16px;padding-right:16px}
+      .author-card{flex-direction:column;align-items:flex-start}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="https://ktnkorea.com" class="nav-logo">KTN<span>KOREA</span></a>
+  <div class="nav-right">
+    <a href="/insights" class="nav-back">← 인사이트 목록</a>
+    <a href="tel:01023405791" class="nav-cta">긴급 문의 010-2340-5791</a>
+  </div>
+</nav>
+
+<header class="art-hero">
+  <div class="breadcrumb">
+    <a href="https://ktnkorea.com">홈</a> &rsaquo;
+    <a href="/insights">기술 인사이트</a> &rsaquo;
+    문제해결
+  </div>
+  <div class="tag-row">
+    <span class="tag hot">문제해결</span>
+    <span class="tag">국산화·역설계</span>
+    <span class="tag">납기</span>
+  </div>
+  <h1>수입 베어링 납기 지연 —<br>반도체 라인 정지 전 국산화 체크리스트</h1>
+  <div class="art-meta">
+    <span>박정훈 · KTN KOREA 대표</span>
+    <span>2026.07.20</span>
+    <span>기술 인사이트</span>
+  </div>
+  <div class="summary-box">
+    수입 특수 베어링 납기는 통상 <strong>8~16주</strong>입니다. 예비품이 떨어진 상태에서 납기 지연 통보를 받으면 남는 선택지는 두 가지 — 기다리다 라인을 세우거나, 국산화로 전환하거나. 이 글은 <strong>국산화 전환이 가능한 조건과 불가능한 경우</strong>를 판단하는 체크리스트입니다. 지금 당장 지연이 없더라도, 셋째 섹션의 사전 준비 3가지는 미리 해두시길 권합니다.
+  </div>
+</header>
+
+<main class="art-body">
+
+  <div class="author-card">
+    <div class="author-avatar">박</div>
+    <div class="author-info">
+      <div class="author-name">박정훈 · KTN KOREA 대표</div>
+      <div class="author-desc">20년 베어링 & 정밀 가공 기술 마이스터.<br>도면 없는 수입·단종 베어링 역설계 누적 2,479건. 반도체·PCB 설비용 특수 베어링 제조.</div>
+      <div class="author-badge">포브스코리아 CSV 대상 2026</div>
+    </div>
+  </div>
+
+  <div class="spec-grid">
+    <div class="spec-item">
+      <div class="spec-num">2,479건</div>
+      <div class="spec-lbl">역설계 누적 실적</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-num">7일 이내</div>
+      <div class="spec-lbl">맞춤 제작 납기</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-num">±0.001mm</div>
+      <div class="spec-lbl">가공 정밀도</div>
+    </div>
+  </div>
+
+  <h2>왜 수입 특수 베어링은 8~16주가 걸리나</h2>
+  <p>표준 카탈로그품은 국내 대리점 재고로 수일 내 받을 수 있습니다. 문제는 반도체·PCB 설비에 들어가는 <strong>비표준 치수, 특수 소재, 플랜지형</strong> 베어링입니다.</p>
+  <ul>
+    <li><strong>본사 생산 일정 편입</strong> — 특수품은 재고가 없어 생산 오더로 들어감. 유럽·일본 제조사 기준 통상 8~16주</li>
+    <li><strong>선적·통관</strong> — 해상 운송 시 +3~5주</li>
+    <li><strong>대리점 다단계</strong> — 본사 → 아시아 총판 → 국내 대리점 경유 시 각 단계 처리 시간 추가</li>
+    <li><strong>단종 통보</strong> — 구형 설비 전용품은 생산 자체를 거부당하는 경우가 있음</li>
+  </ul>
+  <p>설비 가동률이 걸린 소모성 부품을 이 리드타임 위에 올려두는 것 자체가 리스크 관리 실패입니다.</p>
+
+  <h2>국산화 전환 판단 체크리스트 — 5가지</h2>
+  <div class="check-list">
+    <div class="check-item">
+      <div class="check-box">☐ 1</div>
+      <div>
+        <div class="check-title">실물 또는 도면이 있는가</div>
+        <div class="check-desc">도면이 있으면 바로 제작 가능. 도면이 없어도 마모된 실물이 있으면 역설계로 치수 복원이 가능합니다. 3차원 측정으로 내경·외경·폭·홈 곡률을 실측하고 마모량을 보정해 원 설계 치수를 추정합니다. 단, 궤도면이 완전히 부서진 파손품은 정밀 복원이 어렵습니다.</div>
+      </div>
+    </div>
+    <div class="check-item">
+      <div class="check-box">☐ 2</div>
+      <div>
+        <div class="check-title">소재를 특정할 수 있는가</div>
+        <div class="check-desc">단면 분석으로 강종(STS304/316, 크롬강, 세라믹 등)과 열처리 상태를 확인합니다. 사용 환경(온도·약품·클린룸 등급)을 알려주면 원품과 동일 소재 또는 환경에 더 맞는 소재로 제안이 가능합니다.</div>
+      </div>
+    </div>
+    <div class="check-item">
+      <div class="check-box">☐ 3</div>
+      <div>
+        <div class="check-title">정밀 등급이 국산화 범위인가</div>
+        <div class="check-desc">일반 회전부·컨베이어·반송부 베어링(P0~P5급)은 국산화 대상입니다. 단, 초고속 스핀들용 P4 초과 초정밀 앵귤러 베어링은 전용 연삭 설비 영역이라 정품 수급이 원칙입니다. 이 구분을 명확히 해주는 업체를 선택하십시오.</div>
+      </div>
+    </div>
+    <div class="check-item">
+      <div class="check-box">☐ 4</div>
+      <div>
+        <div class="check-title">설비 보증(워런티)에 문제가 없는가</div>
+        <div class="check-desc">신규 장비의 제조사 보증이 살아있다면 임의 부품 교체로 보증이 소멸될 수 있습니다. 보증 기간 중이면 제조사 협의가 먼저이고, 보증이 끝난 노후·단종 설비가 국산화의 주 대상입니다.</div>
+      </div>
+    </div>
+    <div class="check-item">
+      <div class="check-box">☐ 5</div>
+      <div>
+        <div class="check-title">파손 원인이 규명되었는가</div>
+        <div class="check-desc">원인 불명의 조기 파손이 반복되는 품목은 같은 사양으로 다시 만들면 같은 파손이 반복됩니다. 그리스 사양, 클리어런스, 소재가 환경과 맞는지 원인 분석이 우선입니다. 이때는 원품 복제가 아니라 사양 개선 제작이 답입니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <h2>수입 대기 vs 국산화 — 비교</h2>
+  <table class="compare-table">
+    <thead>
+      <tr>
+        <th>구분</th>
+        <th>수입 재발주 대기</th>
+        <th>국산화 (역설계 제작)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>납기</strong></td>
+        <td class="td-bad">8~16주 + 선적·통관</td>
+        <td class="td-good">7일 이내</td>
+      </tr>
+      <tr>
+        <td><strong>단종 대응</strong></td>
+        <td class="td-bad">불가 (생산 거부)</td>
+        <td class="td-good">실물 역설계로 가능</td>
+      </tr>
+      <tr>
+        <td><strong>MOQ</strong></td>
+        <td class="td-bad">제조사 최소 로트 단위</td>
+        <td class="td-good">1개부터</td>
+      </tr>
+      <tr>
+        <td><strong>사양 변경</strong></td>
+        <td class="td-bad">불가 (카탈로그 사양)</td>
+        <td class="td-good">환경 맞춤 개선 가능</td>
+      </tr>
+      <tr>
+        <td><strong>품질 검증</strong></td>
+        <td>제조사 브랜드 신뢰</td>
+        <td>치수 성적서 + 시제 1개 검증</td>
+      </tr>
+      <tr>
+        <td><strong>초정밀 스핀들(P4 초과)</strong></td>
+        <td class="td-good">정품 수급 원칙</td>
+        <td class="td-bad">권하지 않음</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p><strong>품질 검증은 믿음이 아니라 수치로 합니다.</strong> 납품 시 실측 치수 성적서를 제공하는 업체를 선택하고, 첫 발주는 시제 1개로 장착 검증 후 정식 수량을 발주하십시오. KTN의 MOQ가 1개인 이유입니다.</p>
+  </div>
+
+  <h2>납기 지연이 터지기 전 — 지금 해둘 3가지</h2>
+  <p>국산화 전환의 최대 적은 시간입니다. 지연 통보를 받고 시작하면 시제 검증할 시간이 없습니다. 지금 해두십시오.</p>
+  <ul>
+    <li><strong>① 소모성 베어링 목록화</strong> — 품번·장착 위치·연간 사용량·현재 리드타임을 표로 정리</li>
+    <li><strong>② 마모품 보관</strong> — 교체 시 나오는 마모품을 폐기하지 말고 품번별 1~2개씩 보관. 역설계의 원본이 됩니다</li>
+    <li><strong>③ 시제 선행 검증</strong> — 리드타임이 가장 긴 품목부터 시제 1개를 미리 제작·장착 테스트. 검증된 국산화 옵션이 있으면 납기 지연은 더 이상 비상이 아닙니다</li>
+  </ul>
+
+  <div class="callout">
+    <p>꼭 KTN이 아니어도 됩니다. 다만 <strong>초정밀 스핀들까지 다 만들 수 있다고 말하는 업체는 오히려 피하십시오.</strong> 되는 것과 안 되는 것을 구분해서 말하는 업체가 치수 성적서도 정직하게 씁니다.</p>
+  </div>
+
+  <div class="faq-section">
+    <h2>자주 묻는 질문</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">수입 베어링 납기는 왜 이렇게 오래 걸리나요?</div>
+      <div class="faq-a">특수 사양(비표준 치수·특수 소재·플랜지형)은 재고가 없어 본사 생산 일정에 들어갑니다. 유럽·일본 제조사의 특수품 생산 리드타임은 통상 8~16주이고, 선적·통관과 대리점 경유 단계가 더해집니다. 단종 모델은 생산 자체를 거부당하기도 합니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">도면이 없는 수입 베어링도 국산화가 가능한가요?</div>
+      <div class="faq-a">가능합니다. 마모된 실물에서 3차원 측정으로 치수를 실측하고 마모량을 보정해 원 설계 치수를 복원합니다. 소재는 단면 분석으로 강종과 열처리를 확인합니다. KTN은 이 방식으로 누적 2,479건을 제작했습니다. 단, 궤도면이 남아있지 않은 완파품은 정밀 복원이 어려우므로 마모품을 미리 보관해 두는 것이 중요합니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">국산화 제작 납기와 품질 수준은 어느 정도인가요?</div>
+      <div class="faq-a">KTN 기준 맞춤 제작 납기 7일 이내, 가공 정밀도 ±0.001mm입니다. 납품 시 실측 치수 성적서를 제공해 원품과 직접 비교 검증할 수 있습니다. 첫 발주는 시제 1개(MOQ 1개)로 장착 검증 후 정식 수량 발주를 권장합니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">국산화가 어렵거나 권하지 않는 경우도 있나요?</div>
+      <div class="faq-a">① 초고속 스핀들용 초정밀 등급(P4 초과) 앵귤러 베어링 — 정품 수급 원칙, ② 제조사 보증이 살아있는 신규 장비 — 보증 소멸 위험이 있어 제조사 협의 우선, ③ 파손 원인 미규명 품목 — 같은 사양 재제작은 같은 파손을 반복하므로 원인 분석이 먼저입니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">국산화 전환을 준비하려면 지금 무엇을 해두면 되나요?</div>
+      <div class="faq-a">① 소모성 베어링 목록화(품번·위치·연간 사용량), ② 교체 시 나오는 마모품을 품번별 1~2개 보관(역설계 원본), ③ 리드타임 긴 품목부터 시제 1개 선행 제작·검증. 지연 통보 후 시작하면 검증 시간이 없어 라인 정지를 피하기 어렵습니다.</div>
+    </div>
+  </div>
+
+  <div class="art-cta">
+    <h2>납기 지연, 기다리는 것만이 답은 아닙니다</h2>
+    <p>품번 또는 마모품 사진을 보내주시면 국산화 가능 여부와 납기를 당일 회신합니다.<br>도면이 없어도 됩니다 — 실물 역설계 2,479건의 방식 그대로 진행합니다.</p>
+    <a href="tel:01023405791" class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
+      010-2340-5791
+    </a>
+    <div class="cta-sub">평일 09:00~18:00 / 긴급 문의 24시간 접수</div>
+  </div>
+
+  <div class="related">
+    <h3>관련 인사이트</h3>
+    <div class="related-grid">
+      <a href="/insights/reverse-engineering-emergency-response.html" class="related-card">
+        <div class="related-card-tag">역설계</div>
+        <div class="related-card-title">도면 없어서 발주 못 한다고요?</div>
+      </a>
+      <a href="/insights/semiconductor-line-stop-emergency-7day-bearing.html" class="related-card">
+        <div class="related-card-tag">문제해결</div>
+        <div class="related-card-title">반도체 라인 정지 — 7일 내 긴급 베어링 대응</div>
+      </a>
+      <a href="/insights/special-bearing-procurement.html" class="related-card">
+        <div class="related-card-tag">조달·업체</div>
+        <div class="related-card-title">특수 베어링 조달 가이드</div>
+      </a>
+    </div>
+  </div>
+
+</main>
+
+<footer class="art-footer">
+  <p>© 2026 KTN KOREA. 포브스코리아 CSV 대상 2026 수상 · 대표 박정훈 · 010-2340-5791</p>
+  <p style="margin-top:8px"><a href="https://ktnkorea.com" style="color:var(--g3);text-decoration:none">ktnkorea.com</a> · <a href="/insights" style="color:var(--g3);text-decoration:none">기술 인사이트</a></p>
+</footer>
+
+</body>
+</html>
