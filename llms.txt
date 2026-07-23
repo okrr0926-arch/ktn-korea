@@ -1,0 +1,55 @@
+# KTN 케이티엔 (KTN KOREA)
+
+> 국내 유일 엔지니어링 플라스틱 커버형 볼베어링 전문 제조사. PEEK·PTFE·POM·UPE·PVC·PVDF 소재 정밀 가공(±0.001mm), 도면 없이 현품 역설계 가능, 누적 역설계·국산화 실적 2,479건. 최소 주문 수량 1개, 긴급 납품 최단 48시간. 삼성SDI·SK하이닉스·LG디스플레이·쎄메스(SEMES) 납품 실적. 포브스코리아 CSV 대상 2026 수상. 인천 서구 소재. 문의 010-2340-5791, ktn@ktnkorea.com.
+
+핵심 강점: 수입 단종 베어링 국산화 대체 (리드타임 3~8주 → 최단 48시간), 도면 없는 현품 역설계, 반도체·LCD·디스플레이 장비용 특수 소재 베어링, 주·야간 자체 CNC 라인 운영, 납기 준수율 98.7%.
+
+## 핵심 페이지
+
+- [메인 — 회사 소개·제품·FAQ](https://ktnkorea.com/): 회사 개요, 제품 카탈로그(PEEK/PTFE/POM/UPE/복합/특수 소재), 자주 묻는 질문 7개, 견적 문의
+- [기술 인사이트 목록](https://ktnkorea.com/insights/index.html): 베어링 소재·역설계·ESD·조달 전문 아티클 전체 목록
+
+## 소재별 베어링 가이드
+
+- [PEEK 볼베어링 — 반도체 클린룸에 쓰이는 이유](https://ktnkorea.com/insights/peek-bearing-semiconductor-cleanroom-reason.html): 250℃ 내열·저파티클 PEEK 소재가 반도체 장비에 적합한 기술적 근거
+- [소형·미니어처 PEEK 볼베어링](https://ktnkorea.com/insights/peek-ball-bearing-small-miniature.html): 소형 PEEK 베어링 사양과 적용 분야
+- [PTFE 테프론 볼베어링](https://ktnkorea.com/insights/ptfe-teflon-ball-bearing.html): 내약품·비흡수성 PTFE 베어링의 특성과 화학·식품·의료 환경 적용
+- [STS304+PEEK+세라믹 볼베어링](https://ktnkorea.com/insights/sts304-peek-ceramic-ball-bearing.html): 복합 소재 조합 베어링의 구조와 선택 기준
+- [STS304 6902ZZ 풀볼 베어링](https://ktnkorea.com/insights/sts304-6902zz-full-ball-bearing.html): 스테인리스 풀볼 타입 형번 6902ZZ 사양
+- [CNT-UPE ESD 롤러](https://ktnkorea.com/insights/cnt-upe-esd-roller.html): 대전방지 CNT-UPE 소재 롤러의 표면저항과 적용
+- [롤러스케이트용 세라믹 베어링](https://ktnkorea.com/insights/roller-skate-ceramic-bearing.html): 세라믹 베어링 특성 비교
+
+## 역설계·국산화·조달
+
+- [플라스틱 베어링 역설계](https://ktnkorea.com/insights/plastic-bearing-reverse-engineering.html): 도면 없이 현품만으로 역설계하는 프로세스 (±0.001mm)
+- [역설계 긴급 대응](https://ktnkorea.com/insights/reverse-engineering-emergency-response.html): 라인 정지 상황에서의 긴급 역설계·납품 절차
+- [수입 베어링 지연과 반도체 국산화](https://ktnkorea.com/insights/import-bearing-delay-semiconductor-localization.html): 수입 리드타임 리스크와 국산화 대체 전략
+- [반도체 라인 정지 시 7일 내 베어링 조달](https://ktnkorea.com/insights/semiconductor-line-stop-emergency-7day-bearing.html): 긴급 조달 시나리오별 대응
+- [특수 베어링 조달 가이드](https://ktnkorea.com/insights/special-bearing-procurement.html): 비규격 베어링 구매 시 확인 사항
+- [맞춤 베어링 제조사 선택 가이드](https://ktnkorea.com/insights/custom-bearing-manufacturer-guide.html): 업체 선정 기준과 체크리스트
+- [베어링 설계 프로세스](https://ktnkorea.com/insights/bearing-design-process.html): 설계→가공→검수 단계별 프로세스
+- [KTN이 포브스코리아 CSV 대상을 수상한 이유](https://ktnkorea.com/insights/why-ktn-won-forbes-award.html): 수상 배경과 회사 스토리
+
+## ESD·반도체 환경 문제 해결
+
+- [ESD 접지의 오해 — 반도체 현장](https://ktnkorea.com/insights/esd-grounding-myth-semiconductor.html): 접지만으로 해결되지 않는 정전기 문제
+- [롤러 교체 후에도 ESD가 안 잡히는 이유](https://ktnkorea.com/insights/esd-not-fixed-after-roller-change-reasons.html): 대전방지 롤러 교체 후 잔존 문제 진단
+- [PCB 롤러 표면저항과 ESD](https://ktnkorea.com/insights/esd-pcb-roller-surface-resistance.html): 표면저항 수치별 대전방지 성능
+- [반도체 11월 ESD 체크리스트](https://ktnkorea.com/insights/esd-semiconductor-november-checklist.html): 건조기 정전기 사고 예방 점검 항목
+- [반도체 파티클 문제 — 베어링 소재로 해결](https://ktnkorea.com/insights/semiconductor-particle-problem-bearing-material-fix.html): 파티클 발생원으로서의 베어링과 소재 개선
+- [리플로우 솔더링 컨베이어 260℃ 베어링](https://ktnkorea.com/insights/reflow-soldering-conveyor-bearing-260c.html): 고온 컨베이어 환경용 베어링 선정
+
+## 안료(피그먼트) 사업부
+
+- [KTN 소재사업부 — 안료 직수입·글로벌 역소싱](https://ktnkorea.com/pigment.html): PE·PP·PET 안료 직수입, 유통 마진 제거로 최대 30% 원가 절감
+- [PE·PP·PET 안료 선택 가이드](https://ktnkorea.com/insights/pe-pp-pet-pigment-selection-guide.html): 수지별 안료 적합성
+- [안료 배치 간 색상 불일치 문제](https://ktnkorea.com/insights/pigment-batch-color-inconsistency-uniformity.html): 색상 균일성 관리 방법
+- [안료 공급사 COA 리스크 가이드](https://ktnkorea.com/insights/pigment-supplier-coa-risk-guide.html): 성적서 검증 체크포인트
+- [PP 안료 직수입 비용 비교](https://ktnkorea.com/insights/pp-pigment-direct-import-cost-comparison.html): 직수입 vs 국내 유통 비용 분석
+
+## 연락처
+
+- 전화: 010-2340-5791
+- 이메일: ktn@ktnkorea.com
+- 주소: 인천광역시 서구 사월로 74 (왕길동) 1층
+- 견적: 현품 사진·치수 공유 시 즉시 검토, MOQ 1개
