@@ -12,10 +12,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
   <meta name="description" content="KTN KOREA 기술 인사이트 — PEEK·PTFE·POM·UPE·ESD 베어링 소재 선택 가이드, 역설계 노하우, 납기 단축 전략. 20년 경력 마이스터가 직접 씁니다."/>
   <meta name="robots" content="index, follow"/>
-  <link rel="canonical" href="https://ktn-korea.com/insights/"/>
+  <link rel="canonical" href="https://ktnkorea.com/insights/"/>
   <meta property="og:title" content="KTN 기술 인사이트 | 엔지니어링 플라스틱 베어링 전문 지식"/>
   <meta property="og:description" content="PEEK·ESD·PTFE 베어링 소재 선택부터 역설계·납기 단축까지. KTN KOREA 20년 마이스터의 현장 지식."/>
-  <meta property="og:url" content="https://ktn-korea.com/insights/"/>
+  <meta property="og:url" content="https://ktnkorea.com/insights/"/>
   <meta property="og:type" content="website"/>
   <title>기술 인사이트 | KTN 케이티엔 — 엔지니어링 플라스틱 베어링 전문 지식</title>
 
@@ -23,19 +23,19 @@
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "@id": "https://ktn-korea.com/insights/",
+    "@id": "https://ktnkorea.com/insights/",
     "name": "KTN 기술 인사이트",
     "description": "엔지니어링 플라스틱 베어링 소재 선택, 역설계, 납기 단축에 관한 20년 현장 전문 지식 모음.",
     "publisher": {
       "@type": "Organization",
       "name": "KTN 케이티엔",
-      "url": "https://ktn-korea.com"
+      "url": "https://ktnkorea.com"
     },
     "breadcrumb": {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "KTN 홈", "item": "https://ktn-korea.com"},
-        {"@type": "ListItem", "position": 2, "name": "기술 인사이트", "item": "https://ktn-korea.com/insights/"}
+        {"@type": "ListItem", "position": 1, "name": "KTN 홈", "item": "https://ktnkorea.com"},
+        {"@type": "ListItem", "position": 2, "name": "기술 인사이트", "item": "https://ktnkorea.com/insights/"}
       ]
     }
   }
@@ -100,10 +100,10 @@
     /* 글 목록 */
     .articles{padding:3rem 0 5rem}
     .articles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1px;background:#1a1a1a}
-    .article-card{position:relative;padding:2rem;display:flex;flex-direction:column;gap:1rem;cursor:pointer;min-height:320px;overflow:hidden;background:var(--bg)}
-    .article-card::before{content:'';position:absolute;inset:0;background-image:var(--card-bg);background-size:cover;background-position:center;opacity:.25;transition:opacity .4s}
-    .article-card:hover::before{opacity:.4}
-    .article-card::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.85) 40%,rgba(0,0,0,.4) 100%)}
+    .article-card{position:relative;padding:186px 2rem 2rem;display:flex;flex-direction:column;gap:1rem;cursor:pointer;min-height:400px;overflow:hidden;background:var(--bg)}
+    .article-card::before{content:'';position:absolute;top:0;left:0;right:0;height:168px;background-image:var(--card-bg);background-size:cover;background-position:center;opacity:.95;transition:opacity .4s,transform .4s}
+    .article-card:hover::before{opacity:1;transform:scale(1.05)}
+    .article-card::after{content:'';position:absolute;top:0;left:0;right:0;height:168px;background:linear-gradient(to top,rgba(13,13,13,1) 0%,rgba(13,13,13,0) 38%);pointer-events:none}
     .article-card>*{position:relative;z-index:1}
     .card-top{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
     .card-tag{font-size:.7rem;font-family:var(--fm);color:var(--y);letter-spacing:.08em;background:rgba(234,179,8,.15);padding:.2rem .6rem;border:1px solid rgba(234,179,8,.4)}
@@ -225,7 +225,7 @@
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
 
-      <a href="pigment-supplier-coa-risk-guide.html" class="article-card" data-cat="pigment" style="--card-bg:url('../images/esd-roller-lineup.jpg')">
+      <a href="pigment-supplier-coa-risk-guide.html" class="article-card" data-cat="pigment" style="--card-bg:url('../images/pigment-pellets.png')">
         <div class="card-top">
           <span class="card-tag">조달·업체 · 안료 · COA</span>
           <span class="card-date">2026.07.20</span>
@@ -255,7 +255,7 @@
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
 
-      <a href="pp-pigment-direct-import-cost-comparison.html" class="article-card" data-cat="pigment" style="--card-bg:url('../images/esd-roller-lineup.jpg')">
+      <a href="pp-pigment-direct-import-cost-comparison.html" class="article-card" data-cat="pigment" style="--card-bg:url('../images/pigment-pellets.png')">
         <div class="card-top">
           <span class="card-tag">원가절감 · 안료 · 직수입</span>
           <span class="card-date">2026.07.14</span>
@@ -265,7 +265,7 @@
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
 
-      <a href="pe-pp-pet-pigment-selection-guide.html" class="article-card" data-cat="pigment" style="--card-bg:url('../images/esd-roller-lineup.jpg')">
+      <a href="pe-pp-pet-pigment-selection-guide.html" class="article-card" data-cat="pigment" style="--card-bg:url('../images/pigment-pellets.png')">
         <div class="card-top">
           <span class="card-tag">소재가이드 · PE·PP·PET · 안료</span>
           <span class="card-date">2026.07.09</span>
@@ -275,7 +275,7 @@
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
 
-      <a href="pigment-batch-color-inconsistency-uniformity.html" class="article-card" data-cat="pigment" style="--card-bg:url('../images/esd-roller-lineup.jpg')">
+      <a href="pigment-batch-color-inconsistency-uniformity.html" class="article-card" data-cat="pigment" style="--card-bg:url('../images/pigment-pellets.png')">
         <div class="card-top">
           <span class="card-tag">품질관리 · 안료 · 마스터배치</span>
           <span class="card-date">2026.07.07</span>
@@ -285,7 +285,7 @@
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
 
-      <a href="semiconductor-particle-problem-bearing-material-fix.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/esd-roller-lineup.jpg')">
+      <a href="semiconductor-particle-problem-bearing-material-fix.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/peek-ceramic-bearing-front.jpg')">
         <div class="card-top">
           <span class="card-tag">반도체 · 클린룸 · 파티클</span>
           <span class="card-date">2026.07.07</span>
@@ -294,7 +294,7 @@
         <div class="card-desc">클린룸 파티클의 주범이 베어링 마모 분진일 수 있습니다. PEEK·세라믹으로 교체한 후 파티클 카운트가 급감한 사례와 클린룸 등급별 소재 선택 기준을 수치로 정리합니다.</div>
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
-      <a href="esd-not-fixed-after-roller-change-reasons.html" class="article-card" data-cat="esd" style="--card-bg:url('../images/esd-roller-lineup.jpg')">
+      <a href="esd-not-fixed-after-roller-change-reasons.html" class="article-card" data-cat="esd" style="--card-bg:url('../images/esd-roller-closeup.jpg')">
         <div class="card-top">
           <span class="card-tag">ESD · 대전방지 · 트러블슈팅</span>
           <span class="card-date">2026.07.06</span>
@@ -303,7 +303,7 @@
         <div class="card-desc">대전방지 소재로 교체했는데도 불량이 계속된다면 접지 미연결·부분 교체·성적서 없는 소재 중 하나입니다. 표면저항 수치 기반으로 원인을 순서대로 진단합니다.</div>
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
-      <a href="esd-semiconductor-november-checklist.html" class="article-card" data-cat="esd" style="--card-bg:url('../images/esd-roller-lineup.jpg')">
+      <a href="esd-semiconductor-november-checklist.html" class="article-card" data-cat="esd" style="--card-bg:url('../images/esd-roller-detail.jpg')">
         <div class="card-top">
           <span class="card-tag">ESD · 대전방지 · 겨울 계절성</span>
           <span class="card-date">2026.07.03</span>
@@ -312,7 +312,7 @@
         <div class="card-desc">겨울마다 같은 위치에서 정전기 불량이 반복된다면 — 소재 표면저항이 문제입니다. 10¹²Ω 롤러는 접지로 해결되지 않습니다. 11월 전 점검 체크리스트와 교체 판단 기준 수치를 공개합니다.</div>
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
-      <a href="esd-grounding-myth-semiconductor.html" class="article-card" data-cat="esd" style="--card-bg:url('../images/esd-roller-lineup.jpg')">
+      <a href="esd-grounding-myth-semiconductor.html" class="article-card" data-cat="esd" style="--card-bg:url('../images/esd-roller-product.jpg')">
         <div class="card-top">
           <span class="card-tag">ESD · 대전방지 · 반도체</span>
           <span class="card-date">2026.07.03</span>
@@ -322,7 +322,7 @@
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
 
-      <a href="semiconductor-line-stop-emergency-7day-bearing.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/esd-roller-lineup.jpg')">
+      <a href="semiconductor-line-stop-emergency-7day-bearing.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/6901-open-main.jpg')">
         <div class="card-top">
           <span class="card-tag">조달·업체 · 긴급납기 · 반도체</span>
           <span class="card-date">2026.07.02</span>
@@ -362,7 +362,7 @@
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
 
-      <a href="why-ktn-won-forbes-award.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/forbes-award-ceremony.jpg')">
+      <a href="why-ktn-won-forbes-award.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/forbes-award-trophy.jpg')">
         <div class="card-top">
           <span class="card-tag">업체 선택 가이드</span>
           <span class="card-date">2026.06.23</span>
@@ -412,7 +412,7 @@
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
 
-      <a href="reverse-engineering-emergency-response.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/forbes-award-ceremony.jpg')">
+      <a href="reverse-engineering-emergency-response.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/sts304-bearing-side.jpg')">
         <div class="card-top">
           <span class="card-tag">업체 선택 가이드 · 역설계 · 긴급 납기</span>
           <span class="card-date">2026.06.23</span>
@@ -422,7 +422,7 @@
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
 
-      <a href="plastic-bearing-reverse-engineering.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/forbes-award-ceremony.jpg')">
+      <a href="plastic-bearing-reverse-engineering.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/peek-outer-ring.jpg')">
         <div class="card-top">
           <span class="card-tag">업체 선택 가이드 · 플라스틱 베어링 · 역설계</span>
           <span class="card-date">2026.06.24</span>
@@ -432,7 +432,7 @@
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
 
-      <a href="special-bearing-procurement.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/forbes-award-ceremony.jpg')">
+      <a href="special-bearing-procurement.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/6902zz-sus304-inner.jpg')">
         <div class="card-top">
           <span class="card-tag">특수 베어링 · 조달 가이드</span>
           <span class="card-date">2026.06.28</span>
@@ -442,7 +442,7 @@
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
 
-      <a href="bearing-design-process.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/forbes-award-ceremony.jpg')">
+      <a href="bearing-design-process.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/peek-inner-ring.jpg')">
         <div class="card-top">
           <span class="card-tag">베어링 설계 · 제작 과정</span>
           <span class="card-date">2026.06.28</span>
@@ -452,7 +452,7 @@
         <div class="card-arrow">읽기 <svg viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       </a>
 
-      <a href="custom-bearing-manufacturer-guide.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/forbes-award-ceremony.jpg')">
+      <a href="custom-bearing-manufacturer-guide.html" class="article-card" data-cat="guide" style="--card-bg:url('../images/ptfe-bearing-product.jpg')">
         <div class="card-top">
           <span class="card-tag">베어링 업체 선택 · 커스텀 베어링</span>
           <span class="card-date">2026.06.28</span>
