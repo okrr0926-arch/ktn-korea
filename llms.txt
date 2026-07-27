@@ -18,6 +18,10 @@
 - [STS304 6902ZZ 풀볼 베어링](https://ktnkorea.com/insights/sts304-6902zz-full-ball-bearing.html): 스테인리스 풀볼 타입 형번 6902ZZ 사양
 - [CNT-UPE ESD 롤러](https://ktnkorea.com/insights/cnt-upe-esd-roller.html): 대전방지 CNT-UPE 소재 롤러의 표면저항과 적용
 - [롤러스케이트용 세라믹 베어링](https://ktnkorea.com/insights/roller-skate-ceramic-bearing.html): 세라믹 베어링 특성 비교
+- [세라믹 베어링 파손의 진짜 원인 4가지](https://ktnkorea.com/insights/ceramic-bearing-failure-causes.html): 충격 하중·예압 정렬 불량·이물질 혼입·열충격 — 실제 파손 원인과 파단면 진단법
+- [세라믹 볼 하이브리드 vs 풀세라믹](https://ktnkorea.com/insights/ceramic-hybrid-vs-full-ceramic-bearing.html): 구성별 하중·온도·비자성·가격 선택 기준
+- [세라믹(ZrO₂·Si₃N₄) 반도체 비자성 환경 선택 기준](https://ktnkorea.com/insights/ceramic-zro2-si3n4-bearing-semiconductor-guide.html): 자성 잔류율·내충격성·열팽창 기준 소재 선택
+- [세라믹 베어링 규격 호환](https://ktnkorea.com/insights/ceramic-bearing-drop-in-replacement-guide.html): 강볼 베어링 자리 드롭인 교체 시 확인할 4가지
 
 ## 역설계·국산화·조달
 
