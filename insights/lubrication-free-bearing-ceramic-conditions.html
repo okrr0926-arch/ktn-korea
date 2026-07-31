@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NGN68D5Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0NGN68D5Y5');
+  </script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="'세라믹이면 그리스 안 발라도 되나요?' — 절반만 맞습니다. 무급유가 실제로 성립하는 3가지 조건(하중, 속도, 케이지 소재)과 무급유 세라믹 베어링이 오히려 조기 마모되는 경우를 정리했습니다."/>
+  <meta name="keywords" content="무급유 베어링, 그리스리스 베어링, 오일리스 베어링, 세라믹 베어링 고온, Si3N4 무급유, 무급유 베어링 조건, 그리스 없는 베어링, 무급유 베어링 수명"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="author" content="박정훈 — KTN KOREA 대표"/>
+  <link rel="canonical" href="https://ktnkorea.com/insights/lubrication-free-bearing-ceramic-conditions.html"/>
+  <link rel="icon" type="image/png" href="/images/logo.png"/>
+
+  <meta property="og:type" content="article"/>
+  <meta property="og:locale" content="ko_KR"/>
+  <meta property="og:title" content="&quot;세라믹이면 그리스 안 발라도 되죠?&quot; — 절반만 맞는 말입니다 | KTN KOREA"/>
+  <meta property="og:description" content="무급유가 실제로 성립하는 3가지 조건(하중, 속도, 케이지 소재)과 세라믹인데도 오히려 빨리 마모되는 경우를 정리했습니다."/>
+  <meta property="og:url" content="https://ktnkorea.com/insights/lubrication-free-bearing-ceramic-conditions.html"/>
+  <meta property="og:site_name" content="KTN 케이티엔"/>
+  <meta property="og:image" content="https://ktnkorea.com/images/ceramic-full-white-bearing-hero.png"/>
+  <meta property="article:author" content="박정훈"/>
+  <meta property="article:published_time" content="2026-07-28"/>
+
+  <title>"세라믹이면 그리스 안 발라도 되죠?" — 절반만 맞는 말입니다 | KTN 케이티엔</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://ktnkorea.com/insights/lubrication-free-bearing-ceramic-conditions#article",
+        "headline": "\"세라믹이면 그리스 안 발라도 되죠?\" — 절반만 맞는 말입니다",
+        "description": "무급유가 실제로 성립하는 3가지 조건(하중, 속도, 케이지 소재)과 세라믹 베어링이 무급유 상태에서 오히려 조기 마모되는 경우를 정리했습니다.",
+        "datePublished": "2026-07-28",
+        "dateModified": "2026-07-28",
+        "image": "https://ktnkorea.com/images/ceramic-full-white-bearing-hero.png",
+        "author": {
+          "@type": "Person",
+          "name": "박정훈",
+          "jobTitle": "KTN KOREA 대표",
+          "url": "https://ktnkorea.com/#founder",
+          "description": "20년 베어링 & 정밀 가공 기술 마이스터. 세라믹·PEEK·STS 특수 베어링 설계·제조, 역설계 2,479건.",
+          "worksFor": {"@type": "Organization", "name": "KTN KOREA"}
+        },
+        "publisher": {"@type": "Organization", "name": "KTN 케이티엔", "url": "https://ktnkorea.com"},
+        "mainEntityOfPage": "https://ktnkorea.com/insights/lubrication-free-bearing-ceramic-conditions",
+        "keywords": "무급유 베어링, 그리스리스 베어링, 오일리스 베어링, 세라믹 베어링 고온, Si3N4 무급유"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "KTN 홈", "item": "https://ktnkorea.com"},
+          {"@type": "ListItem", "position": 2, "name": "기술 인사이트", "item": "https://ktnkorea.com/insights"},
+          {"@type": "ListItem", "position": 3, "name": "무급유 베어링 — 세라믹 조건", "item": "https://ktnkorea.com/insights/lubrication-free-bearing-ceramic-conditions"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "세라믹 베어링이면 무조건 그리스 없이 쓸 수 있나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "아닙니다. 세라믹(Si₃N₄)은 표면 마찰이 낮고 금속과 응착(cold welding)이 일어나지 않는 성질 덕분에 무급유 운전이 '가능한' 소재일 뿐, '항상 되는' 소재는 아닙니다. 실제 무급유가 성립하려면 하중, 회전속도(DN값), 케이지 소재 3가지 조건이 함께 맞아야 합니다. 이 중 하나라도 벗어나면 세라믹이라도 조기 마모나 소착이 발생합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "무급유 세라믹 베어링이 성립하는 조건은 구체적으로 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "3가지입니다. 첫째, 하중이 정격 하중의 중간 이하일 것 — 고하중에서는 세라믹도 접촉면 발열이 커져 무급유 한계를 넘습니다. 둘째, DN값(내경mm × rpm)이 제조사 무급유 권장 상한 이내일 것 — 이를 넘으면 저속에서도 무급유 자체가 성립하지 않습니다. 셋째, 케이지가 PTFE 등 자기윤활 소재일 것 — 케이지가 볼에 미세 윤활막을 전이시키는 구조가 있어야 그리스 없이도 마찰이 줄어듭니다. 이 3가지가 함께 맞을 때만 무급유가 실제로 작동합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "무급유로 썼는데 오히려 더 빨리 마모되는 경우는 왜 생기나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "케이지 소재가 맞지 않는 경우가 가장 흔합니다. 금속 케이지나 일반 수지 케이지로 무급유 운전을 하면 윤활막 전이가 일어나지 않아, 세라믹 볼이라도 케이지와의 마찰로 인한 발열·마모가 누적됩니다. 또한 DN값이 상한을 초과한 상태로 무급유를 시도하면 볼과 궤도면 접촉부의 순간 발열이 재료 강도를 넘어서 미세 파손이 시작될 수 있습니다. 두 경우 모두 '세라믹이니까 괜찮겠지'라는 가정에서 조건 확인을 건너뛴 결과입니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "무급유가 안 되는 조건이면 어떻게 해야 하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "무급유를 고집하기보다 저점도 그리스를 소량 충전하는 절충안이 현실적입니다. 세라믹 볼은 마찰이 낮아 일반 금속 베어링보다 훨씬 적은 그리스량으로도 윤활이 유지되며, 재급유 주기도 길어집니다. 완전 무급유가 필요한 클린룸·진공 환경이라면 하중과 DN값을 설계 단계에서 무급유 한계 이내로 낮추는 것이 우선이고, 그것이 어렵다면 그리스 충전형으로 사양을 바꾸는 것이 안전합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "우리 설비가 무급유 조건에 맞는지 어떻게 확인하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "축 하중, 회전수(RPM), 베어링 내경을 알려주시면 DN값을 계산해 무급유 권장 범위 내인지 확인해 드립니다. 케이지 소재도 함께 검토해 PTFE 자기윤활 케이지로 무급유가 가능한지, 저점도 그리스 충전형이 나은지 사양을 제안합니다. KTN은 도면 없이 실물 역설계(누적 2,479건)로도 대응하며, 정밀도 ±0.001mm, 납기 7일 이내, MOQ 1개부터 가능합니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    :root{--bg:#0D0D0D;--y:#EAB308;--w:#FFFFFF;--g1:#1A1A1A;--g2:#2A2A2A;--g3:#888;}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--w);font-family:'Noto Sans KR',sans-serif;line-height:1.7}
+
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 32px;border-bottom:1px solid #222;position:sticky;top:0;background:rgba(13,13,13,.95);backdrop-filter:blur(8px);z-index:100}
+    .nav-logo{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.3rem;letter-spacing:.08em;color:var(--w);text-decoration:none}
+    .nav-logo span{color:var(--y)}
+    .nav-right{display:flex;align-items:center;gap:16px}
+    .nav-back{font-size:.85rem;color:var(--g3);text-decoration:none;display:flex;align-items:center;gap:6px}
+    .nav-back:hover{color:var(--w)}
+    .nav-cta{background:var(--y);color:#000;font-weight:700;font-size:.82rem;padding:8px 16px;border-radius:4px;text-decoration:none;white-space:nowrap}
+
+    .art-hero{max-width:800px;margin:0 auto;padding:56px 24px 40px}
+    .breadcrumb{font-size:.78rem;color:var(--g3);margin-bottom:20px}
+    .breadcrumb a{color:var(--g3);text-decoration:none}
+    .breadcrumb a:hover{color:var(--y)}
+    .tag-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+    .tag{font-size:.75rem;background:var(--g2);color:var(--g3);padding:4px 10px;border-radius:20px;border:1px solid #333}
+    .tag.hot{background:rgba(234,179,8,.12);color:var(--y);border-color:rgba(234,179,8,.3)}
+    h1{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(2rem,5vw,2.8rem);line-height:1.1;margin-bottom:20px;letter-spacing:-.01em}
+    .art-meta{display:flex;align-items:center;gap:16px;font-size:.82rem;color:var(--g3);flex-wrap:wrap;margin-bottom:32px}
+    .summary-box{background:var(--g1);border-left:3px solid var(--y);padding:20px 24px;border-radius:0 8px 8px 0;font-size:.95rem;line-height:1.8;color:#ccc}
+    .summary-box strong{color:var(--w)}
+    .hero-figure{margin:28px 0 0}
+    .hero-figure img{width:100%;border-radius:8px;display:block}
+    .hero-figure figcaption{font-size:.75rem;color:var(--g3);margin-top:8px;font-family:'IBM Plex Mono',monospace}
+
+    .art-body{max-width:800px;margin:0 auto;padding:0 24px 80px}
+
+    .author-card{display:flex;align-items:center;gap:16px;background:var(--g1);border:1px solid #2a2a2a;border-radius:10px;padding:20px;margin-bottom:40px}
+    .author-avatar{width:52px;height:52px;border-radius:50%;background:var(--y);display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.4rem;color:#000;flex-shrink:0}
+    .author-info{flex:1}
+    .author-name{font-weight:700;font-size:.95rem;margin-bottom:4px}
+    .author-desc{font-size:.8rem;color:var(--g3);line-height:1.5}
+    .author-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(234,179,8,.1);border:1px solid rgba(234,179,8,.25);color:var(--y);font-size:.72rem;padding:3px 8px;border-radius:3px;margin-top:6px}
+
+    .spec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:32px 0}
+    .spec-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px;text-align:center}
+    .spec-num{font-family:'IBM Plex Mono',monospace;font-size:1.5rem;font-weight:600;color:var(--y);line-height:1.2}
+    .spec-lbl{font-size:.75rem;color:var(--g3);margin-top:4px}
+
+    .art-body h2{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1.6rem;color:var(--w);margin:44px 0 16px;letter-spacing:.01em}
+    .art-body h3{font-size:1.05rem;font-weight:700;color:var(--y);margin:28px 0 10px}
+    .art-body p{font-size:.95rem;color:#ccc;margin-bottom:16px;line-height:1.8}
+    .art-body ul{margin:0 0 20px 20px}
+    .art-body li{font-size:.93rem;color:#ccc;margin-bottom:8px;line-height:1.7}
+
+    .cause-list{display:flex;flex-direction:column;gap:16px;margin:20px 0}
+    .cause-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:18px 20px;display:flex;gap:16px;align-items:flex-start}
+    .cause-num{font-family:'IBM Plex Mono',monospace;font-size:1.2rem;font-weight:600;color:var(--y);min-width:36px}
+    .cause-title{font-weight:700;font-size:.95rem;margin-bottom:6px}
+    .cause-desc{font-size:.88rem;color:#aaa;line-height:1.65}
+
+    .compare-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.88rem}
+    .compare-table th{background:var(--g2);color:var(--g3);font-weight:600;padding:12px 14px;text-align:left;border:1px solid #333}
+    .compare-table td{padding:12px 14px;border:1px solid #2a2a2a;color:#ccc;vertical-align:top}
+    .compare-table tr:hover td{background:rgba(255,255,255,.02)}
+    .td-bad{color:#f87171}
+    .td-good{color:#4ade80}
+
+    .callout{background:rgba(234,179,8,.07);border:1px solid rgba(234,179,8,.25);border-radius:8px;padding:20px 24px;margin:32px 0}
+    .callout p{color:var(--w);font-size:.95rem;margin:0;line-height:1.7}
+    .callout strong{color:var(--y)}
+
+    .criteria-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:20px 0}
+    .criteria-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px}
+    .criteria-check{color:var(--y);font-size:1.1rem;margin-bottom:8px}
+    .criteria-title{font-weight:700;font-size:.9rem;margin-bottom:4px}
+    .criteria-desc{font-size:.8rem;color:#999;line-height:1.5}
+
+    .faq-section{background:var(--g1);border-radius:12px;padding:32px;margin:48px 0}
+    .faq-section h2{font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;font-weight:700;margin-bottom:24px;color:var(--w)}
+    .faq-item{border-bottom:1px solid #2a2a2a;padding:20px 0}
+    .faq-item:last-child{border-bottom:none;padding-bottom:0}
+    .faq-q{font-weight:700;font-size:.95rem;color:var(--y);margin-bottom:10px;line-height:1.5}
+    .faq-a{font-size:.9rem;color:#bbb;line-height:1.75}
+
+    .art-cta{background:linear-gradient(135deg,var(--g1) 0%,#1a1600 100%);border:1px solid rgba(234,179,8,.25);border-radius:12px;padding:40px 32px;text-align:center;margin:48px 0}
+    .art-cta h2{font-family:'Barlow Condensed',sans-serif;font-size:1.8rem;font-weight:800;margin-bottom:12px}
+    .art-cta p{color:#bbb;font-size:.93rem;margin-bottom:24px;line-height:1.7}
+    .cta-btn{display:inline-flex;align-items:center;gap:8px;background:var(--y);color:#000;font-weight:700;font-size:1rem;padding:14px 28px;border-radius:6px;text-decoration:none}
+    .cta-sub{margin-top:14px;font-size:.8rem;color:var(--g3)}
+
+    .related{margin:48px 0}
+    .related h3{font-family:'Barlow Condensed',sans-serif;font-size:1.2rem;font-weight:700;margin-bottom:16px;color:var(--g3);letter-spacing:.05em;text-transform:uppercase}
+    .related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .related-card{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px;text-decoration:none;display:block;transition:border-color .2s}
+    .related-card:hover{border-color:var(--y)}
+    .related-card-tag{font-size:.72rem;color:var(--g3);margin-bottom:6px}
+    .related-card-title{font-size:.88rem;font-weight:700;color:var(--w);line-height:1.4}
+
+    .art-footer{border-top:1px solid #1a1a1a;padding:32px 24px;text-align:center;font-size:.8rem;color:var(--g3);max-width:800px;margin:0 auto}
+
+    @media(max-width:600px){
+      .spec-grid{grid-template-columns:repeat(2,1fr)}
+      .nav{padding:14px 16px}
+      .art-hero,.art-body{padding-left:16px;padding-right:16px}
+      .author-card{flex-direction:column;align-items:flex-start}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="https://ktnkorea.com" class="nav-logo">KTN<span>KOREA</span></a>
+  <div class="nav-right">
+    <a href="/insights" class="nav-back">← 인사이트 목록</a>
+    <a href="tel:01023405791" class="nav-cta">긴급 문의 010-2340-5791</a>
+  </div>
+</nav>
+
+<header class="art-hero">
+  <div class="breadcrumb">
+    <a href="https://ktnkorea.com">홈</a> &rsaquo;
+    <a href="/insights">기술 인사이트</a> &rsaquo;
+    세라믹 베어링
+  </div>
+  <div class="tag-row">
+    <span class="tag hot">환경별</span>
+    <span class="tag">무급유·그리스리스</span>
+    <span class="tag">Si₃N₄</span>
+  </div>
+  <h1>"세라믹이면 그리스 안 발라도 되죠?" —<br>절반만 맞는 말입니다</h1>
+  <div class="art-meta">
+    <span>박정훈 · KTN KOREA 대표</span>
+    <span>2026.07.28</span>
+    <span>기술 인사이트</span>
+  </div>
+  <div class="summary-box">
+    세라믹 베어링을 문의하는 분 절반은 이 질문부터 합니다. "그리스 안 발라도 되죠?" 맞을 수도, 틀릴 수도 있습니다. <strong>세라믹은 무급유가 '가능한' 소재이지 '항상 되는' 소재가 아닙니다.</strong> 하중·속도·케이지, 이 3가지가 맞아야 실제로 성립합니다. 조건을 확인 안 하고 무급유로 쓰다가 더 빨리 망가지는 경우까지 정리합니다.
+  </div>
+  <figure class="hero-figure">
+    <img src="../images/ceramic-full-white-bearing-hero.png" alt="풀세라믹 볼베어링 — 아이보리색 지르코니아(ZrO₂) 소재로 된 외륜·내륜·볼, 그리스 없이 무급유 운전이 가능한 구조" loading="lazy"/>
+    <figcaption>그리스 없이 도는 풀세라믹 베어링 — 외륜·내륜·볼 전부 세라믹 소재</figcaption>
+  </figure>
+</header>
+
+<main class="art-body">
+
+  <div class="author-card">
+    <div class="author-avatar">박</div>
+    <div class="author-info">
+      <div class="author-name">박정훈 · KTN KOREA 대표</div>
+      <div class="author-desc">20년 베어링 & 정밀 가공 기술 마이스터.<br>세라믹·PEEK·STS 특수 베어링 설계·제조, 역설계 2,479건.</div>
+      <div class="author-badge">포브스코리아 CSV 대상 2026</div>
+    </div>
+  </div>
+
+  <div class="spec-grid">
+    <div class="spec-item">
+      <div class="spec-num">3가지</div>
+      <div class="spec-lbl">무급유 성립 조건</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-num">7일 이내</div>
+      <div class="spec-lbl">맞춤 제작 납기</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-num">MOQ 1개</div>
+      <div class="spec-lbl">최소 발주 수량</div>
+    </div>
+  </div>
+
+  <h2>"세라믹=무급유"는 절반만 맞는 공식이다</h2>
+  <p>세라믹(Si₃N₄) 볼은 표면 마찰이 낮고, 금속 볼과 달리 링과 응착(cold welding)이 일어나지 않습니다. 이 성질 때문에 "세라믹이면 그리스 없이 돌릴 수 있다"는 인식이 퍼져 있습니다. <strong>틀린 말은 아니지만, 조건 없이 항상 성립하는 것도 아닙니다.</strong></p>
+  <p>무급유가 실제로 작동하려면 세라믹이라는 소재 하나만으로는 부족합니다. <strong>하중, 회전속도, 케이지 소재</strong> — 이 3가지가 함께 맞아야 합니다.</p>
+
+  <h2>무급유가 실제로 성립하는 3가지 조건</h2>
+  <div class="cause-list">
+    <div class="cause-item">
+      <div class="cause-num">01</div>
+      <div>
+        <div class="cause-title">하중 — 정격의 중간 이하</div>
+        <div class="cause-desc">하중이 높으면 세라믹이라도 볼-궤도면 접촉부의 발열이 커집니다. 그리스가 하던 열 방출·마찰 저감 역할을 볼 소재 하나로 감당해야 하므로, 고하중에서는 무급유 한계를 쉽게 넘습니다. 정격 하중의 중간 이하 영역에서만 무급유가 안정적으로 작동합니다.</div>
+      </div>
+    </div>
+    <div class="cause-item">
+      <div class="cause-num">02</div>
+      <div>
+        <div class="cause-title">DN값 — 제조사 무급유 상한 이내</div>
+        <div class="cause-desc">DN값은 베어링 내경(mm) × 회전수(rpm)로 계산하는 속도 지표입니다. 이 값이 제조사가 제시하는 무급유 권장 상한을 넘으면, 저속처럼 느껴져도 실제로는 무급유가 성립하지 않는 영역입니다. 발주 전 실사용 RPM 기준으로 DN값을 계산해야 합니다.</div>
+      </div>
+    </div>
+    <div class="cause-item">
+      <div class="cause-num">03</div>
+      <div>
+        <div class="cause-title">케이지 — PTFE 등 자기윤활 소재</div>
+        <div class="cause-desc">무급유가 작동하는 실제 메커니즘은 PTFE 케이지가 볼과 마찰하며 미세한 윤활막을 볼 표면에 전이시키는 구조입니다. 케이지가 금속이나 일반 수지라면 이 전이가 일어나지 않아, 세라믹 볼이라도 그리스 없이는 마찰이 그대로 남습니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p><strong>세라믹이라서 무급유가 되는 게 아니라, 3가지 조건이 맞을 때 세라믹이 무급유를 버텨주는 겁니다.</strong> 순서가 반대로 알려진 경우가 많습니다.</p>
+  </div>
+
+  <h2>조건을 무시하면 — 세라믹인데도 더 빨리 망가진다</h2>
+  <table class="compare-table">
+    <thead>
+      <tr>
+        <th>조건 미충족</th>
+        <th>실제 나타나는 문제</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>고하중 상태로 무급유</strong></td>
+        <td class="td-bad">접촉부 발열 누적 → 미세 파손 조기 진행</td>
+      </tr>
+      <tr>
+        <td><strong>DN값 초과 상태로 무급유</strong></td>
+        <td class="td-bad">저속처럼 보여도 실제 순간 발열이 재료 한계 초과</td>
+      </tr>
+      <tr>
+        <td><strong>금속/일반 수지 케이지 + 무급유</strong></td>
+        <td class="td-bad">윤활막 전이 없음 → 마찰 그대로 남아 마모 가속</td>
+      </tr>
+      <tr>
+        <td><strong>3가지 조건 모두 충족</strong></td>
+        <td class="td-good">그리스 관리 없이 연 단위 안정 운전 가능</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>조건이 안 맞으면 — 무급유를 고집하지 말 것</h2>
+  <p>무급유가 안 되는 조건이라고 세라믹을 포기할 필요는 없습니다. <strong>저점도 그리스를 소량 충전</strong>하는 절충안이 현실적입니다. 세라믹 볼은 마찰이 낮아 일반 금속 베어링보다 훨씬 적은 그리스량으로도 윤활이 유지되고, 재급유 주기도 깁니다.</p>
+  <p>클린룸·진공 환경처럼 완전 무급유가 반드시 필요한 경우라면, 설계 단계에서 하중과 DN값을 무급유 한계 이내로 낮추는 것이 우선이고, 그것이 어렵다면 그리스 충전형으로 사양을 바꾸는 것이 안전합니다.</p>
+
+  <h2>발주 전 확인 체크리스트</h2>
+  <div class="criteria-list">
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">축 하중 확인</div>
+      <div class="criteria-desc">정격 하중 대비 실사용 하중이 중간 이하인가</div>
+    </div>
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">DN값 계산</div>
+      <div class="criteria-desc">내경(mm) × RPM이 무급유 권장 상한 이내인가</div>
+    </div>
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">케이지 소재 지정</div>
+      <div class="criteria-desc">PTFE 등 자기윤활 케이지로 명시했는가</div>
+    </div>
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">대안 검토</div>
+      <div class="criteria-desc">조건 미충족 시 저점도 그리스 충전형을 함께 검토했는가</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p>꼭 KTN이 아니어도 됩니다. 다만 <strong>"세라믹이니까 무급유 됩니다"라고만 답하고 하중·속도를 묻지 않는 곳은 다시 확인하십시오.</strong> 조건 확인 없는 무급유 추천은 조기 고장의 시작입니다.</p>
+  </div>
+
+  <div class="faq-section">
+    <h2>자주 묻는 질문</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">세라믹 베어링이면 무조건 그리스 없이 쓸 수 있나요?</div>
+      <div class="faq-a">아닙니다. Si₃N₄는 마찰이 낮고 금속과 응착이 없어 무급유가 '가능한' 소재일 뿐, '항상 되는' 소재는 아닙니다. 하중, DN값, 케이지 소재 3가지 조건이 함께 맞아야 하며, 하나라도 벗어나면 세라믹이라도 조기 마모나 소착이 발생합니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">무급유 세라믹 베어링이 성립하는 조건은 구체적으로 무엇인가요?</div>
+      <div class="faq-a">① 하중이 정격의 중간 이하, ② DN값(내경mm×rpm)이 제조사 무급유 권장 상한 이내, ③ 케이지가 PTFE 등 자기윤활 소재. 이 3가지가 함께 맞을 때만 무급유가 실제로 작동합니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">무급유로 썼는데 오히려 더 빨리 마모되는 경우는 왜 생기나요?</div>
+      <div class="faq-a">케이지 소재가 맞지 않는 경우가 가장 흔합니다. 금속·일반 수지 케이지는 윤활막 전이가 없어 세라믹 볼이라도 마찰이 그대로 남습니다. DN값 초과 상태의 무급유도 접촉부 순간 발열이 재료 강도를 넘어 미세 파손을 일으킬 수 있습니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">무급유가 안 되는 조건이면 어떻게 해야 하나요?</div>
+      <div class="faq-a">무급유를 고집하기보다 저점도 그리스를 소량 충전하는 절충안이 현실적입니다. 세라믹 볼은 마찰이 낮아 적은 그리스량으로도 윤활이 유지되고 재급유 주기도 깁니다. 완전 무급유가 필요하면 설계 단계에서 하중·DN값을 낮추는 것이 우선입니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">우리 설비가 무급유 조건에 맞는지 어떻게 확인하나요?</div>
+      <div class="faq-a">축 하중, 회전수(RPM), 베어링 내경을 알려주시면 DN값을 계산해 무급유 권장 범위 내인지 확인해 드립니다. KTN은 도면 없이 실물 역설계(누적 2,479건)로도 대응하며, 정밀도 ±0.001mm, 납기 7일 이내, MOQ 1개부터 가능합니다.</div>
+    </div>
+  </div>
+
+  <div class="art-cta">
+    <h2>무급유, 조건부터 계산하고 결정하십시오</h2>
+    <p>축 하중·회전수(RPM)·베어링 내경을 알려주시면<br>DN값을 계산해 무급유 가능 여부와 케이지 사양을 함께 제시합니다.</p>
+    <a href="tel:01023405791" class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
+      010-2340-5791
+    </a>
+    <div class="cta-sub">평일 09:00~18:00 / 긴급 문의 24시간 접수</div>
+  </div>
+
+  <div class="related">
+    <h3>관련 인사이트</h3>
+    <div class="related-grid">
+      <a href="/insights/ceramic-hybrid-vs-full-ceramic-bearing.html" class="related-card">
+        <div class="related-card-tag">소재 가이드</div>
+        <div class="related-card-title">세라믹 볼 하이브리드 vs 풀세라믹 — 뭐가 다르고 언제 쓰나</div>
+      </a>
+      <a href="/insights/ceramic-bearing-failure-causes.html" class="related-card">
+        <div class="related-card-tag">문제해결</div>
+        <div class="related-card-title">몰랐다면 또 깨집니다 — 세라믹 베어링 파손의 진짜 원인 4가지</div>
+      </a>
+      <a href="/insights/reflow-soldering-conveyor-bearing-260c.html" class="related-card">
+        <div class="related-card-tag">고온 환경</div>
+        <div class="related-card-title">리플로우 컨베이어 베어링 — 260°C에서 살아남는 소재</div>
+      </a>
+    </div>
+  </div>
+
+</main>
+
+<footer class="art-footer">
+  <p>© 2026 KTN KOREA. 포브스코리아 CSV 대상 2026 수상 · 대표 박정훈 · 010-2340-5791</p>
+  <p style="margin-top:8px"><a href="https://ktnkorea.com" style="color:var(--g3);text-decoration:none">ktnkorea.com</a> · <a href="/insights" style="color:var(--g3);text-decoration:none">기술 인사이트</a></p>
+</footer>
+
+</body>
+</html>
