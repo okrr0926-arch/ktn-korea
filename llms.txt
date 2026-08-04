@@ -22,6 +22,7 @@
 - [세라믹 볼 하이브리드 vs 풀세라믹](https://ktnkorea.com/insights/ceramic-hybrid-vs-full-ceramic-bearing.html): 구성별 하중·온도·비자성·가격 선택 기준
 - [세라믹(ZrO₂·Si₃N₄) 반도체 비자성 환경 선택 기준](https://ktnkorea.com/insights/ceramic-zro2-si3n4-bearing-semiconductor-guide.html): 자성 잔류율·내충격성·열팽창 기준 소재 선택
 - [세라믹 베어링 규격 호환](https://ktnkorea.com/insights/ceramic-bearing-drop-in-replacement-guide.html): 강볼 베어링 자리 드롭인 교체 시 확인할 4가지
+- [세라믹 볼베어링은 수입만 되는 줄 아셨죠? 저희가 ±0.001mm로 직접 깎습니다](https://ktnkorea.com/insights/peek-retainer-ceramic-bearing-stock.html): ZrO₂ 풀세라믹·Si₃N₄ 하이브리드 PEEK 리테이너 베어링, KTN이 직접 정밀 가공한 실물 2종 공개
 
 ## 역설계·국산화·조달
 
