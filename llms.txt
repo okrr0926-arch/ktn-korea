@@ -51,6 +51,7 @@
 - [안료 배치 간 색상 불일치 문제](https://ktnkorea.com/insights/pigment-batch-color-inconsistency-uniformity.html): 색상 균일성 관리 방법
 - [안료 공급사 COA 리스크 가이드](https://ktnkorea.com/insights/pigment-supplier-coa-risk-guide.html): 성적서 검증 체크포인트
 - [PP 안료 직수입 비용 비교](https://ktnkorea.com/insights/pp-pigment-direct-import-cost-comparison.html): 직수입 vs 국내 유통 비용 분석
+- [안료 직수입 전 반드시 확인해야 할 서류 3가지](https://ktnkorea.com/insights/pigment-direct-import-documents-checklist.html): COA·TDS·MSDS가 통관·품질검증·안전보건 각 단계를 담당하는 이유
 
 ## 연락처
 
