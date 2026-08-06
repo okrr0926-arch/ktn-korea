@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NGN68D5Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0NGN68D5Y5');
+  </script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="TDS만 보고 레진을 발주하면 안 되는 이유 — TDS는 대표 사양, COA는 로트별 실측값입니다. 로트 편차로 인한 발주 리스크와 발주 전 30초 체크리스트를 정리했습니다."/>
+  <meta name="keywords" content="레진 TDS COA 차이, 레진 발주 리스크, 레진 성적서, 레진 로트별 COA, 원료 레진 발주 체크리스트"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="author" content="박정훈 — KTN KOREA 대표"/>
+  <link rel="canonical" href="https://ktnkorea.com/insights/resin-order-without-tds-coa-risk.html"/>
+  <link rel="icon" type="image/png" href="/images/logo.png"/>
+
+  <meta property="og:type" content="article"/>
+  <meta property="og:locale" content="ko_KR"/>
+  <meta property="og:title" content="TDS만 보고 발주하면 안 되는 이유 — 레진도 로트별 COA가 있다 | KTN KOREA"/>
+  <meta property="og:description" content="TDS는 제품 대표 사양, COA는 로트별 실측값입니다. TDS만 보고 발주했다가 로트 편차로 겪는 리스크와 발주 전 체크리스트."/>
+  <meta property="og:url" content="https://ktnkorea.com/insights/resin-order-without-tds-coa-risk.html"/>
+  <meta property="og:site_name" content="KTN 케이티엔"/>
+  <meta property="og:image" content="https://ktnkorea.com/images/pigment-pellets.png"/>
+  <meta property="article:author" content="박정훈"/>
+  <meta property="article:published_time" content="2026-08-06"/>
+
+  <title>TDS만 보고 발주하면 안 되는 이유 — 레진도 로트별 COA가 있다 | KTN 케이티엔</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://ktnkorea.com/insights/resin-order-without-tds-coa-risk#article",
+        "headline": "TDS만 보고 발주하면 안 되는 이유 — 레진도 로트별 COA가 있다",
+        "description": "TDS(일반 사양서)와 COA(로트별 실측 성적서)의 차이, TDS만 보고 레진을 발주할 때의 로트 편차 리스크와 발주 전 체크리스트를 정리.",
+        "datePublished": "2026-08-06",
+        "dateModified": "2026-08-06",
+        "author": {
+          "@type": "Person",
+          "name": "박정훈",
+          "jobTitle": "KTN KOREA 대표",
+          "url": "https://ktnkorea.com/#founder",
+          "description": "20년 베어링 & 정밀 가공 기술 마이스터. 엔지니어링 플라스틱 원료 레진 공급 및 정밀 가공 전문가.",
+          "worksFor": {"@type": "Organization", "name": "KTN KOREA"}
+        },
+        "publisher": {"@type": "Organization", "name": "KTN 케이티엔", "url": "https://ktnkorea.com"},
+        "mainEntityOfPage": "https://ktnkorea.com/insights/resin-order-without-tds-coa-risk",
+        "keywords": "레진 TDS COA 차이, 레진 발주 리스크, 레진 성적서"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "KTN 홈", "item": "https://ktnkorea.com"},
+          {"@type": "ListItem", "position": 2, "name": "기술 인사이트", "item": "https://ktnkorea.com/insights"},
+          {"@type": "ListItem", "position": 3, "name": "레진 TDS만 보고 발주하면 안 되는 이유", "item": "https://ktnkorea.com/insights/resin-order-without-tds-coa-risk"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "TDS와 COA는 레진에서 각각 무엇을 의미하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TDS(Technical Data Sheet)는 해당 등급 제품의 일반 사양서로, MFI·밀도·내열등급 등의 대표값과 허용 범위를 안내하는 카탈로그 성격의 문서입니다. COA(Certificate of Analysis, 성적서)는 실제 납품되는 그 로트를 실측한 결과값입니다. TDS는 로트와 무관하고, COA는 로트에 1:1로 대응합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "TDS만 보고 발주하면 실제로 어떤 문제가 생기나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TDS의 대표값과 실제 납품된 로트의 실측값 사이에 차이가 있어도 이를 알 방법이 없습니다. 규격 범위 안이라도 편차가 큰 로트가 오면 사출 불량, 물성 미달로 인한 클레임 등이 발생할 수 있는데, COA 없이는 원료 문제인지 다른 공정 문제인지조차 구분할 수 없습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "레진 COA에는 어떤 항목이 포함되어야 하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "기본적으로 로트 번호·제조일, MFI 실측값, 밀도, 필요 시 인장강도·굴곡강도 등 기계적 물성, 수분율(흡습성 소재의 경우)이 포함됩니다. Pass/Fail만 표기되고 실측 수치가 없는 문서는 성적서가 아니라 확인서 수준으로 봐야 합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "발주 전에 COA를 요청하면 공급사가 부담스러워하지 않나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "정상적으로 로트별 품질관리를 하는 공급사라면 COA는 이미 생산 과정에서 측정해 보유하고 있는 데이터라 요청에 부담을 느끼지 않습니다. 오히려 발주 전 COA 요청에 난색을 표하거나 지연시키는 공급사는, 로트별 데이터를 상시 관리하지 않고 있다는 신호로 볼 수 있습니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    :root{--bg:#0D0D0D;--y:#EAB308;--w:#FFFFFF;--g1:#1A1A1A;--g2:#2A2A2A;--g3:#888;}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--w);font-family:'Noto Sans KR',sans-serif;line-height:1.7}
+
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 32px;border-bottom:1px solid #222;position:sticky;top:0;background:rgba(13,13,13,.95);backdrop-filter:blur(8px);z-index:100}
+    .nav-logo{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.3rem;letter-spacing:.08em;color:var(--w);text-decoration:none}
+    .nav-logo span{color:var(--y)}
+    .nav-right{display:flex;align-items:center;gap:16px}
+    .nav-back{font-size:.85rem;color:var(--g3);text-decoration:none;display:flex;align-items:center;gap:6px}
+    .nav-back:hover{color:var(--w)}
+    .nav-cta{background:var(--y);color:#000;font-weight:700;font-size:.82rem;padding:8px 16px;border-radius:4px;text-decoration:none;white-space:nowrap}
+
+    .art-hero{max-width:800px;margin:0 auto;padding:56px 24px 40px}
+    .breadcrumb{font-size:.78rem;color:var(--g3);margin-bottom:20px}
+    .breadcrumb a{color:var(--g3);text-decoration:none}
+    .breadcrumb a:hover{color:var(--y)}
+    .tag-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+    .tag{font-size:.75rem;background:var(--g2);color:var(--g3);padding:4px 10px;border-radius:20px;border:1px solid #333}
+    .tag.hot{background:rgba(234,179,8,.12);color:var(--y);border-color:rgba(234,179,8,.3)}
+    h1{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(2rem,5vw,2.8rem);line-height:1.1;margin-bottom:20px;letter-spacing:-.01em}
+    .art-meta{display:flex;align-items:center;gap:16px;font-size:.82rem;color:var(--g3);flex-wrap:wrap;margin-bottom:32px}
+    .summary-box{background:var(--g1);border-left:3px solid var(--y);padding:20px 24px;border-radius:0 8px 8px 0;font-size:.95rem;line-height:1.8;color:#ccc}
+    .summary-box strong{color:var(--w)}
+
+    .art-body{max-width:800px;margin:0 auto;padding:0 24px 80px}
+
+    .author-card{display:flex;align-items:center;gap:16px;background:var(--g1);border:1px solid #2a2a2a;border-radius:10px;padding:20px;margin-bottom:40px}
+    .author-avatar{width:52px;height:52px;border-radius:50%;background:var(--y);display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.4rem;color:#000;flex-shrink:0}
+    .author-info{flex:1}
+    .author-name{font-weight:700;font-size:.95rem;margin-bottom:4px}
+    .author-desc{font-size:.8rem;color:var(--g3);line-height:1.5}
+    .author-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(234,179,8,.1);border:1px solid rgba(234,179,8,.25);color:var(--y);font-size:.72rem;padding:3px 8px;border-radius:3px;margin-top:6px}
+
+    .spec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:32px 0}
+    .spec-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px;text-align:center}
+    .spec-num{font-family:'IBM Plex Mono',monospace;font-size:1.5rem;font-weight:600;color:var(--y);line-height:1.2}
+    .spec-lbl{font-size:.75rem;color:var(--g3);margin-top:4px}
+
+    .art-body h2{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1.6rem;color:var(--w);margin:44px 0 16px;letter-spacing:.01em}
+    .art-body h3{font-size:1.05rem;font-weight:700;color:var(--y);margin:28px 0 10px}
+    .art-body p{font-size:.95rem;color:#ccc;margin-bottom:16px;line-height:1.8}
+    .art-body ul{margin:0 0 20px 20px}
+    .art-body li{font-size:.93rem;color:#ccc;margin-bottom:8px;line-height:1.7}
+
+    .cause-list{display:flex;flex-direction:column;gap:16px;margin:20px 0}
+    .cause-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:18px 20px;display:flex;gap:16px;align-items:flex-start}
+    .cause-num{font-family:'IBM Plex Mono',monospace;font-size:1.2rem;font-weight:600;color:var(--y);min-width:36px}
+    .cause-title{font-weight:700;font-size:.95rem;margin-bottom:6px}
+    .cause-desc{font-size:.88rem;color:#aaa;line-height:1.65}
+
+    .compare-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.88rem}
+    .compare-table th{background:var(--g2);color:var(--g3);font-weight:600;padding:12px 14px;text-align:left;border:1px solid #333}
+    .compare-table td{padding:12px 14px;border:1px solid #2a2a2a;color:#ccc;vertical-align:top}
+    .compare-table tr:hover td{background:rgba(255,255,255,.02)}
+    .td-bad{color:#f87171}
+    .td-good{color:#4ade80}
+
+    .callout{background:rgba(234,179,8,.07);border:1px solid rgba(234,179,8,.25);border-radius:8px;padding:20px 24px;margin:32px 0}
+    .callout p{color:var(--w);font-size:.95rem;margin:0;line-height:1.7}
+    .callout strong{color:var(--y)}
+
+    .criteria-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:20px 0}
+    .criteria-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px}
+    .criteria-check{color:var(--y);font-size:1.1rem;margin-bottom:8px}
+    .criteria-title{font-weight:700;font-size:.9rem;margin-bottom:4px}
+    .criteria-desc{font-size:.8rem;color:#999;line-height:1.5}
+
+    .faq-section{background:var(--g1);border-radius:12px;padding:32px;margin:48px 0}
+    .faq-section h2{font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;font-weight:700;margin-bottom:24px;color:var(--w)}
+    .faq-item{border-bottom:1px solid #2a2a2a;padding:20px 0}
+    .faq-item:last-child{border-bottom:none;padding-bottom:0}
+    .faq-q{font-weight:700;font-size:.95rem;color:var(--y);margin-bottom:10px;line-height:1.5}
+    .faq-a{font-size:.9rem;color:#bbb;line-height:1.75}
+
+    .art-cta{background:linear-gradient(135deg,var(--g1) 0%,#1a1600 100%);border:1px solid rgba(234,179,8,.25);border-radius:12px;padding:40px 32px;text-align:center;margin:48px 0}
+    .art-cta h2{font-family:'Barlow Condensed',sans-serif;font-size:1.8rem;font-weight:800;margin-bottom:12px}
+    .art-cta p{color:#bbb;font-size:.93rem;margin-bottom:24px;line-height:1.7}
+    .cta-btn{display:inline-flex;align-items:center;gap:8px;background:var(--y);color:#000;font-weight:700;font-size:1rem;padding:14px 28px;border-radius:6px;text-decoration:none}
+    .cta-sub{margin-top:14px;font-size:.8rem;color:var(--g3)}
+
+    .related{margin:48px 0}
+    .related h3{font-family:'Barlow Condensed',sans-serif;font-size:1.2rem;font-weight:700;margin-bottom:16px;color:var(--g3);letter-spacing:.05em;text-transform:uppercase}
+    .related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .related-card{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px;text-decoration:none;display:block;transition:border-color .2s}
+    .related-card:hover{border-color:var(--y)}
+    .related-card-tag{font-size:.72rem;color:var(--g3);margin-bottom:6px}
+    .related-card-title{font-size:.88rem;font-weight:700;color:var(--w);line-height:1.4}
+
+    .art-footer{border-top:1px solid #1a1a1a;padding:32px 24px;text-align:center;font-size:.8rem;color:var(--g3);max-width:800px;margin:0 auto}
+
+    @media(max-width:600px){
+      .spec-grid{grid-template-columns:repeat(2,1fr)}
+      .nav{padding:14px 16px}
+      .art-hero,.art-body{padding-left:16px;padding-right:16px}
+      .author-card{flex-direction:column;align-items:flex-start}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="https://ktnkorea.com" class="nav-logo">KTN<span>KOREA</span></a>
+  <div class="nav-right">
+    <a href="/insights" class="nav-back">← 인사이트 목록</a>
+    <a href="tel:01023405791" class="nav-cta">긴급 문의 010-2340-5791</a>
+  </div>
+</nav>
+
+<header class="art-hero">
+  <div class="breadcrumb">
+    <a href="https://ktnkorea.com">홈</a> &rsaquo;
+    <a href="/insights">기술 인사이트</a> &rsaquo;
+    원료 레진
+  </div>
+  <div class="tag-row">
+    <span class="tag hot">조달·업체</span>
+    <span class="tag">TDS·COA</span>
+    <span class="tag">발주 리스크</span>
+  </div>
+  <h1>TDS만 보고 발주하면 안 되는 이유 —<br>레진도 로트별 COA가 있다</h1>
+  <div class="art-meta">
+    <span>박정훈 · KTN KOREA 대표</span>
+    <span>2026.08.06</span>
+    <span>원료 레진 사업부 기술 인사이트</span>
+  </div>
+  <div class="summary-box">
+    "TDS 보내드릴게요" — 발주 검토 단계에서 가장 흔히 듣는 말입니다. 그런데 TDS는 그 등급 제품의 <strong>대표 사양</strong>일 뿐, 지금 발주하는 그 로트의 실측값이 아닙니다. 안료·마스터배치에 COA가 있듯, 레진도 로트별 COA가 있습니다. TDS와 COA의 차이, 그리고 TDS만 보고 발주했을 때 겪는 리스크를 정리했습니다.
+  </div>
+</header>
+
+<main class="art-body">
+
+  <div class="author-card">
+    <div class="author-avatar">박</div>
+    <div class="author-info">
+      <div class="author-name">박정훈 · KTN KOREA 대표</div>
+      <div class="author-desc">20년 베어링 & 정밀 가공 기술 마이스터. 엔지니어링 플라스틱 원료 레진 공급 및 정밀 가공 전문가.<br>PP·PE·POM·PA·PEEK·PTFE 원료 레진 로트별 COA 관리 공급.</div>
+      <div class="author-badge">포브스코리아 CSV 대상 2026</div>
+    </div>
+  </div>
+
+  <div class="spec-grid">
+    <div class="spec-item">
+      <div class="spec-num">1:1</div>
+      <div class="spec-lbl">로트-COA 대응 원칙</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-num">2종</div>
+      <div class="spec-lbl">헷갈리면 안 되는 서류 (TDS·COA)</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-num">MOQ 1개</div>
+      <div class="spec-lbl">소량도 COA 원본 제공</div>
+    </div>
+  </div>
+
+  <h2>TDS와 COA, 근본적으로 다른 문서입니다</h2>
+  <table class="compare-table">
+    <thead>
+      <tr>
+        <th>문서</th>
+        <th>내용</th>
+        <th>로트 대응</th>
+        <th>발주 판단 용도</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>TDS</strong> (사양서)</td>
+        <td>제품 대표 물성값, 허용 범위</td>
+        <td class="td-bad">로트 무관</td>
+        <td>이 제품군이 요구 스펙에 맞는 등급인지 사전 검토</td>
+      </tr>
+      <tr>
+        <td><strong>COA</strong> (성적서)</td>
+        <td>해당 로트의 실측 물성값 (MFI·밀도 등)</td>
+        <td class="td-good">특정 로트 1:1</td>
+        <td>지금 받은 그 로트가 실제로 스펙을 만족하는지 증명</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>TDS만 받고 "서류는 다 받았다"고 생각하면, 나중에 로트 편차로 문제가 생겨도 그 로트가 실제로 스펙을 만족했는지 증명할 방법이 없습니다.</p>
+
+  <h2>TDS만 보고 발주했을 때 실제로 벌어지는 일</h2>
+  <div class="cause-list">
+    <div class="cause-item">
+      <div class="cause-num">01</div>
+      <div>
+        <div class="cause-title">사출 라인에서 원인 불명 불량 반복</div>
+        <div class="cause-desc">로트 편차로 인한 불량인데 이를 확인할 실측 데이터가 없어 사출 조건만 계속 만지게 됩니다. 원인이 원료인지 공정인지 구분이 안 되면 대응도 반복적으로 헛돕니다.</div>
+      </div>
+    </div>
+    <div class="cause-item">
+      <div class="cause-num">02</div>
+      <div>
+        <div class="cause-title">클레임 협상에서 근거 없음</div>
+        <div class="cause-desc">불량 발생 시 공급사가 "TDS 스펙은 만족한다"고 주장하면 반박할 실측 데이터가 없습니다. TDS는 로트 무관 대표값이라 그 로트가 실제로 스펙을 만족했는지 증명하는 문서가 아닙니다.</div>
+      </div>
+    </div>
+    <div class="cause-item">
+      <div class="cause-num">03</div>
+      <div>
+        <div class="cause-title">고객사 감사에서 원료 추적성 미비 지적</div>
+        <div class="cause-desc">반도체·전자 업계 고객사 품질 감사에서는 원료 로트 추적성을 봅니다. COA 없이 TDS만 보관하고 있으면 감사에서 지적 사항이 되고, 이는 원료 단가와 비교할 수 없는 수주 리스크로 돌아옵니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p>레진을 파는 회사는 많습니다. 저희는 <strong>레진을 파는 회사가 아니라, 로트별 COA를 갖춘 레진을 파는 회사</strong>에 가깝습니다. 안료·마스터배치와 마찬가지로 원료 레진도 로트-COA 1:1 대응을 원칙으로 관리합니다.</p>
+  </div>
+
+  <h2>발주 전 체크리스트</h2>
+  <div class="criteria-list">
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">TDS로 등급 적합성 사전 검토</div>
+      <div class="criteria-desc">허용 범위가 요구 스펙과 맞는지 계약 전 확인</div>
+    </div>
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">최근 납품 로트 COA 요청</div>
+      <div class="criteria-desc">발주 전, 최근 실측값이 범위 어느 쪽에 있는지 확인</div>
+    </div>
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">납품 시 로트별 COA 원본 동봉 여부</div>
+      <div class="criteria-desc">매 로트 납품마다 해당 로트 COA가 따라오는지 확인</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p><strong>발주 전 30초 체크</strong> — 지금 견적받은 레진 공급사에 딱 한 가지만 물어보십시오. "TDS 말고, 이번에 납품될 로트의 COA를 발주 전에 미리 받아볼 수 있나요?" "발주해야 드릴 수 있다"는 답이 오면, 그 공급사는 로트별 데이터를 상시 갖추지 못한 상태입니다.</p>
+  </div>
+
+  <div class="faq-section">
+    <h2>자주 묻는 질문</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">TDS와 COA는 레진에서 각각 무엇을 의미하나요?</div>
+      <div class="faq-a">TDS는 해당 등급의 일반 사양서로 대표값과 허용 범위를 안내하는 카탈로그 성격의 문서입니다. COA는 실제 납품되는 그 로트를 실측한 결과값입니다. TDS는 로트와 무관하고, COA는 로트에 1:1로 대응합니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">TDS만 보고 발주하면 실제로 어떤 문제가 생기나요?</div>
+      <div class="faq-a">TDS 대표값과 실제 로트 실측값의 차이를 알 수 없습니다. 규격 범위 안이라도 편차가 큰 로트가 오면 사출 불량, 물성 미달 클레임이 발생할 수 있는데, COA 없이는 원료 문제인지 다른 공정 문제인지조차 구분할 수 없습니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">레진 COA에는 어떤 항목이 포함되어야 하나요?</div>
+      <div class="faq-a">로트 번호·제조일, MFI 실측값, 밀도, 필요 시 인장·굴곡강도 등 기계적 물성, 수분율(흡습성 소재)이 포함됩니다. Pass/Fail만 표기되고 실측 수치가 없는 문서는 성적서가 아니라 확인서 수준입니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">발주 전에 COA를 요청하면 공급사가 부담스러워하지 않나요?</div>
+      <div class="faq-a">로트별 품질관리를 정상적으로 하는 공급사는 이미 보유하고 있는 데이터라 부담을 느끼지 않습니다. 오히려 요청에 난색을 표하거나 지연시키는 공급사는 로트별 데이터를 상시 관리하지 않고 있다는 신호로 볼 수 있습니다.</div>
+    </div>
+  </div>
+
+  <div class="art-cta">
+    <h2>지금 검토 중인 레진, COA부터 요청해 보십시오</h2>
+    <p>현재 검토 중인 레진 등급을 알려주시면<br>발주 전 로트별 COA 사전 검토를 무료로 도와드립니다.</p>
+    <a href="tel:01023405791" class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
+      010-2340-5791
+    </a>
+    <div class="cta-sub">평일 09:00~18:00 / 긴급 문의 24시간 접수</div>
+  </div>
+
+  <div class="related">
+    <h3>관련 인사이트</h3>
+    <div class="related-grid">
+      <a href="/insights/pigment-supplier-coa-risk-guide.html" class="related-card">
+        <div class="related-card-tag">조달·업체</div>
+        <div class="related-card-title">COA 원본 없는 안료 공급사 — 왜 위험한가</div>
+      </a>
+      <a href="/insights/pigment-direct-import-documents-checklist.html" class="related-card">
+        <div class="related-card-tag">조달·업체</div>
+        <div class="related-card-title">안료 직수입 전 반드시 확인해야 할 서류 3가지</div>
+      </a>
+      <a href="/insights/resin-lot-mfi-deviation-injection-defect.html" class="related-card">
+        <div class="related-card-tag">소재가이드</div>
+        <div class="related-card-title">레진 로트마다 물성이 조금씩 다른 이유 — MFI 편차와 사출 불량</div>
+      </a>
+    </div>
+  </div>
+
+</main>
+
+<footer class="art-footer">
+  <p>© 2026 KTN KOREA. 포브스코리아 CSV 대상 2026 수상 · 대표 박정훈 · 010-2340-5791</p>
+  <p style="margin-top:8px"><a href="https://ktnkorea.com" style="color:var(--g3);text-decoration:none">ktnkorea.com</a> · <a href="/insights" style="color:var(--g3);text-decoration:none">기술 인사이트</a></p>
+</footer>
+
+</body>
+</html>

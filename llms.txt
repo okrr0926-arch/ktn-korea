@@ -53,6 +53,14 @@
 - [PP 안료 직수입 비용 비교](https://ktnkorea.com/insights/pp-pigment-direct-import-cost-comparison.html): 직수입 vs 국내 유통 비용 분석
 - [안료 직수입 전 반드시 확인해야 할 서류 3가지](https://ktnkorea.com/insights/pigment-direct-import-documents-checklist.html): COA·TDS·MSDS가 통관·품질검증·안전보건 각 단계를 담당하는 이유
 
+## 원료 레진 사업부
+
+- [레진 로트마다 물성이 조금씩 다른 이유 — MFI 편차와 사출 불량](https://ktnkorea.com/insights/resin-lot-mfi-deviation-injection-defect.html): 로트별 MFI 편차가 플래시·쇼트샷·휨 불량으로 이어지는 원리와 발주 전 확인 사항
+- [국산 레진 vs 수입 레진, 왜 단가가 다른가](https://ktnkorea.com/insights/domestic-vs-imported-resin-price-gap.html): 나프타 연동·관세물류·유통마진 구조와 국산 대체 유효성 판단 기준
+- [재생 레진(리사이클) 섞어도 되는 스펙 vs 안 되는 스펙](https://ktnkorea.com/insights/recycled-resin-blend-spec-limits.html): 반도체 클린룸·정밀 공차 부품은 배제, 블렌드 비율 공개와 COA 검증
+- [레진 소량 구매(MOQ 25kg 이하) 가이드](https://ktnkorea.com/insights/resin-small-lot-moq-purchase-guide.html): MOQ가 높은 이유(설비 세팅 비용)와 재고 셰어·소분 유통·완제품 가공 경유 방법
+- [TDS만 보고 발주하면 안 되는 이유 — 레진도 로트별 COA가 있다](https://ktnkorea.com/insights/resin-order-without-tds-coa-risk.html): TDS(대표 사양)와 COA(로트별 실측값)의 차이와 발주 전 체크리스트
+
 ## 연락처
 
 - 전화: 010-2340-5791

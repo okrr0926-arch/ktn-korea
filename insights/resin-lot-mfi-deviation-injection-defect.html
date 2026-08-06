@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NGN68D5Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0NGN68D5Y5');
+  </script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="같은 등급 레진인데 로트마다 MFI(용융지수)가 조금씩 다른 이유와, 이 편차가 플래시·쇼트샷·휨 같은 사출 불량으로 이어지는 원리. 발주 전 확인할 체크리스트를 정리했습니다."/>
+  <meta name="keywords" content="레진 MFI 편차, 용융지수 로트 편차, 사출 불량 원인, 레진 로트별 물성, 플래시 쇼트샷 휨 원인, MFI 시험성적서"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="author" content="박정훈 — KTN KOREA 대표"/>
+  <link rel="canonical" href="https://ktnkorea.com/insights/resin-lot-mfi-deviation-injection-defect.html"/>
+  <link rel="icon" type="image/png" href="/images/logo.png"/>
+
+  <meta property="og:type" content="article"/>
+  <meta property="og:locale" content="ko_KR"/>
+  <meta property="og:title" content="레진 로트마다 물성이 조금씩 다른 이유 — MFI 편차와 사출 불량의 관계 | KTN KOREA"/>
+  <meta property="og:description" content="같은 등급 레진도 로트마다 MFI가 조금씩 다릅니다. 이 편차가 플래시·쇼트샷·휨으로 이어지는 원리와 로트별 MFI 시험성적서를 요청해야 하는 이유."/>
+  <meta property="og:url" content="https://ktnkorea.com/insights/resin-lot-mfi-deviation-injection-defect.html"/>
+  <meta property="og:site_name" content="KTN 케이티엔"/>
+  <meta property="og:image" content="https://ktnkorea.com/images/pigment-pellets.png"/>
+  <meta property="article:author" content="박정훈"/>
+  <meta property="article:published_time" content="2026-08-06"/>
+
+  <title>레진 로트마다 물성이 조금씩 다른 이유 — MFI 편차와 사출 불량의 관계 | KTN 케이티엔</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://ktnkorea.com/insights/resin-lot-mfi-deviation-injection-defect#article",
+        "headline": "레진 로트마다 물성이 조금씩 다른 이유 — MFI 편차와 사출 불량의 관계",
+        "description": "같은 등급 레진도 로트마다 MFI(용융지수)가 조금씩 다른 이유와, 이 편차가 플래시·쇼트샷·휨 같은 사출 불량으로 이어지는 원리를 정리.",
+        "datePublished": "2026-08-06",
+        "dateModified": "2026-08-06",
+        "author": {
+          "@type": "Person",
+          "name": "박정훈",
+          "jobTitle": "KTN KOREA 대표",
+          "url": "https://ktnkorea.com/#founder",
+          "description": "20년 베어링 & 정밀 가공 기술 마이스터. 엔지니어링 플라스틱 원료 레진 공급 및 정밀 가공 전문가.",
+          "worksFor": {"@type": "Organization", "name": "KTN KOREA"}
+        },
+        "publisher": {"@type": "Organization", "name": "KTN 케이티엔", "url": "https://ktnkorea.com"},
+        "mainEntityOfPage": "https://ktnkorea.com/insights/resin-lot-mfi-deviation-injection-defect",
+        "keywords": "레진 MFI 편차, 용융지수 로트 편차, 사출 불량 원인, 레진 로트별 물성"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "KTN 홈", "item": "https://ktnkorea.com"},
+          {"@type": "ListItem", "position": 2, "name": "기술 인사이트", "item": "https://ktnkorea.com/insights"},
+          {"@type": "ListItem", "position": 3, "name": "레진 MFI 편차와 사출 불량", "item": "https://ktnkorea.com/insights/resin-lot-mfi-deviation-injection-defect"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "MFI(용융지수)가 뭐고 왜 로트마다 다른가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "MFI(Melt Flow Index)는 일정 온도·하중에서 레진이 10분간 흘러나오는 양(g/10min)으로, 분자량과 분자량 분포를 간접적으로 보여주는 수치입니다. 같은 등급이라도 원료 투입 로트, 중합 반응 조건, 압출 공정의 미세한 편차 때문에 TDS에 적힌 대표값 주변에서 로트마다 값이 조금씩 흔들립니다. 규격 범위 안에 있으면 정상이지만, 범위의 위아래 어느 쪽에 붙어있는지에 따라 사출 조건 대응이 달라집니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "MFI 편차가 실제로 어떤 사출 불량을 일으키나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "MFI가 규격보다 높은(유동성이 좋은) 로트는 사출 시 과충전되어 플래시(버)가 발생하기 쉽고, MFI가 낮은(유동성이 나쁜) 로트는 충전 부족으로 쇼트샷이나 웰드라인이 생기기 쉽습니다. 동일한 사출 조건을 그대로 유지한 채 로트만 바뀌면 유동성 차이가 그대로 치수 편차·휨(warpage)으로 나타날 수 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "로트 교체 시 사출 조건을 매번 바꿔야 하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "MFI 편차가 규격 범위 안이라도 큰 폭으로 움직였다면 사출 온도·사출압·보압 시간을 소폭 재조정하는 것이 안전합니다. 조정 폭을 판단하려면 이전 로트와 신규 로트의 MFI 실측값을 비교해야 하는데, 이는 TDS(대표값)가 아니라 로트별 COA·시험성적서로만 확인할 수 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "레진 발주 시 MFI 시험성적서를 요청하면 비용이 추가되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "정상적인 레진 공급 구조에서 로트별 MFI 시험성적서는 생산 과정에서 이미 측정되는 항목이라 추가 비용 없이 제공되는 것이 일반적입니다. 요청 시 추가 비용을 요구하거나 제공 자체가 어렵다고 답하는 공급사는 로트별 품질관리 체계가 약한 곳일 가능성이 있습니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    :root{--bg:#0D0D0D;--y:#EAB308;--w:#FFFFFF;--g1:#1A1A1A;--g2:#2A2A2A;--g3:#888;}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--w);font-family:'Noto Sans KR',sans-serif;line-height:1.7}
+
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 32px;border-bottom:1px solid #222;position:sticky;top:0;background:rgba(13,13,13,.95);backdrop-filter:blur(8px);z-index:100}
+    .nav-logo{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.3rem;letter-spacing:.08em;color:var(--w);text-decoration:none}
+    .nav-logo span{color:var(--y)}
+    .nav-right{display:flex;align-items:center;gap:16px}
+    .nav-back{font-size:.85rem;color:var(--g3);text-decoration:none;display:flex;align-items:center;gap:6px}
+    .nav-back:hover{color:var(--w)}
+    .nav-cta{background:var(--y);color:#000;font-weight:700;font-size:.82rem;padding:8px 16px;border-radius:4px;text-decoration:none;white-space:nowrap}
+
+    .art-hero{max-width:800px;margin:0 auto;padding:56px 24px 40px}
+    .breadcrumb{font-size:.78rem;color:var(--g3);margin-bottom:20px}
+    .breadcrumb a{color:var(--g3);text-decoration:none}
+    .breadcrumb a:hover{color:var(--y)}
+    .tag-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+    .tag{font-size:.75rem;background:var(--g2);color:var(--g3);padding:4px 10px;border-radius:20px;border:1px solid #333}
+    .tag.hot{background:rgba(234,179,8,.12);color:var(--y);border-color:rgba(234,179,8,.3)}
+    h1{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(2rem,5vw,2.8rem);line-height:1.1;margin-bottom:20px;letter-spacing:-.01em}
+    .art-meta{display:flex;align-items:center;gap:16px;font-size:.82rem;color:var(--g3);flex-wrap:wrap;margin-bottom:32px}
+    .summary-box{background:var(--g1);border-left:3px solid var(--y);padding:20px 24px;border-radius:0 8px 8px 0;font-size:.95rem;line-height:1.8;color:#ccc}
+    .summary-box strong{color:var(--w)}
+
+    .art-body{max-width:800px;margin:0 auto;padding:0 24px 80px}
+
+    .author-card{display:flex;align-items:center;gap:16px;background:var(--g1);border:1px solid #2a2a2a;border-radius:10px;padding:20px;margin-bottom:40px}
+    .author-avatar{width:52px;height:52px;border-radius:50%;background:var(--y);display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.4rem;color:#000;flex-shrink:0}
+    .author-info{flex:1}
+    .author-name{font-weight:700;font-size:.95rem;margin-bottom:4px}
+    .author-desc{font-size:.8rem;color:var(--g3);line-height:1.5}
+    .author-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(234,179,8,.1);border:1px solid rgba(234,179,8,.25);color:var(--y);font-size:.72rem;padding:3px 8px;border-radius:3px;margin-top:6px}
+
+    .spec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:32px 0}
+    .spec-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px;text-align:center}
+    .spec-num{font-family:'IBM Plex Mono',monospace;font-size:1.5rem;font-weight:600;color:var(--y);line-height:1.2}
+    .spec-lbl{font-size:.75rem;color:var(--g3);margin-top:4px}
+
+    .art-body h2{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1.6rem;color:var(--w);margin:44px 0 16px;letter-spacing:.01em}
+    .art-body h3{font-size:1.05rem;font-weight:700;color:var(--y);margin:28px 0 10px}
+    .art-body p{font-size:.95rem;color:#ccc;margin-bottom:16px;line-height:1.8}
+    .art-body ul{margin:0 0 20px 20px}
+    .art-body li{font-size:.93rem;color:#ccc;margin-bottom:8px;line-height:1.7}
+
+    .cause-list{display:flex;flex-direction:column;gap:16px;margin:20px 0}
+    .cause-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:18px 20px;display:flex;gap:16px;align-items:flex-start}
+    .cause-num{font-family:'IBM Plex Mono',monospace;font-size:1.2rem;font-weight:600;color:var(--y);min-width:36px}
+    .cause-title{font-weight:700;font-size:.95rem;margin-bottom:6px}
+    .cause-desc{font-size:.88rem;color:#aaa;line-height:1.65}
+
+    .compare-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.88rem}
+    .compare-table th{background:var(--g2);color:var(--g3);font-weight:600;padding:12px 14px;text-align:left;border:1px solid #333}
+    .compare-table td{padding:12px 14px;border:1px solid #2a2a2a;color:#ccc;vertical-align:top}
+    .compare-table tr:hover td{background:rgba(255,255,255,.02)}
+    .td-bad{color:#f87171}
+    .td-good{color:#4ade80}
+
+    .callout{background:rgba(234,179,8,.07);border:1px solid rgba(234,179,8,.25);border-radius:8px;padding:20px 24px;margin:32px 0}
+    .callout p{color:var(--w);font-size:.95rem;margin:0;line-height:1.7}
+    .callout strong{color:var(--y)}
+
+    .criteria-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:20px 0}
+    .criteria-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px}
+    .criteria-check{color:var(--y);font-size:1.1rem;margin-bottom:8px}
+    .criteria-title{font-weight:700;font-size:.9rem;margin-bottom:4px}
+    .criteria-desc{font-size:.8rem;color:#999;line-height:1.5}
+
+    .faq-section{background:var(--g1);border-radius:12px;padding:32px;margin:48px 0}
+    .faq-section h2{font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;font-weight:700;margin-bottom:24px;color:var(--w)}
+    .faq-item{border-bottom:1px solid #2a2a2a;padding:20px 0}
+    .faq-item:last-child{border-bottom:none;padding-bottom:0}
+    .faq-q{font-weight:700;font-size:.95rem;color:var(--y);margin-bottom:10px;line-height:1.5}
+    .faq-a{font-size:.9rem;color:#bbb;line-height:1.75}
+
+    .art-cta{background:linear-gradient(135deg,var(--g1) 0%,#1a1600 100%);border:1px solid rgba(234,179,8,.25);border-radius:12px;padding:40px 32px;text-align:center;margin:48px 0}
+    .art-cta h2{font-family:'Barlow Condensed',sans-serif;font-size:1.8rem;font-weight:800;margin-bottom:12px}
+    .art-cta p{color:#bbb;font-size:.93rem;margin-bottom:24px;line-height:1.7}
+    .cta-btn{display:inline-flex;align-items:center;gap:8px;background:var(--y);color:#000;font-weight:700;font-size:1rem;padding:14px 28px;border-radius:6px;text-decoration:none}
+    .cta-sub{margin-top:14px;font-size:.8rem;color:var(--g3)}
+
+    .related{margin:48px 0}
+    .related h3{font-family:'Barlow Condensed',sans-serif;font-size:1.2rem;font-weight:700;margin-bottom:16px;color:var(--g3);letter-spacing:.05em;text-transform:uppercase}
+    .related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .related-card{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px;text-decoration:none;display:block;transition:border-color .2s}
+    .related-card:hover{border-color:var(--y)}
+    .related-card-tag{font-size:.72rem;color:var(--g3);margin-bottom:6px}
+    .related-card-title{font-size:.88rem;font-weight:700;color:var(--w);line-height:1.4}
+
+    .art-footer{border-top:1px solid #1a1a1a;padding:32px 24px;text-align:center;font-size:.8rem;color:var(--g3);max-width:800px;margin:0 auto}
+
+    @media(max-width:600px){
+      .spec-grid{grid-template-columns:repeat(2,1fr)}
+      .nav{padding:14px 16px}
+      .art-hero,.art-body{padding-left:16px;padding-right:16px}
+      .author-card{flex-direction:column;align-items:flex-start}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="https://ktnkorea.com" class="nav-logo">KTN<span>KOREA</span></a>
+  <div class="nav-right">
+    <a href="/insights" class="nav-back">← 인사이트 목록</a>
+    <a href="tel:01023405791" class="nav-cta">긴급 문의 010-2340-5791</a>
+  </div>
+</nav>
+
+<header class="art-hero">
+  <div class="breadcrumb">
+    <a href="https://ktnkorea.com">홈</a> &rsaquo;
+    <a href="/insights">기술 인사이트</a> &rsaquo;
+    원료 레진
+  </div>
+  <div class="tag-row">
+    <span class="tag hot">소재가이드</span>
+    <span class="tag">레진 MFI</span>
+    <span class="tag">사출 불량</span>
+  </div>
+  <h1>레진 로트마다 물성이 조금씩 다른 이유 —<br>MFI 편차와 사출 불량의 관계</h1>
+  <div class="art-meta">
+    <span>박정훈 · KTN KOREA 대표</span>
+    <span>2026.08.06</span>
+    <span>원료 레진 사업부 기술 인사이트</span>
+  </div>
+  <div class="summary-box">
+    같은 등급, 같은 공급사, 같은 스펙인데 사출 라인에서 갑자기 플래시나 쇼트샷이 나기 시작했다면 원인은 사출 설정이 아니라 <strong>레진 로트 자체의 MFI(용융지수) 편차</strong>일 수 있습니다. TDS에 적힌 대표값만 보고 발주하면 이 편차를 놓칩니다. 로트마다 왜 물성이 흔들리는지, 그리고 발주 전에 뭘 요청해야 하는지 정리했습니다.
+  </div>
+</header>
+
+<main class="art-body">
+
+  <div class="author-card">
+    <div class="author-avatar">박</div>
+    <div class="author-info">
+      <div class="author-name">박정훈 · KTN KOREA 대표</div>
+      <div class="author-desc">20년 베어링 & 정밀 가공 기술 마이스터. 엔지니어링 플라스틱 원료 레진 공급 및 정밀 가공 전문가.<br>PP·PE·POM·PA·PEEK·PTFE 원료 레진 공급, 로트별 COA 관리.</div>
+      <div class="author-badge">포브스코리아 CSV 대상 2026</div>
+    </div>
+  </div>
+
+  <div class="spec-grid">
+    <div class="spec-item">
+      <div class="spec-num">±0.001mm</div>
+      <div class="spec-lbl">KTN 정밀가공 정밀도</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-num">1:1</div>
+      <div class="spec-lbl">로트-MFI 성적서 대응</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-num">MOQ 1개</div>
+      <div class="spec-lbl">소량도 성적서 제공</div>
+    </div>
+  </div>
+
+  <h2>같은 등급인데 왜 로트마다 흐르는 정도가 다른가</h2>
+  <p>레진 발주서에는 보통 등급명과 TDS 대표값만 적힙니다. "PP 등급 J-150, MFI 15g/10min" 처럼요. 그런데 이 15라는 숫자는 그 제품군의 <strong>대표값</strong>이지, 지금 받은 이 로트의 <strong>실측값</strong>이 아닙니다. 실제로는 13.5~16.5처럼 일정 범위 안에서 로트마다 값이 움직입니다.</p>
+  <p>이유는 단순합니다. 중합 반응 조건, 촉매 로트, 압출 공정의 온도·전단 이력이 매 생산 배치마다 완전히 동일할 수 없기 때문입니다. 규격 범위 안이면 "정상 품질"이지만, 그 범위의 어느 쪽에 붙어있는지는 사출 현장에서 체감되는 차이를 만듭니다.</p>
+
+  <h2>MFI 편차가 사출 불량으로 이어지는 경로</h2>
+  <table class="compare-table">
+    <thead>
+      <tr>
+        <th>MFI 방향</th>
+        <th>유동성</th>
+        <th>대표 불량</th>
+        <th>현장 증상</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>규격 상단 (높음)</td>
+        <td class="td-bad">과도하게 좋음</td>
+        <td>플래시(버)</td>
+        <td>파팅라인 버, 치수 초과</td>
+      </tr>
+      <tr>
+        <td>규격 하단 (낮음)</td>
+        <td class="td-bad">부족함</td>
+        <td>쇼트샷 · 웰드라인</td>
+        <td>미충전, 접합부 강도 저하</td>
+      </tr>
+      <tr>
+        <td>동일 로트 내 급변</td>
+        <td class="td-bad">불균일</td>
+        <td>휨(warpage)</td>
+        <td>냉각 수축 불균일, 치수 뒤틀림</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>같은 사출 조건(온도·사출압·보압 시간)을 그대로 유지한 채 로트만 바뀌면, 유동성 차이가 고스란히 치수·외관 불량으로 나타날 수 있습니다. 사출기 세팅이 잘못된 게 아니라 <strong>원료가 미세하게 다른 것</strong>이 원인인 경우, 세팅만 계속 만지면 문제는 반복됩니다.</p>
+
+  <h2>발주 전 확인해야 할 3단계</h2>
+  <div class="cause-list">
+    <div class="cause-item">
+      <div class="cause-num">01</div>
+      <div>
+        <div class="cause-title">TDS로 규격 범위 확인 — 대표값이 아니라 범위</div>
+        <div class="cause-desc">TDS에는 대개 MFI 대표값과 함께 허용 범위가 기재되어 있습니다. 이 범위가 얼마나 넓은지부터 확인하십시오. 범위가 넓은 등급일수록 로트 간 편차가 클 가능성이 있습니다.</div>
+      </div>
+    </div>
+    <div class="cause-item">
+      <div class="cause-num">02</div>
+      <div>
+        <div class="cause-title">로트별 MFI 시험성적서 요청 — 발주 전에</div>
+        <div class="cause-desc">계약 전에 최근 납품 로트의 MFI 시험성적서(COA)를 요청해 실측값이 범위의 어느 쪽에 있는지 확인합니다. 여기서 "성적서는 발주해야 드릴 수 있다"는 답이 오면, 그 공급사는 로트별 데이터를 사전에 갖추지 못한 상태입니다.</div>
+      </div>
+    </div>
+    <div class="cause-item">
+      <div class="cause-num">03</div>
+      <div>
+        <div class="cause-title">로트 교체 시 사출 조건 재검토</div>
+        <div class="cause-desc">신규 로트의 MFI가 이전 로트와 크게 다르면, 양산 투입 전 사출 온도·보압을 소폭 재조정하는 시험 사출을 거치는 것이 안전합니다. 이 판단 자체가 로트별 실측값 없이는 불가능합니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p>레진을 파는 회사는 많습니다. 저희는 <strong>레진을 파는 회사가 아니라, 로트별 MFI 실측값을 갖춘 레진을 파는 회사</strong>에 가깝습니다. 국내에서 원료 레진을 로트 단위로 COA와 함께 소분 공급하는 곳은 많지 않습니다.</p>
+  </div>
+
+  <h2>사출 라인에서 실제로 확인할 항목</h2>
+  <div class="criteria-list">
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">로트 번호 일치</div>
+      <div class="criteria-desc">투입 원료 포대 표기와 성적서 로트 번호가 같은가</div>
+    </div>
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">MFI 실측값 vs 이전 로트</div>
+      <div class="criteria-desc">직전 로트 대비 편차 폭이 사출 조건 재조정이 필요한 수준인가</div>
+    </div>
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">시험 온도·하중 조건 표기</div>
+      <div class="criteria-desc">MFI는 시험 조건(온도·하중)에 따라 값이 다르므로 조건이 TDS와 동일한지 확인</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p><strong>발주 전 30초 체크</strong> — 지금 견적받은 레진 공급사에 딱 한 가지만 물어보십시오. "최근 3개 로트의 MFI 실측값을 지금 보여줄 수 있나요?" 즉시 수치로 답하지 못하고 "확인해보겠다"는 답이 오면, 그 공급사는 로트별 데이터를 상시 관리하고 있지 않을 가능성이 큽니다.</p>
+  </div>
+
+  <div class="faq-section">
+    <h2>자주 묻는 질문</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">MFI(용융지수)가 뭐고 왜 로트마다 다른가요?</div>
+      <div class="faq-a">MFI는 일정 온도·하중에서 레진이 10분간 흘러나오는 양(g/10min)으로 분자량·분자량 분포를 간접적으로 보여주는 수치입니다. 같은 등급이라도 원료 로트, 중합 조건, 압출 공정의 미세한 편차 때문에 TDS 대표값 주변에서 로트마다 값이 흔들립니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">MFI 편차가 실제로 어떤 사출 불량을 일으키나요?</div>
+      <div class="faq-a">MFI가 규격보다 높으면 과충전으로 플래시(버)가, 낮으면 충전 부족으로 쇼트샷·웰드라인이 발생하기 쉽습니다. 동일한 사출 조건을 유지한 채 로트만 바뀌면 유동성 차이가 치수 편차·휨으로 나타날 수 있습니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">로트 교체 시 사출 조건을 매번 바꿔야 하나요?</div>
+      <div class="faq-a">MFI 편차가 규격 범위 안이라도 크게 움직였다면 사출 온도·사출압·보압 시간을 소폭 재조정하는 것이 안전합니다. 조정 폭은 이전·신규 로트의 MFI 실측값 비교로만 판단할 수 있으며, 이는 TDS가 아니라 로트별 COA로만 확인됩니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">레진 발주 시 MFI 시험성적서를 요청하면 비용이 추가되나요?</div>
+      <div class="faq-a">정상적인 공급 구조에서 로트별 MFI 시험성적서는 생산 과정에서 이미 측정되는 항목이라 추가 비용 없이 제공되는 것이 일반적입니다. 추가 비용을 요구하거나 제공이 어렵다는 공급사는 로트별 품질관리 체계가 약할 가능성이 있습니다.</div>
+    </div>
+  </div>
+
+  <div class="art-cta">
+    <h2>지금 쓰는 레진, 로트별 MFI부터 확인해 보십시오</h2>
+    <p>현재 검토 중인 레진 등급과 사출 불량 증상을 알려주시면<br>로트별 MFI 사전 검토를 무료로 도와드립니다.</p>
+    <a href="tel:01023405791" class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
+      010-2340-5791
+    </a>
+    <div class="cta-sub">평일 09:00~18:00 / 긴급 문의 24시간 접수</div>
+  </div>
+
+  <div class="related">
+    <h3>관련 인사이트</h3>
+    <div class="related-grid">
+      <a href="/insights/resin-order-without-tds-coa-risk.html" class="related-card">
+        <div class="related-card-tag">조달·업체</div>
+        <div class="related-card-title">TDS만 보고 발주하면 안 되는 이유 — 레진도 로트별 COA가 있다</div>
+      </a>
+      <a href="/insights/pigment-supplier-coa-risk-guide.html" class="related-card">
+        <div class="related-card-tag">조달·업체</div>
+        <div class="related-card-title">COA 원본 없는 안료 공급사 — 왜 위험한가</div>
+      </a>
+      <a href="/insights/pe-pp-pet-pigment-selection-guide.html" class="related-card">
+        <div class="related-card-tag">소재가이드</div>
+        <div class="related-card-title">PE·PP·PET 안료 선택 기준 — 수지별로 다른 이유</div>
+      </a>
+    </div>
+  </div>
+
+</main>
+
+<footer class="art-footer">
+  <p>© 2026 KTN KOREA. 포브스코리아 CSV 대상 2026 수상 · 대표 박정훈 · 010-2340-5791</p>
+  <p style="margin-top:8px"><a href="https://ktnkorea.com" style="color:var(--g3);text-decoration:none">ktnkorea.com</a> · <a href="/insights" style="color:var(--g3);text-decoration:none">기술 인사이트</a></p>
+</footer>
+
+</body>
+</html>

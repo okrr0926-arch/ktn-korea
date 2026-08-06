@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NGN68D5Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0NGN68D5Y5');
+  </script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="재생(리사이클) 레진을 섞어도 되는 스펙과 안 되는 스펙의 기준. 반도체 클린룸 파티클 민감 부품, 정밀 공차 부품은 왜 배제되는지, 블렌드 비율 공개와 COA 검증 방법을 정리했습니다."/>
+  <meta name="keywords" content="재생 레진 블렌드, 리사이클 레진 스펙, 리그라인드 배합 비율, 반도체 파티클 민감 부품, 재생원료 COA 검증"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="author" content="박정훈 — KTN KOREA 대표"/>
+  <link rel="canonical" href="https://ktnkorea.com/insights/recycled-resin-blend-spec-limits.html"/>
+  <link rel="icon" type="image/png" href="/images/logo.png"/>
+
+  <meta property="og:type" content="article"/>
+  <meta property="og:locale" content="ko_KR"/>
+  <meta property="og:title" content="재생 레진(리사이클) 섞어도 되는 스펙 vs 안 되는 스펙 | KTN KOREA"/>
+  <meta property="og:description" content="반도체 클린룸 파티클 민감 부품·정밀 공차 부품은 재생 레진 블렌드가 배제되는 이유, 블렌드 비율 공개와 COA 검증 방법을 정리."/>
+  <meta property="og:url" content="https://ktnkorea.com/insights/recycled-resin-blend-spec-limits.html"/>
+  <meta property="og:site_name" content="KTN 케이티엔"/>
+  <meta property="og:image" content="https://ktnkorea.com/images/pigment-pellets.png"/>
+  <meta property="article:author" content="박정훈"/>
+  <meta property="article:published_time" content="2026-08-06"/>
+
+  <title>재생 레진(리사이클) 섞어도 되는 스펙 vs 안 되는 스펙 | KTN 케이티엔</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://ktnkorea.com/insights/recycled-resin-blend-spec-limits#article",
+        "headline": "재생 레진(리사이클) 섞어도 되는 스펙 vs 안 되는 스펙",
+        "description": "재생·리그라인드 레진 블렌드가 허용되는 비민감 용도와 배제되는 반도체 클린룸·정밀 공차 용도의 기준, 블렌드 비율 공개와 COA 검증 방법.",
+        "datePublished": "2026-08-06",
+        "dateModified": "2026-08-06",
+        "author": {
+          "@type": "Person",
+          "name": "박정훈",
+          "jobTitle": "KTN KOREA 대표",
+          "url": "https://ktnkorea.com/#founder",
+          "description": "20년 베어링 & 정밀 가공 기술 마이스터. 엔지니어링 플라스틱 원료 레진 공급 및 정밀 가공 전문가.",
+          "worksFor": {"@type": "Organization", "name": "KTN KOREA"}
+        },
+        "publisher": {"@type": "Organization", "name": "KTN 케이티엔", "url": "https://ktnkorea.com"},
+        "mainEntityOfPage": "https://ktnkorea.com/insights/recycled-resin-blend-spec-limits",
+        "keywords": "재생 레진 블렌드, 리사이클 레진 스펙, 리그라인드 배합 비율"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "KTN 홈", "item": "https://ktnkorea.com"},
+          {"@type": "ListItem", "position": 2, "name": "기술 인사이트", "item": "https://ktnkorea.com/insights"},
+          {"@type": "ListItem", "position": 3, "name": "재생 레진 블렌드 스펙 기준", "item": "https://ktnkorea.com/insights/recycled-resin-blend-spec-limits"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "재생 레진(리사이클)을 섞어도 되는 부품은 어떤 것들인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "외관 색상이나 미세 공차가 최종 성능에 직접 영향을 주지 않는 비민감 용도 — 예를 들어 내부 비노출 하우징, 물류용 파렛트·지그, 일부 포장재 부품 — 은 낮은 비율의 재생 레진 블렌드를 허용하는 경우가 많습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "재생 레진을 절대 섞으면 안 되는 부품은 어떤 것들인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "반도체·디스플레이 클린룸에서 쓰이는 파티클 민감 부품, ±0.001mm 수준의 정밀 공차가 요구되는 베어링·기구 부품, 식품·의료 접촉 부품이 대표적입니다. 재생 원료는 이물 혼입 가능성과 물성 편차가 버진(virgin) 원료보다 크기 때문에, 이 편차가 곧바로 파티클 발생이나 치수 불량으로 이어질 수 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "블렌드 비율은 어떻게 확인하고 요구해야 하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "발주 시 재생 원료 함량을 %로 명시해달라고 요청하고, 이 수치가 COA에 실측 기재되는지 확인해야 합니다. 비율을 구두로만 안내하고 서류에 남기지 않는 공급사는 실제 블렌드 비율이 변동되어도 확인할 방법이 없습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "재생 레진 블렌드 제품도 COA 검증이 필요한가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "오히려 버진 원료보다 더 필요합니다. 재생 원료는 로트마다 원재료 출처와 재처리 이력이 다를 수 있어 물성 편차가 큽니다. 로트별 COA에 재생 함량, MFI, 이물 검사 결과가 함께 기재되어야 해당 로트가 요구 스펙을 만족하는지 판단할 수 있습니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    :root{--bg:#0D0D0D;--y:#EAB308;--w:#FFFFFF;--g1:#1A1A1A;--g2:#2A2A2A;--g3:#888;}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--w);font-family:'Noto Sans KR',sans-serif;line-height:1.7}
+
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 32px;border-bottom:1px solid #222;position:sticky;top:0;background:rgba(13,13,13,.95);backdrop-filter:blur(8px);z-index:100}
+    .nav-logo{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.3rem;letter-spacing:.08em;color:var(--w);text-decoration:none}
+    .nav-logo span{color:var(--y)}
+    .nav-right{display:flex;align-items:center;gap:16px}
+    .nav-back{font-size:.85rem;color:var(--g3);text-decoration:none;display:flex;align-items:center;gap:6px}
+    .nav-back:hover{color:var(--w)}
+    .nav-cta{background:var(--y);color:#000;font-weight:700;font-size:.82rem;padding:8px 16px;border-radius:4px;text-decoration:none;white-space:nowrap}
+
+    .art-hero{max-width:800px;margin:0 auto;padding:56px 24px 40px}
+    .breadcrumb{font-size:.78rem;color:var(--g3);margin-bottom:20px}
+    .breadcrumb a{color:var(--g3);text-decoration:none}
+    .breadcrumb a:hover{color:var(--y)}
+    .tag-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+    .tag{font-size:.75rem;background:var(--g2);color:var(--g3);padding:4px 10px;border-radius:20px;border:1px solid #333}
+    .tag.hot{background:rgba(234,179,8,.12);color:var(--y);border-color:rgba(234,179,8,.3)}
+    h1{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(2rem,5vw,2.8rem);line-height:1.1;margin-bottom:20px;letter-spacing:-.01em}
+    .art-meta{display:flex;align-items:center;gap:16px;font-size:.82rem;color:var(--g3);flex-wrap:wrap;margin-bottom:32px}
+    .summary-box{background:var(--g1);border-left:3px solid var(--y);padding:20px 24px;border-radius:0 8px 8px 0;font-size:.95rem;line-height:1.8;color:#ccc}
+    .summary-box strong{color:var(--w)}
+
+    .art-body{max-width:800px;margin:0 auto;padding:0 24px 80px}
+
+    .author-card{display:flex;align-items:center;gap:16px;background:var(--g1);border:1px solid #2a2a2a;border-radius:10px;padding:20px;margin-bottom:40px}
+    .author-avatar{width:52px;height:52px;border-radius:50%;background:var(--y);display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.4rem;color:#000;flex-shrink:0}
+    .author-info{flex:1}
+    .author-name{font-weight:700;font-size:.95rem;margin-bottom:4px}
+    .author-desc{font-size:.8rem;color:var(--g3);line-height:1.5}
+    .author-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(234,179,8,.1);border:1px solid rgba(234,179,8,.25);color:var(--y);font-size:.72rem;padding:3px 8px;border-radius:3px;margin-top:6px}
+
+    .spec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:32px 0}
+    .spec-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px;text-align:center}
+    .spec-num{font-family:'IBM Plex Mono',monospace;font-size:1.5rem;font-weight:600;color:var(--y);line-height:1.2}
+    .spec-lbl{font-size:.75rem;color:var(--g3);margin-top:4px}
+
+    .art-body h2{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1.6rem;color:var(--w);margin:44px 0 16px;letter-spacing:.01em}
+    .art-body h3{font-size:1.05rem;font-weight:700;color:var(--y);margin:28px 0 10px}
+    .art-body p{font-size:.95rem;color:#ccc;margin-bottom:16px;line-height:1.8}
+    .art-body ul{margin:0 0 20px 20px}
+    .art-body li{font-size:.93rem;color:#ccc;margin-bottom:8px;line-height:1.7}
+
+    .cause-list{display:flex;flex-direction:column;gap:16px;margin:20px 0}
+    .cause-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:18px 20px;display:flex;gap:16px;align-items:flex-start}
+    .cause-num{font-family:'IBM Plex Mono',monospace;font-size:1.2rem;font-weight:600;color:var(--y);min-width:36px}
+    .cause-title{font-weight:700;font-size:.95rem;margin-bottom:6px}
+    .cause-desc{font-size:.88rem;color:#aaa;line-height:1.65}
+
+    .compare-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.88rem}
+    .compare-table th{background:var(--g2);color:var(--g3);font-weight:600;padding:12px 14px;text-align:left;border:1px solid #333}
+    .compare-table td{padding:12px 14px;border:1px solid #2a2a2a;color:#ccc;vertical-align:top}
+    .compare-table tr:hover td{background:rgba(255,255,255,.02)}
+    .td-bad{color:#f87171}
+    .td-good{color:#4ade80}
+
+    .callout{background:rgba(234,179,8,.07);border:1px solid rgba(234,179,8,.25);border-radius:8px;padding:20px 24px;margin:32px 0}
+    .callout p{color:var(--w);font-size:.95rem;margin:0;line-height:1.7}
+    .callout strong{color:var(--y)}
+
+    .criteria-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:20px 0}
+    .criteria-item{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px}
+    .criteria-check{color:var(--y);font-size:1.1rem;margin-bottom:8px}
+    .criteria-title{font-weight:700;font-size:.9rem;margin-bottom:4px}
+    .criteria-desc{font-size:.8rem;color:#999;line-height:1.5}
+
+    .faq-section{background:var(--g1);border-radius:12px;padding:32px;margin:48px 0}
+    .faq-section h2{font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;font-weight:700;margin-bottom:24px;color:var(--w)}
+    .faq-item{border-bottom:1px solid #2a2a2a;padding:20px 0}
+    .faq-item:last-child{border-bottom:none;padding-bottom:0}
+    .faq-q{font-weight:700;font-size:.95rem;color:var(--y);margin-bottom:10px;line-height:1.5}
+    .faq-a{font-size:.9rem;color:#bbb;line-height:1.75}
+
+    .art-cta{background:linear-gradient(135deg,var(--g1) 0%,#1a1600 100%);border:1px solid rgba(234,179,8,.25);border-radius:12px;padding:40px 32px;text-align:center;margin:48px 0}
+    .art-cta h2{font-family:'Barlow Condensed',sans-serif;font-size:1.8rem;font-weight:800;margin-bottom:12px}
+    .art-cta p{color:#bbb;font-size:.93rem;margin-bottom:24px;line-height:1.7}
+    .cta-btn{display:inline-flex;align-items:center;gap:8px;background:var(--y);color:#000;font-weight:700;font-size:1rem;padding:14px 28px;border-radius:6px;text-decoration:none}
+    .cta-sub{margin-top:14px;font-size:.8rem;color:var(--g3)}
+
+    .related{margin:48px 0}
+    .related h3{font-family:'Barlow Condensed',sans-serif;font-size:1.2rem;font-weight:700;margin-bottom:16px;color:var(--g3);letter-spacing:.05em;text-transform:uppercase}
+    .related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .related-card{background:var(--g1);border:1px solid #2a2a2a;border-radius:8px;padding:16px;text-decoration:none;display:block;transition:border-color .2s}
+    .related-card:hover{border-color:var(--y)}
+    .related-card-tag{font-size:.72rem;color:var(--g3);margin-bottom:6px}
+    .related-card-title{font-size:.88rem;font-weight:700;color:var(--w);line-height:1.4}
+
+    .art-footer{border-top:1px solid #1a1a1a;padding:32px 24px;text-align:center;font-size:.8rem;color:var(--g3);max-width:800px;margin:0 auto}
+
+    @media(max-width:600px){
+      .spec-grid{grid-template-columns:repeat(2,1fr)}
+      .nav{padding:14px 16px}
+      .art-hero,.art-body{padding-left:16px;padding-right:16px}
+      .author-card{flex-direction:column;align-items:flex-start}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="https://ktnkorea.com" class="nav-logo">KTN<span>KOREA</span></a>
+  <div class="nav-right">
+    <a href="/insights" class="nav-back">← 인사이트 목록</a>
+    <a href="tel:01023405791" class="nav-cta">긴급 문의 010-2340-5791</a>
+  </div>
+</nav>
+
+<header class="art-hero">
+  <div class="breadcrumb">
+    <a href="https://ktnkorea.com">홈</a> &rsaquo;
+    <a href="/insights">기술 인사이트</a> &rsaquo;
+    원료 레진
+  </div>
+  <div class="tag-row">
+    <span class="tag hot">소재가이드</span>
+    <span class="tag">재생 레진</span>
+    <span class="tag">블렌드 비율</span>
+  </div>
+  <h1>재생 레진(리사이클) 섞어도 되는 스펙<br>vs 안 되는 스펙</h1>
+  <div class="art-meta">
+    <span>박정훈 · KTN KOREA 대표</span>
+    <span>2026.08.06</span>
+    <span>원료 레진 사업부 기술 인사이트</span>
+  </div>
+  <div class="summary-box">
+    원가 절감을 위해 재생(리사이클) 레진 블렌드를 검토하는 구매팀이 늘고 있습니다. 문제는 <strong>"섞어도 되는 부품"과 "절대 안 되는 부품"</strong>을 구분하지 않고 일괄 적용하는 경우입니다. 반도체 클린룸 파티클 민감 부품에 재생 원료를 섞었다가 문제가 생기면, 아낀 원가보다 훨씬 큰 손실로 돌아옵니다. 기준을 정리했습니다.
+  </div>
+</header>
+
+<main class="art-body">
+
+  <div class="author-card">
+    <div class="author-avatar">박</div>
+    <div class="author-info">
+      <div class="author-name">박정훈 · KTN KOREA 대표</div>
+      <div class="author-desc">20년 베어링 & 정밀 가공 기술 마이스터. 엔지니어링 플라스틱 원료 레진 공급 및 정밀 가공 전문가.<br>반도체·디스플레이 라인 정밀 부품용 버진 원료 공급, 재생원료 블렌드 스펙 검증.</div>
+      <div class="author-badge">포브스코리아 CSV 대상 2026</div>
+    </div>
+  </div>
+
+  <div class="spec-grid">
+    <div class="spec-item">
+      <div class="spec-num">±0.001mm</div>
+      <div class="spec-lbl">정밀 공차 부품 가공 정밀도</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-num">2종</div>
+      <div class="spec-lbl">배제 대상 (클린룸·정밀공차)</div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-num">MOQ 1개</div>
+      <div class="spec-lbl">소량도 재생함량 COA 명시</div>
+    </div>
+  </div>
+
+  <h2>섞어도 되는 용도 vs 안 되는 용도</h2>
+  <table class="compare-table">
+    <thead>
+      <tr>
+        <th>용도</th>
+        <th>재생 레진 블렌드</th>
+        <th>이유</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>비노출 내부 하우징, 물류 파렛트·지그</td>
+        <td class="td-good">허용 (저비율)</td>
+        <td>외관·미세 공차가 최종 성능에 직접 영향 없음</td>
+      </tr>
+      <tr>
+        <td>반도체·디스플레이 클린룸 파티클 민감 부품</td>
+        <td class="td-bad">배제</td>
+        <td>재생 원료의 이물 혼입 가능성이 파티클 발생으로 직결</td>
+      </tr>
+      <tr>
+        <td>±0.001mm급 정밀 공차 베어링·기구 부품</td>
+        <td class="td-bad">배제</td>
+        <td>재생 원료의 물성 편차가 치수 불량으로 직결</td>
+      </tr>
+      <tr>
+        <td>식품·의료 접촉 부품</td>
+        <td class="td-bad">배제</td>
+        <td>재처리 이력 추적이 어려워 안전 규정 대응 불가</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>왜 재생 원료가 정밀·클린 용도에서 위험한가</h2>
+  <div class="cause-list">
+    <div class="cause-item">
+      <div class="cause-num">01</div>
+      <div>
+        <div class="cause-title">재처리 이력 불균일 — 로트마다 출처가 다름</div>
+        <div class="cause-desc">재생 원료는 여러 출처의 폐기물·불량품을 재처리해 만들어지는 경우가 많아, 같은 등급이라도 로트마다 원재료 이력이 다를 수 있습니다. 이는 버진 원료보다 훨씬 큰 물성 편차로 이어집니다.</div>
+      </div>
+    </div>
+    <div class="cause-item">
+      <div class="cause-num">02</div>
+      <div>
+        <div class="cause-title">이물 혼입 가능성 — 파티클 민감 환경에 치명적</div>
+        <div class="cause-desc">재처리 과정에서 완전히 제거되지 않은 미세 이물이 남을 수 있습니다. 반도체·디스플레이 클린룸에서는 이 이물 하나가 파티클 오염원이 되어 라인 전체의 수율에 영향을 줄 수 있습니다.</div>
+      </div>
+    </div>
+    <div class="cause-item">
+      <div class="cause-num">03</div>
+      <div>
+        <div class="cause-title">MFI·기계적 물성 편차 — 정밀 공차 부품에서 치수 불량</div>
+        <div class="cause-desc">재처리 과정의 열이력이 누적되면 분자량 저하로 MFI가 변하고, 이는 사출 시 수축률 변화로 이어집니다. ±0.001mm 수준의 정밀 공차를 요구하는 부품에서는 이 편차가 곧바로 불량으로 나타납니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p>레진을 파는 회사는 많습니다. 저희는 <strong>레진을 파는 회사가 아니라, 어느 부품에 재생 원료를 써도 되는지 먼저 구분해주는 회사</strong>에 가깝습니다. 원가 절감이 필요한 부품과 절대 타협하면 안 되는 부품을 나눠서 제안합니다.</p>
+  </div>
+
+  <h2>블렌드 비율 공개, 발주 전 확인 항목</h2>
+  <div class="criteria-list">
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">재생 함량(%) 서면 명시</div>
+      <div class="criteria-desc">구두 안내가 아니라 견적서·COA에 수치로 기재되는가</div>
+    </div>
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">로트별 MFI·이물 검사 결과</div>
+      <div class="criteria-desc">버진 원료 대비 편차 폭이 요구 스펙 안에 있는가</div>
+    </div>
+    <div class="criteria-item">
+      <div class="criteria-check">✓</div>
+      <div class="criteria-title">해당 부품의 용도 재확인</div>
+      <div class="criteria-desc">비노출·비민감 부품인지, 최종 성능에 영향 없는지 재검토</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p><strong>발주 전 30초 체크</strong> — 재생 레진을 검토 중이라면 딱 한 가지만 확인하십시오. "이 부품이 반도체 클린룸용이거나 ±0.001mm급 정밀 공차 부품인가?" 둘 중 하나라도 해당하면, 원가 몇 % 아끼자고 재생 원료를 섞을 부품이 아닙니다.</p>
+  </div>
+
+  <div class="faq-section">
+    <h2>자주 묻는 질문</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">재생 레진(리사이클)을 섞어도 되는 부품은 어떤 것들인가요?</div>
+      <div class="faq-a">외관·미세 공차가 최종 성능에 직접 영향을 주지 않는 비민감 용도 — 비노출 내부 하우징, 물류용 파렛트·지그, 일부 포장재 부품 등은 낮은 비율의 재생 레진 블렌드를 허용하는 경우가 많습니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">재생 레진을 절대 섞으면 안 되는 부품은 어떤 것들인가요?</div>
+      <div class="faq-a">반도체·디스플레이 클린룸 파티클 민감 부품, ±0.001mm 수준의 정밀 공차 베어링·기구 부품, 식품·의료 접촉 부품입니다. 재생 원료는 이물 혼입 가능성과 물성 편차가 버진 원료보다 커서 파티클 발생이나 치수 불량으로 직결될 수 있습니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">블렌드 비율은 어떻게 확인하고 요구해야 하나요?</div>
+      <div class="faq-a">발주 시 재생 원료 함량을 %로 명시해달라고 요청하고, 이 수치가 COA에 실측 기재되는지 확인해야 합니다. 구두로만 안내하고 서류에 남기지 않는 공급사는 실제 비율 변동을 확인할 방법이 없습니다.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">재생 레진 블렌드 제품도 COA 검증이 필요한가요?</div>
+      <div class="faq-a">버진 원료보다 더 필요합니다. 재생 원료는 로트마다 원재료 출처와 재처리 이력이 달라 물성 편차가 큽니다. 로트별 COA에 재생 함량, MFI, 이물 검사 결과가 함께 기재되어야 요구 스펙 충족 여부를 판단할 수 있습니다.</div>
+    </div>
+  </div>
+
+  <div class="art-cta">
+    <h2>어느 부품에 재생 레진을 써도 되는지, 먼저 구분해 드립니다</h2>
+    <p>현재 검토 중인 부품 목록과 용도를 알려주시면<br>재생 원료 적용 가능 여부를 무료로 사전 검토해드립니다.</p>
+    <a href="tel:01023405791" class="cta-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
+      010-2340-5791
+    </a>
+    <div class="cta-sub">평일 09:00~18:00 / 긴급 문의 24시간 접수</div>
+  </div>
+
+  <div class="related">
+    <h3>관련 인사이트</h3>
+    <div class="related-grid">
+      <a href="/insights/resin-order-without-tds-coa-risk.html" class="related-card">
+        <div class="related-card-tag">조달·업체</div>
+        <div class="related-card-title">TDS만 보고 발주하면 안 되는 이유 — 레진도 로트별 COA가 있다</div>
+      </a>
+      <a href="/insights/pigment-supplier-coa-risk-guide.html" class="related-card">
+        <div class="related-card-tag">조달·업체</div>
+        <div class="related-card-title">COA 원본 없는 안료 공급사 — 왜 위험한가</div>
+      </a>
+      <a href="/insights/semiconductor-particle-problem-bearing-material-fix.html" class="related-card">
+        <div class="related-card-tag">ESD·반도체</div>
+        <div class="related-card-title">반도체 파티클 문제 — 베어링 소재로 해결</div>
+      </a>
+    </div>
+  </div>
+
+</main>
+
+<footer class="art-footer">
+  <p>© 2026 KTN KOREA. 포브스코리아 CSV 대상 2026 수상 · 대표 박정훈 · 010-2340-5791</p>
+  <p style="margin-top:8px"><a href="https://ktnkorea.com" style="color:var(--g3);text-decoration:none">ktnkorea.com</a> · <a href="/insights" style="color:var(--g3);text-decoration:none">기술 인사이트</a></p>
+</footer>
+
+</body>
+</html>
