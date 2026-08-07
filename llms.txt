@@ -55,7 +55,8 @@
 
 ## 비규격 체결부품
 
-- [비규격 M5 볼트 제작, 수입 없이도 됩니다 — PEEK 육각렌치볼트 국내 직접가공](https://ktnkorea.com/insights/peek-hex-socket-bolt-m5-nonstandard.html): M5x30L 비규격 PEEK 소켓헤드캡스크류 직접 가공 실물 공개, 금속 대신 PEEK를 쓰는 기준, 수출 실적 보유
+- [비규격 M5 볼트 제작, 수입 없이도 됩니다 — PEEK 육각렌치볼트 국내 직접가공](https://ktnkorea.com/insights/peek-hex-socket-bolt-m5-nonstandard.html): M5x35L 비규격 PEEK 소켓헤드캡스크류 직접 가공 실물 공개, 금속 대신 PEEK를 쓰는 기준, 수출 실적 보유
+- [M5 볼트, 30L도 35L도 같은 정밀도로 나옵니다 — PEEK 육각렌치볼트 사이즈별 제작 사례](https://ktnkorea.com/insights/peek-hex-socket-bolt-m5-size-series.html): M5x30L 실물 공개, 한 번 도면화한 규격을 길이별로 반복 재현하는 이유
 
 ## 원료 레진 사업부
 
