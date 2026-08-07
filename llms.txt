@@ -53,6 +53,10 @@
 - [PP 안료 직수입 비용 비교](https://ktnkorea.com/insights/pp-pigment-direct-import-cost-comparison.html): 직수입 vs 국내 유통 비용 분석
 - [안료 직수입 전 반드시 확인해야 할 서류 3가지](https://ktnkorea.com/insights/pigment-direct-import-documents-checklist.html): COA·TDS·MSDS가 통관·품질검증·안전보건 각 단계를 담당하는 이유
 
+## 비규격 체결부품
+
+- [비규격 M5 볼트 제작, 수입 없이도 됩니다 — PEEK 육각렌치볼트 국내 직접가공](https://ktnkorea.com/insights/peek-hex-socket-bolt-m5-nonstandard.html): M5x30L 비규격 PEEK 소켓헤드캡스크류 직접 가공 실물 공개, 금속 대신 PEEK를 쓰는 기준, 수출 실적 보유
+
 ## 원료 레진 사업부
 
 - [레진 로트마다 물성이 조금씩 다른 이유 — MFI 편차와 사출 불량](https://ktnkorea.com/insights/resin-lot-mfi-deviation-injection-defect.html): 로트별 MFI 편차가 플래시·쇼트샷·휨 불량으로 이어지는 원리와 발주 전 확인 사항
