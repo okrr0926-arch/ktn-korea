@@ -1772,6 +1772,8 @@ const SCROLL_H=1500;
             body: JSON.stringify({ log, timestamp: now })
           })
         ]);
+        // 상담 기록이 실제로 전송된 경우만 리드로 집계
+        if (typeof gtag === 'function') gtag('event', 'generate_lead', { method: 'chatbot' });
       } catch(e) {}
     }
 
@@ -1855,13 +1857,38 @@ const SCROLL_H=1500;
     }
   })();
 
-  // FORM
-  document.getElementById('rfqForm').addEventListener('submit',e=>{
-    e.preventDefault();
-    const btn=e.target.querySelector('.form-submit');
-    btn.textContent='✓ 접수 완료 — 신속히 연락드리겠습니다.';
-    btn.style.background='#16a34a';btn.style.color='#fff';btn.disabled=true;
-  });
+  // FORM — rfqForm은 현재 마크업에 없다. 가드 없이 바인딩해서 매 로드마다
+  // TypeError(null.addEventListener)가 났었다. 폼을 다시 넣으면 이 블록이 살아난다.
+  const rfqForm = document.getElementById('rfqForm');
+  if (rfqForm) {
+    rfqForm.addEventListener('submit', e => {
+      e.preventDefault();
+      const btn = e.target.querySelector('.form-submit');
+      btn.textContent = '✓ 접수 완료 — 신속히 연락드리겠습니다.';
+      btn.style.background = '#16a34a'; btn.style.color = '#fff'; btn.disabled = true;
+      if (typeof gtag === 'function') gtag('event', 'generate_lead', { method: 'form' });
+    });
+  }
+
+  /* ── 문의 전환 측정 (GA4) — 2026-08-11 추가 ─────────────────────────
+     배경: AI 검색 유입(ChatGPT·Perplexity·Gemini)의 64%가 홈으로 들어오는데
+     전환 이벤트가 하나도 없어 GA4 '주요 이벤트'가 전 채널 0으로 찍히고 있었다.
+       generate_lead  = 실제 문의 발생 (챗봇 상담 기록 전송, 카카오톡 오픈채팅)
+       contact_click  = 문의 의도 (전화·이메일 링크 클릭 — 실제 통화 여부는 알 수 없음)
+     ※ GA4 관리 → 이벤트에서 generate_lead 를 '주요 이벤트'로 표시해야 집계된다. */
+  (function () {
+    const track = (name, method) => {
+      if (typeof gtag === 'function') gtag('event', name, { method });
+    };
+    document.addEventListener('click', e => {
+      const a = e.target.closest && e.target.closest('a[href]');
+      if (!a) return;
+      const href = a.getAttribute('href') || '';
+      if (/^tel:/i.test(href)) track('contact_click', 'phone');
+      else if (/^mailto:/i.test(href)) track('contact_click', 'email');
+      else if (/open\.kakao\.com/i.test(href)) track('generate_lead', 'kakao');
+    }, true);
+  })();
 </script>
 </body>
 </html>

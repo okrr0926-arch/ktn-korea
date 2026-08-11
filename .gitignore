@@ -1,0 +1,35 @@
+# API 키 — 절대 커밋 금지 (공개 리포지토리)
+.env
+.env.*
+geo-tracker/measure/.env*
+
+# 서비스 계정 키 (GA4 등) — 저장소 밖에 두는 게 원칙이지만 실수 방지용 이중 안전망
+*-key.json
+*service-account*.json
+*credentials*.json
+gcp-*.json
+.secrets/
+
+# 로컬 보관용 (푸시하지 않음)
+reports/
+geo-tracker/data/
+
+# 내부 문서·에이전트 설정 — 공개 저장소이므로 절대 커밋 금지
+.claude/
+.codex/
+.agents/
+.mcp.json
+.obsidian/
+CLAUDE.md
+AGENTS.md
+KTN_SOP.md
+
+# 작업 파일
+.playwright-mcp/
+temp_b64.txt
+node_modules/
+# Added by code-review-graph
+.code-review-graph/
+
+# 에이전트 세션 상태
+.omc/
