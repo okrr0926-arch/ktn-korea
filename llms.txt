@@ -45,6 +45,11 @@
 - [반도체 파티클 문제 — 베어링 소재로 해결](https://ktnkorea.com/insights/semiconductor-particle-problem-bearing-material-fix.html): 파티클 발생원으로서의 베어링과 소재 개선
 - [리플로우 솔더링 컨베이어 260℃ 베어링](https://ktnkorea.com/insights/reflow-soldering-conveyor-bearing-260c.html): 고온 컨베이어 환경용 베어링 선정
 
+## 맞춤 배합·특주
+
+- [안료도 배치 컬러가 안 맞으면 역조색 가능합니다](https://ktnkorea.com/insights/pigment-color-rematching-custom-blend.html): 기존 배치·현품 색상 기준 역조색 배합 원리와 발주 전 확인 사항
+- [ESD+내열, 두 가지가 동시에 필요한 롤러는 표준 카탈로그에 없습니다](https://ktnkorea.com/insights/esd-heat-resistant-roller-custom-order.html): 대전방지+내열 동시 요구 시 특주가 필요한 이유와 소재 선택 기준
+
 ## 특수 베어링 (복합 소재)
 
 - [PEEK+PTFE+Si3N4, 세 가지 소재를 한 베어링에 — 커버타입 복열 비규격 특주 볼베어링](https://ktnkorea.com/insights/peek-ptfe-si3n4-cover-bearing-double-row.html): 외경 PTFE 커버·복열 구조·Si3N4 세라믹볼·PEEK 리테이너 조합 실물 공개, 부위별 소재 조합 이유
