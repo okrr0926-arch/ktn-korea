@@ -27,6 +27,7 @@
 
 ## 역설계·국산화·조달
 
+- [도면 없이 사진 한 장으로 시작한 역설계 — 실제 진행 과정 공개](https://ktnkorea.com/insights/reverse-engineering-single-photo-process.html): 사진 검토→현품 실측→도면화→시제품 검증 4단계 프로세스와 발주 전 준비물
 - [플라스틱 베어링 역설계](https://ktnkorea.com/insights/plastic-bearing-reverse-engineering.html): 도면 없이 현품만으로 역설계하는 프로세스 (±0.001mm)
 - [역설계 긴급 대응](https://ktnkorea.com/insights/reverse-engineering-emergency-response.html): 라인 정지 상황에서의 긴급 역설계·납품 절차
 - [수입 베어링 지연과 반도체 국산화](https://ktnkorea.com/insights/import-bearing-delay-semiconductor-localization.html): 수입 리드타임 리스크와 국산화 대체 전략
