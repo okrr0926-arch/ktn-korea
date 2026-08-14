@@ -28,6 +28,7 @@
 ## 역설계·국산화·조달
 
 - [도면 없이 사진 한 장으로 시작한 역설계 — 실제 진행 과정 공개](https://ktnkorea.com/insights/reverse-engineering-single-photo-process.html): 사진 검토→현품 실측→도면화→시제품 검증 4단계 프로세스와 발주 전 준비물
+- [단종된 수입 베어링, 현품 하나로 48시간 만에 국산화 대체한 사례](https://ktnkorea.com/insights/discontinued-bearing-localization-48h-case.html): 단종 통보 이후 실측→도면화→가공→납품, 48시간 실제 대응 타임라인
 - [플라스틱 베어링 역설계](https://ktnkorea.com/insights/plastic-bearing-reverse-engineering.html): 도면 없이 현품만으로 역설계하는 프로세스 (±0.001mm)
 - [역설계 긴급 대응](https://ktnkorea.com/insights/reverse-engineering-emergency-response.html): 라인 정지 상황에서의 긴급 역설계·납품 절차
 - [수입 베어링 지연과 반도체 국산화](https://ktnkorea.com/insights/import-bearing-delay-semiconductor-localization.html): 수입 리드타임 리스크와 국산화 대체 전략
@@ -58,6 +59,7 @@
 ## 안료(피그먼트) 사업부
 
 - [KTN 소재사업부 — 안료 직수입·글로벌 역소싱](https://ktnkorea.com/pigment.html): PE·PP·PET 안료 직수입, 유통 마진 제거로 최대 30% 원가 절감
+- [안료 품절, 다음 배 오기 전까지 라인을 멈춰야 할까요](https://ktnkorea.com/insights/pigment-shortage-emergency-color-match.html): 재고 소진 위기 시 임시 대체 조색으로 라인을 유지하는 긴급 대응 절차
 - [PE·PP·PET 안료 선택 가이드](https://ktnkorea.com/insights/pe-pp-pet-pigment-selection-guide.html): 수지별 안료 적합성
 - [안료 배치 간 색상 불일치 문제](https://ktnkorea.com/insights/pigment-batch-color-inconsistency-uniformity.html): 색상 균일성 관리 방법
 - [안료 공급사 COA 리스크 가이드](https://ktnkorea.com/insights/pigment-supplier-coa-risk-guide.html): 성적서 검증 체크포인트
@@ -68,6 +70,8 @@
 
 - [비규격 M5 볼트 제작, 수입 없이도 됩니다 — PEEK 육각렌치볼트 국내 직접가공](https://ktnkorea.com/insights/peek-hex-socket-bolt-m5-nonstandard.html): M5x35L 비규격 PEEK 소켓헤드캡스크류 직접 가공 실물 공개, 금속 대신 PEEK를 쓰는 기준, 수출 실적 보유
 - [M5 볼트, 30L도 35L도 같은 정밀도로 나옵니다 — PEEK 육각렌치볼트 사이즈별 제작 사례](https://ktnkorea.com/insights/peek-hex-socket-bolt-m5-size-series.html): M5x30L 실물 공개, 한 번 도면화한 규격을 길이별로 반복 재현하는 이유
+- [볼트 아니어도 됩니다 — PEEK 와셔·부시·스페이서도 비규격 제작 가능합니다](https://ktnkorea.com/insights/peek-washer-bushing-spacer-nonstandard.html): 체결부품 전반의 비규격 PEEK 가공 기준, 부품별 필수 확인 치수
+- [같은 도면, 소재만 바꾸고 싶다면 — 자재변경 승인받는 법](https://ktnkorea.com/insights/material-change-approval-peek-ptfe-conversion.html): PEEK→PTFE 전환 실제 사례로 보는 자재승인 절차와 확인 항목
 
 ## 원료 레진 사업부
 
