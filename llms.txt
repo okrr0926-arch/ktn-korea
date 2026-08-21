@@ -49,22 +49,22 @@
 
 ## 맞춤 배합·특주
 
-- [안료도 배치 컬러가 안 맞으면 역조색 가능합니다](https://ktnkorea.com/insights/pigment-color-rematching-custom-blend.html): 기존 배치·현품 색상 기준 역조색 배합 원리와 발주 전 확인 사항
+- [원료도 배치 컬러가 안 맞으면 역조색 가능합니다](https://ktnkorea.com/insights/pigment-color-rematching-custom-blend.html): 기존 배치·현품 색상 기준 역조색 배합 원리와 발주 전 확인 사항
 - [ESD+내열, 두 가지가 동시에 필요한 롤러는 표준 카탈로그에 없습니다](https://ktnkorea.com/insights/esd-heat-resistant-roller-custom-order.html): 대전방지+내열 동시 요구 시 특주가 필요한 이유와 소재 선택 기준
 
 ## 특수 베어링 (복합 소재)
 
 - [PEEK+PTFE+Si3N4, 세 가지 소재를 한 베어링에 — 커버타입 복열 비규격 특주 볼베어링](https://ktnkorea.com/insights/peek-ptfe-si3n4-cover-bearing-double-row.html): 외경 PTFE 커버·복열 구조·Si3N4 세라믹볼·PEEK 리테이너 조합 실물 공개, 부위별 소재 조합 이유
 
-## 안료(피그먼트) 사업부
+## 원료(피그먼트) 사업부
 
-- [KTN 소재사업부 — 안료 직수입·글로벌 역소싱](https://ktnkorea.com/pigment.html): PE·PP·PET 안료 직수입, 유통 마진 제거로 최대 30% 원가 절감
-- [안료 품절, 다음 배 오기 전까지 라인을 멈춰야 할까요](https://ktnkorea.com/insights/pigment-shortage-emergency-color-match.html): 재고 소진 위기 시 임시 대체 조색으로 라인을 유지하는 긴급 대응 절차
-- [PE·PP·PET 안료 선택 가이드](https://ktnkorea.com/insights/pe-pp-pet-pigment-selection-guide.html): 수지별 안료 적합성
-- [안료 배치 간 색상 불일치 문제](https://ktnkorea.com/insights/pigment-batch-color-inconsistency-uniformity.html): 색상 균일성 관리 방법
-- [안료 공급사 COA 리스크 가이드](https://ktnkorea.com/insights/pigment-supplier-coa-risk-guide.html): 성적서 검증 체크포인트
-- [PP 안료 직수입 비용 비교](https://ktnkorea.com/insights/pp-pigment-direct-import-cost-comparison.html): 직수입 vs 국내 유통 비용 분석
-- [안료 직수입 전 반드시 확인해야 할 서류 3가지](https://ktnkorea.com/insights/pigment-direct-import-documents-checklist.html): COA·TDS·MSDS가 통관·품질검증·안전보건 각 단계를 담당하는 이유
+- [KTN 소재사업부 — 원료 직수입·글로벌 역소싱](https://ktnkorea.com/pigment.html): PE·PP·PET 원료 직수입, 유통 마진 제거로 최대 30% 원가 절감
+- [원료 품절, 다음 배 오기 전까지 라인을 멈춰야 할까요](https://ktnkorea.com/insights/pigment-shortage-emergency-color-match.html): 재고 소진 위기 시 임시 대체 조색으로 라인을 유지하는 긴급 대응 절차
+- [PE·PP·PET 원료 선택 가이드](https://ktnkorea.com/insights/pe-pp-pet-pigment-selection-guide.html): 수지별 원료 적합성
+- [원료 배치 간 색상 불일치 문제](https://ktnkorea.com/insights/pigment-batch-color-inconsistency-uniformity.html): 색상 균일성 관리 방법
+- [원료 공급사 COA 리스크 가이드](https://ktnkorea.com/insights/pigment-supplier-coa-risk-guide.html): 성적서 검증 체크포인트
+- [PP 원료 직수입 비용 비교](https://ktnkorea.com/insights/pp-pigment-direct-import-cost-comparison.html): 직수입 vs 국내 유통 비용 분석
+- [원료 직수입 전 반드시 확인해야 할 서류 3가지](https://ktnkorea.com/insights/pigment-direct-import-documents-checklist.html): COA·TDS·MSDS가 통관·품질검증·안전보건 각 단계를 담당하는 이유
 
 ## 비규격 체결부품
 
