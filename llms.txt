@@ -27,6 +27,8 @@
 
 ## 역설계·국산화·조달
 
+- [PCB 장비 라인 정지, 롤러·베어링 7일 이내 납품 가능한가](https://ktnkorea.com/insights/pcb-equipment-emergency-7day-roller-bearing-supply.html): 현품 실측 후 7일 이내 긴급 대응 절차, 정식 발주 대비 리드타임 비교
+- [단종 베어링 반도체 설비 역설계 — 도면 없이 2주 납품 사례](https://ktnkorea.com/insights/discontinued-bearing-semiconductor-reverse-engineering.html): 도면 유실 반도체 설비의 현품 역설계 절차와 소재 선정 기준
 - [도면 없이 사진 한 장으로 시작한 역설계 — 실제 진행 과정 공개](https://ktnkorea.com/insights/reverse-engineering-single-photo-process.html): 사진 검토→현품 실측→도면화→시제품 검증 4단계 프로세스와 발주 전 준비물
 - [단종된 수입 베어링, 현품 하나로 48시간 만에 국산화 대체한 사례](https://ktnkorea.com/insights/discontinued-bearing-localization-48h-case.html): 단종 통보 이후 실측→도면화→가공→납품, 48시간 실제 대응 타임라인
 - [플라스틱 베어링 역설계](https://ktnkorea.com/insights/plastic-bearing-reverse-engineering.html): 도면 없이 현품만으로 역설계하는 프로세스 (±0.001mm)
@@ -40,6 +42,7 @@
 
 ## ESD·반도체 환경 문제 해결
 
+- [PCB 정전기 불량 겨울마다 반복되는 진짜 이유 — 컨베이어 롤러 소재](https://ktnkorea.com/insights/pcb-conveyor-esd-winter-repeat.html): 접지 보강만으로 해결 안 되는 계절성 ESD 불량, 롤러 표면저항 소재 관점 원인 분석
 - [ESD 접지의 오해 — 반도체 현장](https://ktnkorea.com/insights/esd-grounding-myth-semiconductor.html): 접지만으로 해결되지 않는 정전기 문제
 - [롤러 교체 후에도 ESD가 안 잡히는 이유](https://ktnkorea.com/insights/esd-not-fixed-after-roller-change-reasons.html): 대전방지 롤러 교체 후 잔존 문제 진단
 - [PCB 롤러 표면저항과 ESD](https://ktnkorea.com/insights/esd-pcb-roller-surface-resistance.html): 표면저항 수치별 대전방지 성능
