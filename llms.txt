@@ -9,6 +9,13 @@
 - [메인 — 회사 소개·제품·FAQ](https://ktnkorea.com/): 회사 개요, 제품 카탈로그(PEEK/PTFE/POM/UPE/복합/특수 소재), 자주 묻는 질문 7개, 견적 문의
 - [기술 인사이트 목록](https://ktnkorea.com/insights/index.html): 베어링 소재·역설계·ESD·조달 전문 아티클 전체 목록
 
+## 제품 카테고리 (4개 파트)
+
+- [엔지니어링 플라스틱 볼베어링·롤러](https://ktnkorea.com/products/plastic-bearing-roller.html): PEEK·PTFE·POM·UPE 볼베어링, ESD 대전방지 롤러, PEEK 체결부품 — 제품 사진·관련 기술 아티클
+- [웨이브 제너레이터 베어링](https://ktnkorea.com/products/wave-generator-bearing.html): 하모닉 감속기용 유연 박형 베어링 — 비규격·역설계 제작 문의
+- [세라믹 베어링·강구·볼](https://ktnkorea.com/products/ceramic-bearing-ball.html): ZrO₂·Si₃N₄ 풀세라믹·하이브리드 베어링, 세라믹 볼, STS304 강구 — 제품 사진·관련 기술 아티클
+- [플라스틱 원료/용재류](https://ktnkorea.com/products/plastic-raw-materials.html): PE·PP·PET 원료, 레진, 유기안료·마스터배치 직수입 — 관련 기술 아티클
+
 ## 소재별 베어링 가이드
 
 - [PEEK 볼베어링 — 반도체 클린룸에 쓰이는 이유](https://ktnkorea.com/insights/peek-bearing-semiconductor-cleanroom-reason.html): 250℃ 내열·저파티클 PEEK 소재가 반도체 장비에 적합한 기술적 근거
@@ -27,6 +34,8 @@
 
 ## 역설계·국산화·조달
 
+- [구형 PCB 장비 소모품, 수입 단종 후 대응법 완전 정리](https://ktnkorea.com/insights/pcb-old-equipment-discontinued-parts-response.html): 유통 끊긴 구형 설비 소모품의 현품 실측 기반 국산화 절차와 장기 운용 판단 기준
+- [PCB 에칭 컨베이어 롤러 소재 — 염산·황산 환경에서 6개월 버티는 것](https://ktnkorea.com/insights/pcb-etching-conveyor-roller-acid-resistant.html): 강산 환경 내화학 롤러 소재(PTFE·PEEK) 선택 기준과 교체 주기 비교
 - [PCB 장비 라인 정지, 롤러·베어링 7일 이내 납품 가능한가](https://ktnkorea.com/insights/pcb-equipment-emergency-7day-roller-bearing-supply.html): 현품 실측 후 7일 이내 긴급 대응 절차, 정식 발주 대비 리드타임 비교
 - [단종 베어링 반도체 설비 역설계 — 도면 없이 2주 납품 사례](https://ktnkorea.com/insights/discontinued-bearing-semiconductor-reverse-engineering.html): 도면 유실 반도체 설비의 현품 역설계 절차와 소재 선정 기준
 - [도면 없이 사진 한 장으로 시작한 역설계 — 실제 진행 과정 공개](https://ktnkorea.com/insights/reverse-engineering-single-photo-process.html): 사진 검토→현품 실측→도면화→시제품 검증 4단계 프로세스와 발주 전 준비물
