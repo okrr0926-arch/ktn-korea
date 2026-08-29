@@ -70,7 +70,7 @@
 
 ## 원료(피그먼트) 사업부
 
-- [KTN 소재사업부 — 원료 직수입·글로벌 역소싱](https://ktnkorea.com/pigment.html): PE·PP·PET 원료 직수입, 유통 마진 제거로 최대 30% 원가 절감
+- [KTN 소재사업부 — 원료 직수입·글로벌 역소싱](https://ktnkorea.com/pigment.html): PVC·레진·산업용 용제 직수입, 유통 마진 제거로 최대 30% 원가 절감
 - [원료 품절, 다음 배 오기 전까지 라인을 멈춰야 할까요](https://ktnkorea.com/insights/pigment-shortage-emergency-color-match.html): 재고 소진 위기 시 임시 대체 조색으로 라인을 유지하는 긴급 대응 절차
 - [PE·PP·PET 원료 선택 가이드](https://ktnkorea.com/insights/pe-pp-pet-pigment-selection-guide.html): 수지별 원료 적합성
 - [원료 배치 간 색상 불일치 문제](https://ktnkorea.com/insights/pigment-batch-color-inconsistency-uniformity.html): 색상 균일성 관리 방법
