@@ -725,6 +725,22 @@
     .kakao-btn{display:flex;align-items:center;justify-content:center;width:44px;height:44px;background:#FEE500;border-radius:50%;box-shadow:0 4px 16px rgba(0,0,0,.4);transition:transform .2s;flex-shrink:0}
     .kakao-btn:hover{transform:translateY(-2px)}
     .kakao-btn svg{width:22px;height:22px}
+    /* ══ PRODUCT CATEGORY PHOTO CARDS ══ */
+    .cat-section{padding-block:5.5rem 4.5rem;background:var(--bg)}
+    .cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:2.5rem}
+    .cat-card{position:relative;display:block;aspect-ratio:3/4;overflow:hidden;border:1px solid #222;background:#141414;border-radius:4px}
+    .cat-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.5) saturate(.95);transition:transform .5s var(--ease),filter .5s var(--ease)}
+    .cat-card::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.62) 0%,rgba(0,0,0,.12) 42%,rgba(0,0,0,.68) 100%);pointer-events:none}
+    .cat-card:hover{border-color:rgba(234,179,8,.45)}
+    .cat-card:hover img{transform:scale(1.06);filter:brightness(.65) saturate(1.05)}
+    .cat-body{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;padding:1.6rem 1.5rem}
+    .cat-num{font-family:var(--fm);font-size:.66rem;letter-spacing:.16em;color:var(--y);margin-bottom:.6rem}
+    .cat-name{font-family:var(--fb);font-weight:800;font-size:clamp(1.2rem,1.5vw,1.45rem);line-height:1.3;color:var(--w);letter-spacing:-.01em;word-break:keep-all}
+    .cat-desc{font-size:.86rem;line-height:1.65;color:#C9C9C9;margin-top:.6rem;word-break:keep-all}
+    .cat-go{margin-top:auto;font-size:.82rem;font-weight:700;color:var(--y);display:inline-flex;align-items:center;gap:.35rem;transform:translateX(0);transition:transform .25s var(--ease)}
+    .cat-card:hover .cat-go{transform:translateX(4px)}
+    @media(max-width:1100px){.cat-grid{grid-template-columns:repeat(2,1fr)}.cat-card{aspect-ratio:4/3}}
+    @media(max-width:560px){.cat-grid{grid-template-columns:1fr}.cat-card{aspect-ratio:16/10}}
   </style>
 </head>
 <body>
@@ -881,6 +897,53 @@
     <span class="tick-item">라인 다운 비용보다 KTN 견적이 쌉니다<span class="tick-sep"></span></span>
   </div>
 </div>
+
+<!-- ══ PRODUCT CATEGORY CARDS ══ -->
+<section class="cat-section" id="parts" aria-labelledby="cat-title">
+  <div class="container">
+    <div class="sec-eyebrow rv"><span class="sec-ebar" aria-hidden="true"></span><span class="sec-etxt">제품 카테고리</span></div>
+    <h2 class="sec-title rv" id="cat-title" data-d="1">4개 제품 파트, <em>사진과 기술자료로 확인</em></h2>
+    <p class="sec-lead rv" data-d="2">각 파트를 클릭하면 제품 사진과 해당 분야 기술 인사이트를 한 페이지에서 볼 수 있습니다.</p>
+    <div class="cat-grid">
+      <a class="cat-card rv" href="products/plastic-bearing-roller.html">
+        <img src="images/peek-695-main.jpg" alt="엔지니어링 플라스틱 볼베어링·롤러" loading="lazy"/>
+        <div class="cat-body">
+          <span class="cat-num">PRODUCT 01</span>
+          <span class="cat-name">엔지니어링<br/>볼베어링·롤러</span>
+          <span class="cat-desc">PEEK·PTFE·POM·UPE 볼베어링과 ESD 롤러. 도면 없이 현품 역설계 제작.</span>
+          <span class="cat-go">제품 사진 · 기술 인사이트 →</span>
+        </div>
+      </a>
+      <a class="cat-card rv" href="products/wave-generator-bearing.html" data-d="1">
+        <img src="images/wave-generator-bearing-hero.jpg" alt="웨이브 제너레이터 베어링" loading="lazy"/>
+        <div class="cat-body">
+          <span class="cat-num">PRODUCT 02</span>
+          <span class="cat-name">웨이브 제너레이터<br/>베어링</span>
+          <span class="cat-desc">하모닉 감속기용 유연 박형 베어링. 비규격 치수·현품 역설계 대응.</span>
+          <span class="cat-go">제품 사진 · 기술 인사이트 →</span>
+        </div>
+      </a>
+      <a class="cat-card rv" href="products/ceramic-bearing-ball.html" data-d="2">
+        <img src="images/ceramic-si3n4-black-hybrid-bearing.jpg" alt="세라믹 베어링·강구·볼" loading="lazy"/>
+        <div class="cat-body">
+          <span class="cat-num">PRODUCT 03</span>
+          <span class="cat-name">세라믹 베어링<br/>강구·볼</span>
+          <span class="cat-desc">ZrO₂·Si₃N₄ 풀세라믹·하이브리드와 STS 강구. 비자성·내부식·고속 회전.</span>
+          <span class="cat-go">제품 사진 · 기술 인사이트 →</span>
+        </div>
+      </a>
+      <a class="cat-card rv" href="products/plastic-raw-materials.html" data-d="3">
+        <img src="images/resin-pellets-bag.jpg" alt="플라스틱 원료 / 용재류" loading="lazy"/>
+        <div class="cat-body">
+          <span class="cat-num">PRODUCT 04</span>
+          <span class="cat-name">플라스틱 원료<br/>용재류</span>
+          <span class="cat-desc">PVC 원료·레진·산업용 용제 직수입. 유통 마진 제거, 최대 30% 절감.</span>
+          <span class="cat-go">제품 사진 · 기술 인사이트 →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
 
 <!-- ══ ABOUT ══ -->
 <section class="about" id="about" aria-labelledby="about-title">
