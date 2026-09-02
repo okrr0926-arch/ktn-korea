@@ -30,6 +30,11 @@
 - [세라믹(ZrO₂·Si₃N₄) 반도체 비자성 환경 선택 기준](https://ktnkorea.com/insights/ceramic-zro2-si3n4-bearing-semiconductor-guide.html): 자성 잔류율·내충격성·열팽창 기준 소재 선택
 - [세라믹 베어링 규격 호환](https://ktnkorea.com/insights/ceramic-bearing-drop-in-replacement-guide.html): 강볼 베어링 자리 드롭인 교체 시 확인할 4가지
 - [세라믹 볼베어링은 수입만 되는 줄 아셨죠? 저희가 ±0.001mm로 직접 깎습니다](https://ktnkorea.com/insights/peek-retainer-ceramic-bearing-stock.html): ZrO₂ 풀세라믹·Si₃N₄ 하이브리드 PEEK 리테이너 베어링, KTN이 직접 정밀 가공한 실물 2종 공개
+- [세라믹 볼 등급 G5·G10·G25](https://ktnkorea.com/insights/ceramic-ball-precision-grade-g5-g10-g25.html): G값=진구도 허용 편차(G5≈0.13㎛), 등급별 용도·가격과 과사양 판단 기준
+- [세라믹 볼 소재 3종 비교 ZrO₂·Si₃N₄·Al₂O₃](https://ktnkorea.com/insights/ceramic-ball-material-zro2-si3n4-al2o3.html): 밀도·경도·인성·내열·가격 기준 비교, 용도별 선택 (고속=Si₃N₄, 내충격·밸브=ZrO₂)
+- [베어링 볼만 세라믹으로 교체하는 하이브리드 개조 조건](https://ktnkorea.com/insights/ceramic-ball-hybrid-retrofit-conditions.html): 분해 구조·틈새 재선정·하중 특성 3가지 조건, 개조 vs 신품 제작 판단표
+- [세라믹 볼 체크밸브·펌프·유량계 적용 가이드](https://ktnkorea.com/insights/ceramic-ball-check-valve-pump-applications.html): 볼 단품이 기능인 5가지 용도와 소재·등급 선택표
+- [세라믹 볼 소량 구매 가이드](https://ktnkorea.com/insights/ceramic-ball-small-quantity-purchase-guide.html): mm·인치 규격 환산, 견적 필수 정보 4가지, MOQ 1개·3~5일 납기
 - [베어링 정밀도 등급 P5·P4·ABEC — 등급을 올려도 진동이 안 잡히는 이유](https://ktnkorea.com/insights/bearing-precision-grade-p5-p4-abec.html): ISO 492 / ABEC 대응표, 등급별 내륜 흔들림 허용값(P0 10μm·P6 5μm·P5 4μm·P4 2.5μm), 등급이 규정하지 않는 항목(소음·진동·유격·볼 소재), 발주 시 등급 대신 명시할 4가지
 
 ## 역설계·국산화·조달
