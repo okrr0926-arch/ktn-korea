@@ -29,7 +29,7 @@
   <meta property="og:locale" content="ko_KR"/>
   <meta property="og:title" content="반도체 라인 정전기, 접지(어스)로 해결된다고 생각하셨나요? | KTN KOREA"/>
   <meta property="og:description" content="접지는 필요조건이지 충분조건이 아닙니다. 비금속 롤러 소재의 표면저항이 10¹²Ω 이상이면 접지가 완벽해도 정전기는 계속 만들어집니다. 소재 교체 판단 기준과 수치를 공개합니다."/>
-  <meta property="og:url" content="https://ktnkorea.com/insights/esd-grounding-myth-semiconductor"/>
+  <meta property="og:url" content="https://ktnkorea.com/insights/esd-grounding-myth-semiconductor.html"/>
   <meta property="og:site_name" content="KTN 케이티엔"/>
   <meta property="og:image" content="https://ktnkorea.com/images/esd-roller-lineup.jpg"/>
   <meta property="article:author" content="박정훈"/>
@@ -38,90 +38,116 @@
   <title>반도체 라인 정전기, 접지(어스)로 해결된다고 생각하셨나요? | KTN 케이티엔</title>
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "@id": "https://ktnkorea.com/insights/esd-grounding-myth-semiconductor#article",
-        "headline": "반도체 라인 정전기, 접지(어스)로 해결된다고 생각하셨나요?",
-        "description": "반도체·PCB 라인에서 ESD 접지(어스)만으로 정전기 문제가 해결되지 않는 이유. 비금속 롤러·베어링 소재의 표면저항이 근본 원인이며, 소재 교체 판단 기준을 수치로 설명합니다.",
-        "datePublished": "2026-07-03",
-        "dateModified": "2026-07-03",
-        "author": {
-          "@type": "Person",
-          "name": "박정훈",
-          "jobTitle": "KTN KOREA 기술총괄",
-          "url": "https://ktnkorea.com/#founder",
-          "description": "20년 베어링 & 정밀 가공 기술 마이스터. 반도체·PCB·디스플레이 라인용 ESD 대전방지 롤러·베어링 설계·제조.",
-          "worksFor": {"@type": "Organization", "name": "KTN KOREA"}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://ktnkorea.com/insights/esd-grounding-myth-semiconductor.html#article",
+      "headline": "반도체 라인 정전기, 접지(어스)로 해결된다고 생각하셨나요?",
+      "description": "반도체·PCB 라인에서 ESD 접지(어스)만으로 정전기 문제가 해결되지 않는 이유. 비금속 롤러·베어링 소재의 표면저항이 근본 원인이며, 소재 교체 판단 기준을 수치로 설명합니다.",
+      "datePublished": "2026-07-03",
+      "dateModified": "2026-07-03",
+      "author": {
+        "@type": "Person",
+        "name": "박정훈",
+        "jobTitle": "KTN KOREA 기술총괄",
+        "url": "https://ktnkorea.com/#founder",
+        "description": "20년 베어링 & 정밀 가공 기술 마이스터. 반도체·PCB·디스플레이 라인용 ESD 대전방지 롤러·베어링 설계·제조.",
+        "worksFor": {
+          "@type": "Organization",
+          "@id": "https://ktnkorea.com/#organization",
+          "name": "케이티엔",
+          "url": "https://ktnkorea.com"
         },
-        "publisher": {"@type": "Organization", "name": "KTN 케이티엔", "url": "https://ktnkorea.com"},
-        "mainEntityOfPage": "https://ktnkorea.com/insights/esd-grounding-myth-semiconductor",
-        "keywords": "ESD 접지 한계, 정전기 소재 교체, 반도체 대전방지, 표면저항, 롤러 소재"
+        "@id": "https://ktnkorea.com/#founder"
       },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "KTN 홈", "item": "https://ktnkorea.com"},
-          {"@type": "ListItem", "position": 2, "name": "기술 인사이트", "item": "https://ktnkorea.com/insights"},
-          {"@type": "ListItem", "position": 3, "name": "반도체 ESD 접지 한계와 소재 교체", "item": "https://ktnkorea.com/insights/esd-grounding-myth-semiconductor"}
-        ]
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://ktnkorea.com/#organization",
+        "name": "케이티엔",
+        "url": "https://ktnkorea.com"
       },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "접지(어스)를 완벽하게 했는데도 정전기 불량이 계속되는 이유는 무엇인가요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "접지는 이미 축적된 정전기를 방전시키는 역할입니다. 그러나 비금속 롤러·베어링 등 절연성 소재(표면저항 10¹²Ω 이상)는 기판이 지나갈 때마다 마찰 정전기를 계속 생성합니다. 접지는 이 생성 자체를 막지 못합니다. 생성 속도가 소산 속도보다 빠르면 불량이 반복됩니다. 소재의 표면저항이 10⁶~10⁹Ω 대역(대전방지 구간)에 있어야 정전기 생성 자체가 억제됩니다."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "접지와 소재 교체를 동시에 해야 하나요, 아니면 하나만 해도 되나요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "두 가지는 역할이 다릅니다. 접지는 금속 구조물·설비 프레임의 정적 전하를 소산시킵니다. 소재 교체는 롤러·베어링 표면에서 정전기가 생성되는 것 자체를 억제합니다. 반도체·PCB 라인에서는 두 가지를 병행해야 합니다. 접지만 하면 비금속 부품에서 정전기가 계속 생성되고, 소재만 교체하면 금속 구조물의 전하가 남습니다. 현장 경험상 소재 교체 없이 접지만으로 ESD 불량을 잡은 사례는 거의 없습니다."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "표면저항 10⁶~10⁹Ω이 대전방지 구간인 이유는 무엇인가요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "10⁶Ω 미만은 도전체로 분류되어 오히려 누설 전류가 발생합니다. 10¹²Ω 이상은 절연체로 정전기를 소산시키지 못합니다. 10⁶~10⁹Ω 구간은 마찰로 생성된 정전기를 천천히, 안전하게 소산시키는 속도를 가집니다. ANSI/ESD S20.20 규격도 이 범위를 대전방지 소재의 기준으로 규정합니다. CNT(탄소나노튜브) 배합 UPE 소재는 이 구간을 수명 내내 안정적으로 유지합니다."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "현재 쓰는 롤러가 ESD 소재인지 확인하는 방법은 무엇인가요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "표면저항계(메거)로 측정하는 것이 가장 정확합니다. 기기 없이 확인하려면 공급업체에 성적서(표면저항 측정 결과표)를 요청하십시오. 성적서가 없거나 수치가 10¹⁰Ω을 초과하면 대전방지 소재가 아닙니다. 일반 POM(폴리아세탈)은 10¹²~10¹⁴Ω으로 절연체에 해당하며 ESD 제어 효과가 없습니다. 성적서 제공 불가 업체는 대전방지 소재를 공급하지 않는 것으로 판단하십시오."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "KTN의 CNT UPE 롤러로 교체하면 얼마나 빠르게 효과가 나타나나요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "교체 후 첫 생산 라인 가동 시점부터 효과가 나타납니다. 표면저항 10⁶~10⁹Ω 소재는 기판이 롤러 위를 지날 때 정전기가 생성되는 즉시 소산시킵니다. 다만 기존 라인에 잔류 전하가 남아 있을 경우 첫 1~2시간은 접지와 함께 운영하는 것이 좋습니다. KTN 납품 사례 기준 교체 후 첫 주 불량률 변화를 모니터링하면 소재 효과를 수치로 확인할 수 있습니다."
-            }
+      "mainEntityOfPage": "https://ktnkorea.com/insights/esd-grounding-myth-semiconductor.html",
+      "keywords": "ESD 접지 한계, 정전기 소재 교체, 반도체 대전방지, 표면저항, 롤러 소재"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "KTN 홈",
+          "item": "https://ktnkorea.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "기술 인사이트",
+          "item": "https://ktnkorea.com/insights"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "반도체 ESD 접지 한계와 소재 교체",
+          "item": "https://ktnkorea.com/insights/esd-grounding-myth-semiconductor.html"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "접지(어스)를 완벽하게 했는데도 정전기 불량이 계속되는 이유는 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "접지는 이미 축적된 정전기를 방전시키는 역할입니다. 그러나 비금속 롤러·베어링 등 절연성 소재(표면저항 10¹²Ω 이상)는 기판이 지나갈 때마다 마찰 정전기를 계속 생성합니다. 접지는 이 생성 자체를 막지 못합니다. 생성 속도가 소산 속도보다 빠르면 불량이 반복됩니다. 소재의 표면저항이 10⁶~10⁹Ω 대역(대전방지 구간)에 있어야 정전기 생성 자체가 억제됩니다."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "접지와 소재 교체를 동시에 해야 하나요, 아니면 하나만 해도 되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "두 가지는 역할이 다릅니다. 접지는 금속 구조물·설비 프레임의 정적 전하를 소산시킵니다. 소재 교체는 롤러·베어링 표면에서 정전기가 생성되는 것 자체를 억제합니다. 반도체·PCB 라인에서는 두 가지를 병행해야 합니다. 접지만 하면 비금속 부품에서 정전기가 계속 생성되고, 소재만 교체하면 금속 구조물의 전하가 남습니다. 현장 경험상 소재 교체 없이 접지만으로 ESD 불량을 잡은 사례는 거의 없습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "표면저항 10⁶~10⁹Ω이 대전방지 구간인 이유는 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "10⁶Ω 미만은 도전체로 분류되어 오히려 누설 전류가 발생합니다. 10¹²Ω 이상은 절연체로 정전기를 소산시키지 못합니다. 10⁶~10⁹Ω 구간은 마찰로 생성된 정전기를 천천히, 안전하게 소산시키는 속도를 가집니다. ANSI/ESD S20.20 규격도 이 범위를 대전방지 소재의 기준으로 규정합니다. CNT(탄소나노튜브) 배합 UPE 소재는 이 구간을 수명 내내 안정적으로 유지합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "현재 쓰는 롤러가 ESD 소재인지 확인하는 방법은 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "표면저항계(메거)로 측정하는 것이 가장 정확합니다. 기기 없이 확인하려면 공급업체에 성적서(표면저항 측정 결과표)를 요청하십시오. 성적서가 없거나 수치가 10¹⁰Ω을 초과하면 대전방지 소재가 아닙니다. 일반 POM(폴리아세탈)은 10¹²~10¹⁴Ω으로 절연체에 해당하며 ESD 제어 효과가 없습니다. 성적서 제공 불가 업체는 대전방지 소재를 공급하지 않는 것으로 판단하십시오."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KTN의 CNT UPE 롤러로 교체하면 얼마나 빠르게 효과가 나타나나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "교체 후 첫 생산 라인 가동 시점부터 효과가 나타납니다. 표면저항 10⁶~10⁹Ω 소재는 기판이 롤러 위를 지날 때 정전기가 생성되는 즉시 소산시킵니다. 다만 기존 라인에 잔류 전하가 남아 있을 경우 첫 1~2시간은 접지와 함께 운영하는 것이 좋습니다. KTN 납품 사례 기준 교체 후 첫 주 불량률 변화를 모니터링하면 소재 효과를 수치로 확인할 수 있습니다."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet"/>
 
-  <style>
+  <style>:where(img[width][height]){height:auto}
     :root{
       --bg:#0D0D0D;--bg2:#141414;--bg3:#1a1a1a;
       --y:#EAB308;--y2:#FDE047;

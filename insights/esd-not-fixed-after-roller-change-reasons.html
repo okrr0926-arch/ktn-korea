@@ -38,90 +38,116 @@
   <title>롤러 바꿨는데 ESD가 안 잡히는 경우 — 놓친 3가지 원인 | KTN 케이티엔</title>
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "@id": "https://ktnkorea.com/insights/esd-not-fixed-after-roller-change-reasons#article",
-        "headline": "롤러 바꿨는데 ESD가 안 잡히는 경우 — 놓친 3가지 원인",
-        "description": "대전방지 롤러로 교체했는데도 ESD 불량이 계속되는 이유. 접지 경로 미연결, 부분 구간만 교체, 성적서 없는 가짜 ESD 소재 — 3가지 원인을 수치 기반으로 진단합니다.",
-        "datePublished": "2026-07-06",
-        "dateModified": "2026-07-06",
-        "author": {
-          "@type": "Person",
-          "name": "박정훈",
-          "jobTitle": "KTN KOREA 기술총괄",
-          "url": "https://ktnkorea.com/#founder",
-          "description": "20년 베어링 & 정밀 가공 기술 마이스터. 반도체·PCB·디스플레이 라인용 ESD 대전방지 롤러·베어링 설계·제조.",
-          "worksFor": {"@type": "Organization", "name": "KTN KOREA"}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://ktnkorea.com/insights/esd-not-fixed-after-roller-change-reasons.html#article",
+      "headline": "롤러 바꿨는데 ESD가 안 잡히는 경우 — 놓친 3가지 원인",
+      "description": "대전방지 롤러로 교체했는데도 ESD 불량이 계속되는 이유. 접지 경로 미연결, 부분 구간만 교체, 성적서 없는 가짜 ESD 소재 — 3가지 원인을 수치 기반으로 진단합니다.",
+      "datePublished": "2026-07-06",
+      "dateModified": "2026-07-06",
+      "author": {
+        "@type": "Person",
+        "name": "박정훈",
+        "jobTitle": "KTN KOREA 기술총괄",
+        "url": "https://ktnkorea.com/#founder",
+        "description": "20년 베어링 & 정밀 가공 기술 마이스터. 반도체·PCB·디스플레이 라인용 ESD 대전방지 롤러·베어링 설계·제조.",
+        "worksFor": {
+          "@type": "Organization",
+          "@id": "https://ktnkorea.com/#organization",
+          "name": "케이티엔",
+          "url": "https://ktnkorea.com"
         },
-        "publisher": {"@type": "Organization", "name": "KTN 케이티엔", "url": "https://ktnkorea.com"},
-        "mainEntityOfPage": "https://ktnkorea.com/insights/esd-not-fixed-after-roller-change-reasons",
-        "keywords": "ESD 해결 안됨, 롤러 교체 후 불량, 대전방지 실패 원인, 표면저항, 접지 연결"
+        "@id": "https://ktnkorea.com/#founder"
       },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "KTN 홈", "item": "https://ktnkorea.com"},
-          {"@type": "ListItem", "position": 2, "name": "기술 인사이트", "item": "https://ktnkorea.com/insights"},
-          {"@type": "ListItem", "position": 3, "name": "ESD 불량 지속 원인 3가지", "item": "https://ktnkorea.com/insights/esd-not-fixed-after-roller-change-reasons"}
-        ]
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://ktnkorea.com/#organization",
+        "name": "케이티엔",
+        "url": "https://ktnkorea.com"
       },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "대전방지 롤러로 교체했는데 ESD 불량이 계속되는 이유는 무엇인가요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "3가지 가능성을 점검하십시오. 첫째, 롤러 샤프트에서 프레임을 거쳐 대지로 이어지는 접지 경로가 연결되지 않았을 수 있습니다. 대전방지 소재도 소산 경로가 없으면 전하를 버릴 곳이 없습니다. 둘째, 이송 라인의 일부 구간만 교체했다면 미교체 절연 롤러가 계속 정전기를 생성합니다. 셋째, 구매한 롤러가 실제로는 대전방지 구간(표면저항 10⁶~10⁹Ω)을 벗어난 제품일 수 있습니다. 성적서로 수치를 확인하십시오."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "대전방지 소재인데 왜 접지를 따로 연결해야 하나요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "대전방지 소재는 정전기가 표면에 축적되지 않도록 천천히 소산시키는 성질을 가집니다. 소산된 전하는 반드시 어딘가로 이동해야 합니다. 그 경로가 접지입니다. 롤러 소재가 대전방지이더라도 롤러 샤프트→베어링→프레임→접지로 이어지는 전도 경로가 없으면 전하가 소재 내부에 머물다가 기판으로 방전됩니다. 소재와 접지는 함께 작동해야 합니다."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "라인 전체가 아니라 일부 롤러만 교체해도 되지 않나요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "기판은 이송 중 모든 롤러와 접촉합니다. 미교체 구간의 절연 롤러(표면저항 10¹²Ω 이상)가 하나라도 있으면, 그 지점에서 마찰 정전기가 생성됩니다. 대전방지 롤러 구간에서 소산시킨 전하가 다음 절연 롤러에서 다시 쌓이는 구조가 반복됩니다. ESD 제어는 라인 전체 구간이 대전방지 소재로 연속되어야 효과가 있습니다."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "구매한 롤러가 진짜 ESD 소재인지 어떻게 확인하나요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "공급업체에 표면저항 측정 성적서를 요청하십시오. 성적서에 수치가 10⁶~10⁹Ω 범위 내에 있어야 대전방지 소재입니다. 수치가 10¹⁰Ω 이상이거나 성적서 제공이 불가능한 경우, ESD 제어 효과를 기대할 수 없습니다. 현장에서 직접 확인하려면 표면저항계(메거)로 실측하십시오. '대전방지 처리' 표기만으로는 실제 성능을 보장할 수 없습니다."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "교체 후 시간이 지나면서 ESD 불량이 다시 나타나는 이유는 무엇인가요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "대전방지 소재도 수명이 있습니다. 카본블랙 배합 소재는 표면 마모로 도전성 입자가 이탈하면서 표면저항이 상승합니다. CNT(탄소나노튜브) 배합 소재는 수명이 상대적으로 길지만, 강산·강알칼리 환경에서는 소재 열화가 빠릅니다. 교체 후 3~6개월 주기로 표면저항을 측정하여 10⁹Ω 초과 여부를 확인하고, 초과 시 교체하는 것이 정석입니다."
-            }
+      "mainEntityOfPage": "https://ktnkorea.com/insights/esd-not-fixed-after-roller-change-reasons.html",
+      "keywords": "ESD 해결 안됨, 롤러 교체 후 불량, 대전방지 실패 원인, 표면저항, 접지 연결"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "KTN 홈",
+          "item": "https://ktnkorea.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "기술 인사이트",
+          "item": "https://ktnkorea.com/insights"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ESD 불량 지속 원인 3가지",
+          "item": "https://ktnkorea.com/insights/esd-not-fixed-after-roller-change-reasons.html"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "대전방지 롤러로 교체했는데 ESD 불량이 계속되는 이유는 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "3가지 가능성을 점검하십시오. 첫째, 롤러 샤프트에서 프레임을 거쳐 대지로 이어지는 접지 경로가 연결되지 않았을 수 있습니다. 대전방지 소재도 소산 경로가 없으면 전하를 버릴 곳이 없습니다. 둘째, 이송 라인의 일부 구간만 교체했다면 미교체 절연 롤러가 계속 정전기를 생성합니다. 셋째, 구매한 롤러가 실제로는 대전방지 구간(표면저항 10⁶~10⁹Ω)을 벗어난 제품일 수 있습니다. 성적서로 수치를 확인하십시오."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "대전방지 소재인데 왜 접지를 따로 연결해야 하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "대전방지 소재는 정전기가 표면에 축적되지 않도록 천천히 소산시키는 성질을 가집니다. 소산된 전하는 반드시 어딘가로 이동해야 합니다. 그 경로가 접지입니다. 롤러 소재가 대전방지이더라도 롤러 샤프트→베어링→프레임→접지로 이어지는 전도 경로가 없으면 전하가 소재 내부에 머물다가 기판으로 방전됩니다. 소재와 접지는 함께 작동해야 합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "라인 전체가 아니라 일부 롤러만 교체해도 되지 않나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "기판은 이송 중 모든 롤러와 접촉합니다. 미교체 구간의 절연 롤러(표면저항 10¹²Ω 이상)가 하나라도 있으면, 그 지점에서 마찰 정전기가 생성됩니다. 대전방지 롤러 구간에서 소산시킨 전하가 다음 절연 롤러에서 다시 쌓이는 구조가 반복됩니다. ESD 제어는 라인 전체 구간이 대전방지 소재로 연속되어야 효과가 있습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "구매한 롤러가 진짜 ESD 소재인지 어떻게 확인하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "공급업체에 표면저항 측정 성적서를 요청하십시오. 성적서에 수치가 10⁶~10⁹Ω 범위 내에 있어야 대전방지 소재입니다. 수치가 10¹⁰Ω 이상이거나 성적서 제공이 불가능한 경우, ESD 제어 효과를 기대할 수 없습니다. 현장에서 직접 확인하려면 표면저항계(메거)로 실측하십시오. '대전방지 처리' 표기만으로는 실제 성능을 보장할 수 없습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "교체 후 시간이 지나면서 ESD 불량이 다시 나타나는 이유는 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "대전방지 소재도 수명이 있습니다. 카본블랙 배합 소재는 표면 마모로 도전성 입자가 이탈하면서 표면저항이 상승합니다. CNT(탄소나노튜브) 배합 소재는 수명이 상대적으로 길지만, 강산·강알칼리 환경에서는 소재 열화가 빠릅니다. 교체 후 3~6개월 주기로 표면저항을 측정하여 10⁹Ω 초과 여부를 확인하고, 초과 시 교체하는 것이 정석입니다."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet"/>
 
-  <style>
+  <style>:where(img[width][height]){height:auto}
     :root{
       --bg:#0D0D0D;--bg2:#141414;--bg3:#1a1a1a;
       --y:#EAB308;--y2:#FDE047;

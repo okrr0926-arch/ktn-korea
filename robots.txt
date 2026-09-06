@@ -1,4 +1,35 @@
 User-agent: *
 Allow: /
 
+# AI 크롤러 — 인용·검색 색인·실시간 조회 모두 허용 (분기별 재점검)
+# 학습용
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+# 검색 색인용
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+# 실시간 조회용
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+
+# 네이버
+User-agent: Yeti
+Allow: /
+
 Sitemap: https://ktnkorea.com/sitemap.xml
