@@ -823,10 +823,11 @@
     .kakao-btn svg{width:22px;height:22px}
     /* ══ PRODUCT CATEGORY PHOTO CARDS ══ */
     .cat-section{padding-block:5.5rem 4.5rem;background:var(--bg)}
-    .cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:2.5rem}
-    .cat-card{position:relative;display:block;aspect-ratio:3/4;overflow:hidden;border:1px solid #222;background:#141414;border-radius:4px}
-    .cat-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.5) saturate(.95);transition:transform .5s var(--ease),filter .5s var(--ease)}
-    .cat-card::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.62) 0%,rgba(0,0,0,.12) 42%,rgba(0,0,0,.68) 100%);pointer-events:none}
+    .cat-section .container{max-width:1480px}
+    .cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:2.5rem}
+    .cat-card{position:relative;display:block;aspect-ratio:5/7;overflow:hidden;border:1px solid #222;background:#141414;border-radius:4px}
+    .cat-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.58) saturate(1);transition:transform .5s var(--ease),filter .5s var(--ease)}
+    .cat-card::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.58) 0%,rgba(0,0,0,.08) 45%,rgba(0,0,0,.62) 100%);pointer-events:none}
     .cat-card:hover{border-color:rgba(234,179,8,.45)}
     .cat-card:hover img{transform:scale(1.06);filter:brightness(.65) saturate(1.05)}
     .cat-body{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;padding:1.6rem 1.5rem}
@@ -835,8 +836,8 @@
     .cat-desc{font-size:.86rem;line-height:1.65;color:#C9C9C9;margin-top:.6rem;word-break:keep-all}
     .cat-go{margin-top:auto;font-size:.82rem;font-weight:700;color:var(--y);display:inline-flex;align-items:center;gap:.35rem;transform:translateX(0);transition:transform .25s var(--ease)}
     .cat-card:hover .cat-go{transform:translateX(4px)}
-    @media(max-width:1100px){.cat-grid{grid-template-columns:repeat(2,1fr)}.cat-card{aspect-ratio:4/3}}
-    @media(max-width:560px){.cat-grid{grid-template-columns:1fr}.cat-card{aspect-ratio:16/10}}
+    @media(max-width:1100px){.cat-grid{grid-template-columns:repeat(2,1fr)}.cat-card{aspect-ratio:1/1}}
+    @media(max-width:560px){.cat-grid{grid-template-columns:1fr}.cat-card{aspect-ratio:4/3}}
   </style>
 </head>
 <body>
