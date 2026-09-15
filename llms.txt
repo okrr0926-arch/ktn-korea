@@ -92,6 +92,7 @@
 
 - [비규격 M5 볼트 제작, 수입 없이도 됩니다 — PEEK 육각렌치볼트 국내 직접가공](https://ktnkorea.com/insights/peek-hex-socket-bolt-m5-nonstandard.html): M5x35L 비규격 PEEK 소켓헤드캡스크류 직접 가공 실물 공개, 금속 대신 PEEK를 쓰는 기준, 수출 실적 보유
 - [M5 볼트, 30L도 35L도 같은 정밀도로 나옵니다 — PEEK 육각렌치볼트 사이즈별 제작 사례](https://ktnkorea.com/insights/peek-hex-socket-bolt-m5-size-series.html): M5x30L 실물 공개, 한 번 도면화한 규격을 길이별로 반복 재현하는 이유
+- [M3 vs M4 PEEK 육각렌치볼트 — 어떤 걸 써야 하나](https://ktnkorea.com/insights/peek-hex-socket-bolt-m3-m4-selection-guide.html): 규격(피치·렌치홈) 차이, 작을수록 까다로운 가공 난이도, 탭 규격·하중·진동 기준 선택 가이드
 - [볼트 아니어도 됩니다 — PEEK 와셔·부시·스페이서도 비규격 제작 가능합니다](https://ktnkorea.com/insights/peek-washer-bushing-spacer-nonstandard.html): 체결부품 전반의 비규격 PEEK 가공 기준, 부품별 필수 확인 치수
 - [같은 도면, 소재만 바꾸고 싶다면 — 자재변경 승인받는 법](https://ktnkorea.com/insights/material-change-approval-peek-ptfe-conversion.html): PEEK→PTFE 전환 실제 사례로 보는 자재승인 절차와 확인 항목
 
