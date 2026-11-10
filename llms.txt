@@ -104,6 +104,10 @@
 - [레진 소량 구매(MOQ 25kg 이하) 가이드](https://ktnkorea.com/insights/resin-small-lot-moq-purchase-guide.html): MOQ가 높은 이유(설비 세팅 비용)와 재고 셰어·소분 유통·완제품 가공 경유 방법
 - [TDS만 보고 발주하면 안 되는 이유 — 레진도 로트별 COA가 있다](https://ktnkorea.com/insights/resin-order-without-tds-coa-risk.html): TDS(대표 사양)와 COA(로트별 실측값)의 차이와 발주 전 체크리스트
 
+## 전시·행사
+
+- [2026 국제첨단소재부품산업전 출품 안내 — 대구 EXCO 11.17~20](https://ktnkorea.com/insights/parts-materials-show-2026-exco-daegu.html): KTN 출품 5개 라인업(스틸·하이브리드, 스테인리스, PEEK, UPE·대전방지, PTFE 휠·PEEK 하우징), 방문 전 준비물, 전시회 정보
+
 ## 연락처
 
 - 전화: 010-9564-0985
